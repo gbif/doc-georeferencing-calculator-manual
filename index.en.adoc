@@ -8,24 +8,23 @@
 :numbered:
 :revnumber: {git-metadata-sha-short}
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
-//:title-logo-image: img/western-honey-bee.jpg
 :icons: font
 :pagenums:
 :license: https://creativecommons.org/licenses/by/4.0/
-// Set <<these-links>> to use the name rather than "Section 1.2"
-:xrefstyle: basic
-
-ifdef::backend-pdf[]
-:xrefstyle: full
-:section-refsig: §
-endif::backend-pdf[]
-
 :idprefix:
 :idseparator: -
 
-// add cover image to img directory and update filename below
+// PDF document title and back pages.
+ifdef::backend-pdf[]
+:title-page-background-image: image::img/Hermann_Berghaus_R.jpg[position=left]
+:back-cover-image: image::img/Hermann_Berghaus_L.jpg[position=right]
+:doctitle: Georeferencing + \
+Calculator Manual
+endif::backend-pdf[]
+
+// HTML title image.
 ifdef::backend-html5[]
-//image::img/western-honey-bee.jpg[]
+image::img/Hermann_Berghaus.jpg[]
 endif::backend-html5[]
 
 :!sectnums:
