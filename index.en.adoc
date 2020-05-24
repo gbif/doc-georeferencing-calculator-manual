@@ -13,11 +13,10 @@
 :license: https://creativecommons.org/licenses/by/4.0/
 :idprefix:
 :idseparator: -
-
 // PDF document title and back pages.
-ifdef::backend-pdf[]
 :title-page-background-image: image::img/Hermann_Berghaus_R.jpg[position=left]
 :back-cover-image: image::img/Hermann_Berghaus_L.jpg[position=right]
+ifdef::backend-pdf[]
 :doctitle: Georeferencing + \
 Calculator Manual
 endif::backend-pdf[]
@@ -51,7 +50,7 @@ Throughout this document there are terms in *bold*. These signify that there is 
 
 == Running the Calculator
 
-The *_Georeferencing Calculator_* uses JavaScript andruns in a browser. The latest version can be initiated from http://georeferencing.org/georefcalculator/gc.html, or it can be downloaded in a .zip or .tar.gz archive from the https://github.com/VertNet/georefcalculator/releases[releases page] on the *_Calculator_* GitHub repository, unzipped to a convenient location and run in a browser by opening the file gc.html. Problems encountered with the *_Calculator_* should be entered as issues in the https://github.com/VertNet/georefcalculator/issues[GitHub repository issue tracker] and should include the version identifier, which can be found in the lower right-hand corner of the *_Calculator_* (see Figure 1). When the *_Calculator_* is opened it should appear as shown in Figure 1.
+The *_Georeferencing Calculator_* uses JavaScript and runs in a browser. The latest version can be initiated from http://georeferencing.org/georefcalculator/gc.html, or it can be downloaded in a .zip or .tar.gz archive from the https://github.com/VertNet/georefcalculator/releases[releases page] on the *_Calculator_* GitHub repository, unzipped to a convenient location and run in a browser by opening the file gc.html. Problems encountered with the *_Calculator_* should be entered as issues in the https://github.com/VertNet/georefcalculator/issues[GitHub repository issue tracker] and should include the version identifier, which can be found in the lower right-hand corner of the *_Calculator_* (see Figure 1). When the *_Calculator_* is opened it should appear as shown in Figure 1.
 
 [#img-screen-image]
 .Figure 1. Screen image of the *_Georeferencing Calculator_* when it first opens, showing the language selection drop-down, the _Locality Type_ drop-down box to initiate a *georeference* calculation, the _Distance Converter_, and the _Scale Converter_.
