@@ -52,10 +52,10 @@ Throughout this document there are terms in *bold*. These signify that there is 
 
 == Running the Calculator
 
-The *_Georeferencing Calculator_* uses JavaScript and runs in a browser. The latest version can be initiated from http://georeferencing.org/georefcalculator/gc.html, or it can be downloaded in a .zip or .tar.gz archive from the https://github.com/VertNet/georefcalculator/releases[releases page] on the *_Calculator_* GitHub repository, unzipped to a convenient location and run in a browser by opening the file gc.html. Problems encountered with the *_Calculator_* should be entered as issues in the https://github.com/VertNet/georefcalculator/issues[GitHub repository issue tracker] and should include the version identifier, which can be found in the lower right-hand corner of the *_Calculator_* (see Figure 1). When the *_Calculator_* is opened it should appear as shown in Figure 1.
+The *_Georeferencing Calculator_* uses JavaScript and runs in a browser. The latest version can be initiated from http://georeferencing.org/georefcalculator/gc.html, or it can be downloaded in a .zip or .tar.gz archive from the https://github.com/VertNet/georefcalculator/releases[releases page] on the *_Calculator_* GitHub repository, unzipped to a convenient location and run in a browser by opening the file gc.html. Problems encountered with the *_Calculator_* should be entered as issues in the https://github.com/VertNet/georefcalculator/issues[GitHub repository issue tracker] and should include the version identifier, which can be found in the lower right-hand corner of the *_Calculator_* (see xref:img-screen-image[xrefstyle="short"]). When the *_Calculator_* is opened it should appear as shown in xref:img-screen-image[xrefstyle="short"].
 
 [#img-screen-image]
-.Figure 1. Screen image of the *_Georeferencing Calculator_* when it first opens, showing the language selection drop-down, the _Locality Type_ drop-down box to initiate a *georeference* calculation, the _Distance Converter_, and the _Scale Converter_.
+.Screen image of the *_Georeferencing Calculator_* when it first opens, showing the language selection drop-down, the _Locality Type_ drop-down box to initiate a *georeference* calculation, the _Distance Converter_, and the _Scale Converter_.
 image::img/screen-image.png[width=624,align="center"]
 
 == Basic Workflow
@@ -95,28 +95,28 @@ If the *Darwin Core* standard is not used to record calculator output, the *geor
 
 === Step 1: Choose a Language
 
-Click on the drop-down in the upper left-hand corner of the *_Calculator_* to choose the language for the *_Calculator_* interface. Note that despite the language chosen, the number format always uses the full stop '.' as the decimal indicator (_e.g_., 2.5 for the number halfway between 2 and 3). When the list is expanded, the application should appear as in Figure 2.
+Click on the drop-down in the upper left-hand corner of the *_Calculator_* to choose the language for the *_Calculator_* interface. Note that despite the language chosen, the number format always uses the full stop '.' as the decimal indicator (_e.g_., 2.5 for the number halfway between 2 and 3). When the list is expanded, the application should appear as in xref:img-choose-language[xrefstyle="short"].
 
 [#img-choose-language]
-.Figure 2. Step 1: Choose a language. The *_Calculator_* with the five language options showing after opening the _Language_ drop-down list.
+.Step 1: Choose a language. The *_Calculator_* with the five language options showing after opening the _Language_ drop-down list.
 image::img/choose-language.png[width=624,align="center"]
 
 === Step 2: Choose a Locality Type
 
-Click on the _Locality Type_ drop-down to expand the list. When the list is expanded, the application should appear as in Figure 3.
+Click on the _Locality Type_ drop-down to expand the list. When the list is expanded, the application should appear as in xref:img-choose-locality-type[xrefstyle="short"].
 
 [#img-choose-locality-type]
-.Figure 3. Step 2: Choose a locality type. The *_Calculator_* with the six basic *locality types* showing after opening the _Locality Type_ drop-down list.
+.Step 2: Choose a locality type. The *_Calculator_* with the six basic *locality types* showing after opening the _Locality Type_ drop-down list.
 image::img/choose-locality-type.png[width=624,align="center"]
 
 Select the _Locality Type_ that best matches the characteristics of the *locality* to be georeferenced. Each _Locality Type_ in the drop-down list shows an example to try to help match the *locality* to a *locality type* using the pattern shown. *Locality types* with more examples are described in the {gqg}[*_Georeferencing Quick Reference Guide_*].
 
 === Step 3: Enter Parameters
 
-After selecting the _Locality Type_, a variety of text boxes, drop-down boxes, and buttons will appear on the *_Calculator_* (Figure 4). These text and drop-down boxes need to be filled and/or values selected to make the calculation of the selected _Locality Type_. If no parameters are entered, then the default values will be used automatically.
+After selecting the _Locality Type_, a variety of text boxes, drop-down boxes, and buttons will appear on the *_Calculator_* (xref:img-enter-parameters[xrefstyle="short"]). These text and drop-down boxes need to be filled and/or values selected to make the calculation of the selected _Locality Type_. If no parameters are entered, then the default values will be used automatically.
 
 [#img-enter-parameters]
-.Figure 4. Step 3: Enter parameters. The *_Calculator_* after selecting the "_Distance at a heading_" _Locality Type_, with all of the relevant text and drop-down boxes needed to be filled in or selected correctly in order to do a *georeference* calculation.
+.Step 3: Enter parameters. The *_Calculator_* after selecting the "_Distance at a heading_" _Locality Type_, with all of the relevant text and drop-down boxes needed to be filled in or selected correctly in order to do a *georeference* calculation.
 image::img/enter-parameters.png[width=624,align="center"]
 
 === Step 4: Calculate
@@ -147,48 +147,47 @@ Once the smallest distance that can be measured consistently and reliably has be
 
 Next, make certain that "_mi_" is selected in the _Distance Units_ drop-down, since the *locality* is described in miles ("10 mi E…"). The *offset* component in this *locality* is 10 mi, which is *precise* to the nearest 10 miles (see the discussion on this topic in the section {gbp}#uncertainty-related-to-offset-precision[Uncertainty Related to Offset Precision] in *_Georeferencing Best Practices_*). Select "_10 mi_" in the distance _Precision_ drop-down.
 
-Next, click the _Calculate_ button. The calculated *coordinates* (always presented in *decimal degrees*) for the *locality* "10 mi E (by air) Bakersfield" and the _Uncertainty_ for the calculation (always in meters) will be given in the controls just above the _Distance Converter_ at the lower part of the *_Calculator_*, as shown in
-Figure 5.
+Next, click the _Calculate_ button. The calculated *coordinates* (always presented in *decimal degrees*) for the *locality* "10 mi E (by air) Bakersfield" and the _Uncertainty_ for the calculation (always in meters) will be given in the controls just above the _Distance Converter_ at the lower part of the *_Calculator_*, as shown in xref:img-calculate[xrefstyle="short"].
 ====
 
 [#img-calculate]
-.Figure 5. Step 4: Calculate. The *_Calculator_* after clicking on the _Calculate_ button, with all of the relevant text and drop-down boxes filled in or selected for an example of *locality type* "_Distance at a heading_". Results appear written in blue in the grey text boxes in the middle section of the *_Calculator_* below the _Calculate_ button.
+.Step 4: Calculate. The *_Calculator_* after clicking on the _Calculate_ button, with all of the relevant text and drop-down boxes filled in or selected for an example of *locality type* "_Distance at a heading_". Results appear written in blue in the grey text boxes in the middle section of the *_Calculator_* below the _Calculate_ button.
 image::img/calculate.png[width=624,align="center"]
 
 === Step 5: Enter Metadata
 
-After the results of the calculation have been presented, add the name of the georeferencer in the _Georeferenced by_ text box. If there is more than one person, separate the names in the list by ' | '. Finally, select the appropriate *georeferencing* _Protocol_. We recommend the {gqg}[*_Georeferencing Quick Referencing Guide_*] as the *georeferencing protocol* to follow and select. Do not use this option if the protocol was altered in any way. Rather, make a citable document available and reference that. People will rely on strict application of the *georeferencing protocol* in order to be able to reproduce a *georeference* given the same input parameters. If an undocumented protocol is followed, select "_protocol not recorded_". The example *georeference* from Figure 5, with the metadata filled in, is shown in Figure 6.
+After the results of the calculation have been presented, add the name of the georeferencer in the _Georeferenced by_ text box. If there is more than one person, separate the names in the list by ' | '. Finally, select the appropriate *georeferencing* _Protocol_. We recommend the {gqg}[*_Georeferencing Quick Referencing Guide_*] as the *georeferencing protocol* to follow and select. Do not use this option if the protocol was altered in any way. Rather, make a citable document available and reference that. People will rely on strict application of the *georeferencing protocol* in order to be able to reproduce a *georeference* given the same input parameters. If an undocumented protocol is followed, select "_protocol not recorded_". The example *georeference* from xref:img-calculate[xrefstyle="short"], with the metadata filled in, is shown in xref:img-enter-metadata[xrefstyle="short"].
 
 [#img-enter-metadata]
-.Figure 6. Step 5: Enter Metadata. The *_Calculator_* after entering an example of *georeference* metadata for the *georeferencer* and the *georeferencing* _Protocol_ used.
+.Step 5: Enter Metadata. The *_Calculator_* after entering an example of *georeference* metadata for the *georeferencer* and the *georeferencing* _Protocol_ used.
 image::img/enter-metadata.png[width=624,align="center"]
 
 === Step 6: Copy Results
 
-The results (in blue in the middle section of the _Calculator_ after clicking on the _Calculate_ button), including the metadata, can be copied onto the system clipboard by clicking on the _Copy_ button, after which a dialog box will appear displaying the content that has been copied, as shown in Figure 7.
+The results (in blue in the middle section of the _Calculator_ after clicking on the _Calculate_ button), including the metadata, can be copied onto the system clipboard by clicking on the _Copy_ button, after which a dialog box will appear displaying the content that has been copied, as shown in xref:img-copy-results[xrefstyle="short"].
 
 NOTE: This dialog box does not get translated based on the language chosen for the Calculator interface. To close the box, click the *OK* button. Once copied, the content can be transferred and pasted to a spreadsheet, database or text file as a tab-delimited record of the data for the current calculation.
 
 [#img-copy-results]
-.Figure 7. Step 6: Copy Results. Pop-up dialog box after clicking on the _Copy_ button, showing the tab-delimited results of the example georeference that have been copied to the system clipboard.
+.Step 6: Copy Results. Pop-up dialog box after clicking on the _Copy_ button, showing the tab-delimited results of the example georeference that have been copied to the system clipboard.
 image::img/copy-results.png[width=329,align="center"]
 
 === Step 7: Paste Results
 
-The content on the system clipboard after clicking on the _Copy_ button is tab-delimited. It can be pasted into a series of columns of a spreadsheet directly (this works in Excel as well as Google Sheets™). It can also be pasted into a tab-delimited text file. When pasting the results, be certain that the order of the fields in the destination document matches the order of the fields in the results. Using http://rs.tdwg.org/dwc/terms/[*Darwin Core* standard] (Wieczorek _et al._ 2012) term names, the order of the result fields is: *_decimalLatitude_*, *_decimalLongitude_*, *_geodeticDatum_*, *_coordinateUncertaintyInMeters_*, *_coordinatePrecision_*, *_georeferencedBy_*, *_georeferencedDate_*, and *_georeferenceProtocol_*. Note that only the values are copied and can be pasted, and not the corresponding headers. Figure 8 shows the results after being pasted into a cell in a Google Sheet™.
+The content on the system clipboard after clicking on the _Copy_ button is tab-delimited. It can be pasted into a series of columns of a spreadsheet directly (this works in Excel as well as Google Sheets™). It can also be pasted into a tab-delimited text file. When pasting the results, be certain that the order of the fields in the destination document matches the order of the fields in the results. Using http://rs.tdwg.org/dwc/terms/[*Darwin Core* standard] (Wieczorek _et al._ 2012) term names, the order of the result fields is: *_decimalLatitude_*, *_decimalLongitude_*, *_geodeticDatum_*, *_coordinateUncertaintyInMeters_*, *_coordinatePrecision_*, *_georeferencedBy_*, *_georeferencedDate_*, and *_georeferenceProtocol_*. Note that only the values are copied and can be pasted, and not the corresponding headers. xref:img-paste-results[xrefstyle="short"] shows the results after being pasted into a cell in a Google Sheet™.
 
 [#img-paste-results]
-.Figure 8. Step 7: Paste Results. Part of a Google Sheet™ into which the results have been pasted. The column names reflecting *Darwin Core* terms were already in row 1 when the results were pasted into the cell A2.
+.Step 7: Paste Results. Part of a Google Sheet™ into which the results have been pasted. The column names reflecting *Darwin Core* terms were already in row 1 when the results were pasted into the cell A2.
 image::img/paste-results.png[width=624,align="center"]
 
 === Step 8: Start a New Calculation
 
 A new calculation can be started simply by entering new parameter values and selecting new drop-down list values pertinent to the next calculation. If the _Locality Type_ for the next calculation is different from the previous one, make a new selection on the _Locality Type_ drop-down list. New parameters will appear that are relevant to the new _Locality Type_ calculation. Previously entered and chosen values will remain in the text and drop-down boxes and thus carry over to the next calculation whenever possible. This can increase the efficiency of calculations if *locality* descriptions that include the same feature are *georeferenced* one after another.
 
-NOTE: Always check that all parameter values and choices are correct before accepting the results of a calculation. Figure 9 shows the Calculator after selecting the *Locality Type* "*Geographic feature only*" for a new georeference following the georeference calculation shown in Figure 6. Without doing anything further, the Calculator would be ready to calculate the georeference for the locality "Bakersfield" based on the previous entries. Note that the *Date* value will change automatically when the *Calculate* button is clicked.
+NOTE: Always check that all parameter values and choices are correct before accepting the results of a calculation. xref:img-new-calculation[xrefstyle="short"] shows the Calculator after selecting the *Locality Type* "*Geographic feature only*" for a new georeference following the georeference calculation shown in xref:img-enter-metadata[xrefstyle="short"]. Without doing anything further, the Calculator would be ready to calculate the georeference for the locality "Bakersfield" based on the previous entries. Note that the *Date* value will change automatically when the *Calculate* button is clicked.
 
 [#img-new-calculation]
-.Figure 9. Step 8: Start a New Calculation. The *_Calculator_* after selecting a new _Locality Type_ to start a new *georeference* calculation following the calculation from Figure 6. Note that there are fewer parameters to enter for this _Locality Type_, and that the relevant parameter values that were in the previous calculation are preserved for this calculation.
+.Step 8: Start a New Calculation. The *_Calculator_* after selecting a new _Locality Type_ to start a new *georeference* calculation following the calculation from xref:img-enter-metadata[xrefstyle="short"]. Note that there are fewer parameters to enter for this _Locality Type_, and that the relevant parameter values that were in the previous calculation are preserved for this calculation.
 image::img/new-calculation.png[width=624,align="center"]
 
 == Calculating Coordinates from a Map
@@ -201,26 +200,26 @@ Now use a measuring tool (_e.g._, a ruler) to measure a) the distance between th
 
 NOTE: Convert all measurements made on the maps (mm, cm, or inches) into the distance unit provided in the locality (miles, in this example). Use the *Scale Converter* at the bottom of the Calculator, to do this calculation (see <<Coordinate, Distance and Scale Converters>>).
 
-The point we have determined to be the *corrected center* of Bakersfield is 8 mm south of the 35° N line of *latitude* and 67 mm west of the 119° W line of *longitude*. After the _Scale Converter_ has been used to convert millimeters to miles, cut and paste the values for miles into the _Offset Distance_ text boxes on the right side of the *_Calculator_*: 0.1193 should be pasted or typed into the _North or South Offset Distance_ field, and the cardinal direction drop-down should be set to "_S_" (south); 0.99916 should be pasted or typed into the _East or West Offset Distance_ field, and the cardinal direction drop-down should be set to "_W_" (west). The _Distance Units_ drop-down should display "_mi_" (miles), since that is the unit described in the *locality*. The *_Calculator_* now has all of the parameters necessary to complete the calculation and should appear as in Figure 10.
+The point we have determined to be the *corrected center* of Bakersfield is 8 mm south of the 35° N line of *latitude* and 67 mm west of the 119° W line of *longitude*. After the _Scale Converter_ has been used to convert millimeters to miles, cut and paste the values for miles into the _Offset Distance_ text boxes on the right side of the *_Calculator_*: 0.1193 should be pasted or typed into the _North or South Offset Distance_ field, and the cardinal direction drop-down should be set to "_S_" (south); 0.99916 should be pasted or typed into the _East or West Offset Distance_ field, and the cardinal direction drop-down should be set to "_W_" (west). The _Distance Units_ drop-down should display "_mi_" (miles), since that is the unit described in the *locality*. The *_Calculator_* now has all of the parameters necessary to complete the calculation and should appear as in xref:img-calculate-from-a-map[xrefstyle="short"].
 
 [#img-calculate-from-a-map]
-.Figure 10. Calculating coordinates from a map: The *_Calculator_* after setting the parameters needed to calculate the *coordinates* of the *corrected center* of Bakersfield by using measured *offsets* south and west of the northeast corner of a 1:24000 map, converted to miles.
+.Calculating coordinates from a map: The *_Calculator_* after setting the parameters needed to calculate the *coordinates* of the *corrected center* of Bakersfield by using measured *offsets* south and west of the northeast corner of a 1:24000 map, converted to miles.
 image::img/calculate-from-a-map.png[width=624,align="center"]
 
-Next, click the _Calculate_ button. The calculated *coordinates* (always in *decimal degrees*) for the *corrected center* of Bakersfield are displayed in blue in the _Output Latitude_ and _Longitude_ fields in the results section of the *_Calculator_*, as shown in Figure 11.
+Next, click the _Calculate_ button. The calculated *coordinates* (always in *decimal degrees*) for the *corrected center* of Bakersfield are displayed in blue in the _Output Latitude_ and _Longitude_ fields in the results section of the *_Calculator_*, as shown in xref:img-calculated-from-a-map[xrefstyle="short"].
 
 NOTE: This calculation was only to determine a new set of coordinates based on offsets from a known set of coordinates. The parameters *Coordinate Precision*, *Radial of Feature*, *Measurement Error*, and *Distance Precision* were irrelevant to this calculation.
 
 [#img-calculated-from-a-map]
-.Figure 11. Calculated coordinates from a map. The *_Calculator_* after clicking on the _Calculate_ button to determine the *coordinates* of Bakersfield by using measured *offsets* south and west of the northeast corner of a 1:24000 map, converted to miles.
+.Calculated coordinates from a map. The *_Calculator_* after clicking on the _Calculate_ button to determine the *coordinates* of Bakersfield by using measured *offsets* south and west of the northeast corner of a 1:24000 map, converted to miles.
 image::img/calculated-from-a-map.png[width=624,align="center"]
 
 == "Going to" Calculated Coordinates
 
-Now that the starting *coordinates* for the *corrected center* of Bakersfield have been calculated after measuring *offsets* on a map, use those *coordinates* to *georeference* subsequent *locality* descriptions that reference Bakersfield. Rather than copying and pasting (and possibly also converting) the *coordinates* into the _Input Latitude_ and _Longitude_ fields, click the _Go Here_ button to copy and convert the previous _Latitude_ and _Longitude_ from the results into the _Input Latitude_ and _Longitude_ fields in the _Coordinate Format_ currently in use (degrees minutes seconds in this example), as shown in Figure 12.
+Now that the starting *coordinates* for the *corrected center* of Bakersfield have been calculated after measuring *offsets* on a map, use those *coordinates* to *georeference* subsequent *locality* descriptions that reference Bakersfield. Rather than copying and pasting (and possibly also converting) the *coordinates* into the _Input Latitude_ and _Longitude_ fields, click the _Go Here_ button to copy and convert the previous _Latitude_ and _Longitude_ from the results into the _Input Latitude_ and _Longitude_ fields in the _Coordinate Format_ currently in use (degrees minutes seconds in this example), as shown in xref:img-going-to[xrefstyle="short"].
 
 [#img-going-to]
-.Figure 12. Calculated coordinates pushed to input coordinates. The *_Calculator_* after clicking on the _Copy_ button to move the *coordinates* in a previous result to the starting *coordinates* for a new calculation.
+.Calculated coordinates pushed to input coordinates. The *_Calculator_* after clicking on the _Copy_ button to move the *coordinates* in a previous result to the starting *coordinates* for a new calculation.
 image::img/going-to.png[width=624,align="center"]
 
 To complete a *georeference* using the new coordinates, follow the *Basic Workflow* starting with <<Step 2: Choose a Locality Type>>.
@@ -231,24 +230,24 @@ The *_Calculator_* has three converters built in to eliminate the need for addit
 
 To convert between coordinate formats, simply select the desired format from the _Coordinate Format_ drop-down list. The text and drop-down boxes for the _Input Latitude_ and _Longitude_ will change and be populated with the values in the new format. For *coordinate systems* other than *geographic coordinates* (_e.g._, *UTM*), a *coordinate* transformation into *geographic coordinates* will have to be done to use the *_Georeferencing Calculator_*.
 
-Below the _Calculate_ section of the *_Calculator_* is a _Distance Converter_. To convert a distance from one unit to another, put the value and units in the text and drop-down boxes in the _Distance Converter_, to the left of the "=". The value in the units of the drop-down box will appear in blue in the text box with the grey background on the right side of the "=". For example, to convert 10 miles into kilometers, enter "_10_" in the first field of the _Distance Converter_, select "_mi_" from the left-hand unit drop-down list, and select "_km_" from the right-hand unit drop-down list. The result, "_16.09344_", automatically appears in the right-hand text box. This value can be copied and placed into a distance field in the input area of the *_Calculator_* or elsewhere (see Figure 13).
+Below the _Calculate_ section of the *_Calculator_* is a _Distance Converter_. To convert a distance from one unit to another, put the value and units in the text and drop-down boxes in the _Distance Converter_, to the left of the "=". The value in the units of the drop-down box will appear in blue in the text box with the grey background on the right side of the "=". For example, to convert 10 miles into kilometers, enter "_10_" in the first field of the _Distance Converter_, select "_mi_" from the left-hand unit drop-down list, and select "_km_" from the right-hand unit drop-down list. The result, "_16.09344_", automatically appears in the right-hand text box. This value can be copied and placed into a distance field in the input area of the *_Calculator_* or elsewhere (see xref:img-distance-conversion[xrefstyle="short"]).
 
 [#img-distance-conversion]
-.Figure 13. Distance Conversion. The _Distance Converter_ section of the *_Calculator_* showing a conversion of 10 miles into kilometers.
+.Distance Conversion. The _Distance Converter_ section of the *_Calculator_* showing a conversion of 10 miles into kilometers.
 image::img/distance-conversion.png[width=624,align="center"]
 
-Below the _Distance Converter_ is a _Scale Converter_ designed to convert a measurement on a map of a given scale to a real-world distance in another unit. To convert a distance measured on a map with a known scale into a distance on the ground, put the distance value, distance units, and map scale in the text and drop-down boxes in the _Scale Converter_, to the left of the "=". The value in the units of the drop-down box to the right of the "=" will appear in blue in the text box with the grey background on the right side of the "=". For example, to convert a map measurement of 8 centimeters on a 1:50000 map into miles on the ground, enter "_8_" in the first field of the _Scale Converter_, select "_cm_" from the left-hand unit drop-down list, select "_1:50000_" in the second drop-down list, containing scales, and select "_mi_" from the right-hand unit drop-down list. The result, "_2.48548_", automatically appears in the right-hand text box. This value can be copied and placed into a distance field in the input area of the *_Calculator_* or elsewhere (see Figure 14).
+Below the _Distance Converter_ is a _Scale Converter_ designed to convert a measurement on a map of a given scale to a real-world distance in another unit. To convert a distance measured on a map with a known scale into a distance on the ground, put the distance value, distance units, and map scale in the text and drop-down boxes in the _Scale Converter_, to the left of the "=". The value in the units of the drop-down box to the right of the "=" will appear in blue in the text box with the grey background on the right side of the "=". For example, to convert a map measurement of 8 centimeters on a 1:50000 map into miles on the ground, enter "_8_" in the first field of the _Scale Converter_, select "_cm_" from the left-hand unit drop-down list, select "_1:50000_" in the second drop-down list, containing scales, and select "_mi_" from the right-hand unit drop-down list. The result, "_2.48548_", automatically appears in the right-hand text box. This value can be copied and placed into a distance field in the input area of the *_Calculator_* or elsewhere (see xref:img-scale-conversion[xrefstyle="short"]).
 
 [#img-scale-convertion]
-.Figure 14. Map Measurement Distance Conversion. The _Scale Converter_ section of the *_Calculator_* showing a conversion of 8 centimeters on a map of 1:50000 scale to miles on the ground.
+.Map Measurement Distance Conversion. The _Scale Converter_ section of the *_Calculator_* showing a conversion of 8 centimeters on a map of 1:50000 scale to miles on the ground.
 image::img/scale-convertion.png[width=624,align="center"]
 
 == Understanding uncertainty contributions
 
-The *_Calculator_* is an excellent tool for investigating the contributions to *uncertainty* from distinct sources. For any given _Locality Type_, one can nullify all but one source of *uncertainty* to see what the contribution to overall *uncertainty* is from that source. For example, to see what the contribution to overall *uncertainty* is from an unknown *datum* at a given *location*, choose the "_Coordinate only_" _Locality Type_, set the _Input Latitude_ and _Longitude_ to the place that needs to be checked, set the _Coordinate Source_ to "_gazetteer_" or "_locality description_" (because neither of these choices contributes an *uncertainty* to the calculation), select "_datum not recorded_" from the _Datum_ drop-down list, select "_exact_" from the _Coordinate Precision_ drop-down list, set the _Measurement Error_ to "_0_". With these settings, the only source of *uncertainty* is the unknown *datum*. At the *coordinate* 0,0, the calculated *uncertainty* is 5030m, as shown in Figure 15. This large *uncertainty* reflects the maximum distance between the point 0,0 in any *geographic coordinate reference system* and the point 0,0 in the *coordinate reference system* *WGS84*. See {gbp}#coordinate-reference-system[Coordinate Reference System] in *_Georeferencing Best Practices_* for further discussion on the subject.
+The *_Calculator_* is an excellent tool for investigating the contributions to *uncertainty* from distinct sources. For any given _Locality Type_, one can nullify all but one source of *uncertainty* to see what the contribution to overall *uncertainty* is from that source. For example, to see what the contribution to overall *uncertainty* is from an unknown *datum* at a given *location*, choose the "_Coordinate only_" _Locality Type_, set the _Input Latitude_ and _Longitude_ to the place that needs to be checked, set the _Coordinate Source_ to "_gazetteer_" or "_locality description_" (because neither of these choices contributes an *uncertainty* to the calculation), select "_datum not recorded_" from the _Datum_ drop-down list, select "_exact_" from the _Coordinate Precision_ drop-down list, set the _Measurement Error_ to "_0_". With these settings, the only source of *uncertainty* is the unknown *datum*. At the *coordinate* 0,0, the calculated *uncertainty* is 5030m, as shown in xref:img-isolating-uncertainty[xrefstyle="short"]. This large *uncertainty* reflects the maximum distance between the point 0,0 in any *geographic coordinate reference system* and the point 0,0 in the *coordinate reference system* *WGS84*. See {gbp}#coordinate-reference-system[Coordinate Reference System] in *_Georeferencing Best Practices_* for further discussion on the subject.
 
 [#img-isolating-uncertainty]
-.Figure 15. Isolating *uncertainty* from an unknown *datum*. The *_Calculator_* showing parameter settings that reveal the *uncertainty* due to an unknown *datum* at the *coordinate* 0,0. The choices of all other parameters nullify all other contributions to overall *uncertainty*.
+.Isolating *uncertainty* from an unknown *datum*. The *_Calculator_* showing parameter settings that reveal the *uncertainty* due to an unknown *datum* at the *coordinate* 0,0. The choices of all other parameters nullify all other contributions to overall *uncertainty*.
 image::img/isolating-uncertainty.png[width=624,align="center"]
 
 [glossary]
