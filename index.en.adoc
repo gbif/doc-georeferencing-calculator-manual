@@ -22,8 +22,8 @@ Calculator Manual
 endif::backend-pdf[]
 
 // Shorthand for links to the other two documents
-:gqg: link:../../doc-georeferencing-quick-reference-guide/en/index.en.html
-:gbp: link:../../doc-georeferencing-best-practices/en/index.en.html
+:gqg: link:../../doc-georeferencing-quick-reference-guide/en/
+:gbp: link:../../doc-georeferencing-best-practices/en/
 
 // HTML title image.
 ifdef::backend-html5[]
@@ -137,7 +137,7 @@ The *coordinates* in this example have been specified to the nearest second, so 
 
 Bakersfield is a large place and we don't know if the original *locality* means 10 miles from the center of town, 10 miles from the city limits, or something else entirely. Given that it is 3 miles from the specified *coordinates* to the furthest edge of town (as measured on the USGS map), the _Radial of Feature_ should be 3 miles (see {gqg}#feature-with-av-obvious-spatial-extent[Feature – with an Obvious Spatial Extent] in the *_Georeferencing Quick Reference Guide_*). Enter "_3_" into the _Radial of Feature_ text field, since the units of the *radial* must be in the same units as the *offset*.
 
-NOTE: If this distance had been measured in kilometers the value should be converted to miles using the *Distance Converter* at the bottom of the Calculator. The converted number should then be entered into the appropriate field (see <<Coordinate, Distance and Scale Converters>> to learn how to use the converters). All distance measurements MUST be in the same units as the locality description for the Calculator to return proper results.
+NOTE: If this distance had been measured in kilometers the value should be converted to miles using the *Distance Converter* at the bottom of the Calculator. The converted number should then be entered into the appropriate field (see <<coordinate-distance-and-scale-converters>> to learn how to use the converters). All distance measurements MUST be in the same units as the locality description for the Calculator to return proper results.
 
 The determination of the *coordinates* for Bakersfield is only as *accurate* as the tools that are used; the map, the size of the units on the measurement tool, and the georeferencer's ability to place a marker relative to items on the map. Any *error* associated with the map itself is accounted for in the _Coordinate Source_ selection. *Error* associated with the georeferencer's ability to measure on the map is accounted for in the _Measurement Error_ field.
 
@@ -198,7 +198,7 @@ To begin the calculation, select the _Locality Type_ "_Distance along orthogonal
 
 Now use a measuring tool (_e.g._, a ruler) to measure a) the distance between the northeast corner of the map and the line of *latitude* of the *corrected center* of Bakersfield where it meets the east edge of the map, and b) the distance between the northeast corner of the map and the line of *longitude* of the *corrected center* of Bakersfield where it meets the north edge of the map. These are the orthogonal distances to the S and W of the known point, the northeast corner of the map.
 
-NOTE: Convert all measurements made on the maps (mm, cm, or inches) into the distance unit provided in the locality (miles, in this example). Use the *Scale Converter* at the bottom of the Calculator, to do this calculation (see <<Coordinate, Distance and Scale Converters>>).
+NOTE: Convert all measurements made on the maps (mm, cm, or inches) into the distance unit provided in the locality (miles, in this example). Use the *Scale Converter* at the bottom of the Calculator, to do this calculation (see <<coordinate-distance-and-scale-converters>>).
 
 The point we have determined to be the *corrected center* of Bakersfield is 8 mm south of the 35° N line of *latitude* and 67 mm west of the 119° W line of *longitude*. After the _Scale Converter_ has been used to convert millimeters to miles, cut and paste the values for miles into the _Offset Distance_ text boxes on the right side of the *_Calculator_*: 0.1193 should be pasted or typed into the _North or South Offset Distance_ field, and the cardinal direction drop-down should be set to "_S_" (south); 0.99916 should be pasted or typed into the _East or West Offset Distance_ field, and the cardinal direction drop-down should be set to "_W_" (west). The _Distance Units_ drop-down should display "_mi_" (miles), since that is the unit described in the *locality*. The *_Calculator_* now has all of the parameters necessary to complete the calculation and should appear as in xref:img-calculate-from-a-map[xrefstyle="short"].
 
@@ -238,7 +238,7 @@ image::img/distance-conversion.png[width=624,align="center"]
 
 Below the _Distance Converter_ is a _Scale Converter_ designed to convert a measurement on a map of a given scale to a real-world distance in another unit. To convert a distance measured on a map with a known scale into a distance on the ground, put the distance value, distance units, and map scale in the text and drop-down boxes in the _Scale Converter_, to the left of the "=". The value in the units of the drop-down box to the right of the "=" will appear in blue in the text box with the grey background on the right side of the "=". For example, to convert a map measurement of 8 centimeters on a 1:50000 map into miles on the ground, enter "_8_" in the first field of the _Scale Converter_, select "_cm_" from the left-hand unit drop-down list, select "_1:50000_" in the second drop-down list, containing scales, and select "_mi_" from the right-hand unit drop-down list. The result, "_2.48548_", automatically appears in the right-hand text box. This value can be copied and placed into a distance field in the input area of the *_Calculator_* or elsewhere (see xref:img-scale-conversion[xrefstyle="short"]).
 
-[#img-scale-convertion]
+[#img-scale-conversion]
 .Map Measurement Distance Conversion. The _Scale Converter_ section of the *_Calculator_* showing a conversion of 8 centimeters on a map of 1:50000 scale to miles on the ground.
 image::img/scale-convertion.png[width=624,align="center"]
 
