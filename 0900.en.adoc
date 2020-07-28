@@ -5,4 +5,4 @@ The *_Calculator_* is an excellent tool for investigating the contributions to *
 
 [#img-isolating-uncertainty]
 .Isolating *uncertainty* from an unknown *datum*. The *_Calculator_* showing parameter settings that reveal the *uncertainty* due to an unknown *datum* at the *coordinate* 0,0. The choices of all other parameters nullify all other contributions to overall *uncertainty*.
-image::img/isolating-uncertainty.png[width=624,align="center"]
+image::img/web/isolating-uncertainty.png[width=624,align="center"]

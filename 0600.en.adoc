@@ -13,7 +13,7 @@ The point we have determined to be the *corrected center* of Bakersfield is 8 mm
 
 [#img-calculate-from-a-map]
 .Calculating coordinates from a map: The *_Calculator_* after setting the parameters needed to calculate the *coordinates* of the *corrected center* of Bakersfield by using measured *offsets* south and west of the northeast corner of a 1:24000 map, converted to miles.
-image::img/calculate-from-a-map.png[width=624,align="center"]
+image::img/web/calculate-from-a-map.png[width=624,align="center"]
 
 Next, click the _Calculate_ button. The calculated *coordinates* (always in *decimal degrees*) for the *corrected center* of Bakersfield are displayed in blue in the _Output Latitude_ and _Longitude_ fields in the results section of the *_Calculator_*, as shown in xref:img-calculated-from-a-map[xrefstyle="short"].
 
@@ -21,4 +21,4 @@ NOTE: This calculation was only to determine a new set of coordinates based on o
 
 [#img-calculated-from-a-map]
 .Calculated coordinates from a map. The *_Calculator_* after clicking on the _Calculate_ button to determine the *coordinates* of Bakersfield by using measured *offsets* south and west of the northeast corner of a 1:24000 map, converted to miles.
-image::img/calculated-from-a-map.png[width=624,align="center"]
+image::img/web/calculated-from-a-map.png[width=624,align="center"]

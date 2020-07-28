@@ -5,4 +5,4 @@ The *_Georeferencing Calculator_* uses JavaScript and runs in a browser. The lat
 
 [#img-screen-image]
 .Screen image of the *_Georeferencing Calculator_* when it first opens, showing the language selection drop-down, the _Locality Type_ drop-down box to initiate a *georeference* calculation, the _Distance Converter_, and the _Scale Converter_.
-image::img/screen-image.png[width=624,align="center"]
+image::img/web/screen-image.png[width=624,align="center"]

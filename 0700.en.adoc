@@ -5,6 +5,6 @@ Now that the starting *coordinates* for the *corrected center* of Bakersfield ha
 
 [#img-going-to]
 .Calculated coordinates pushed to input coordinates. The *_Calculator_* after clicking on the _Copy_ button to move the *coordinates* in a previous result to the starting *coordinates* for a new calculation.
-image::img/going-to.png[width=624,align="center"]
+image::img/web/going-to.png[width=624,align="center"]
 
 To complete a *georeference* using the new coordinates, follow the *Basic Workflow* starting with <<Step 2: Choose a Locality Type>>.

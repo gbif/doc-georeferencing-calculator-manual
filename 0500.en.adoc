@@ -7,7 +7,7 @@ Click on the drop-down in the upper left-hand corner of the *_Calculator_* to ch
 
 [#img-choose-language]
 .Step 1: Choose a language. The *_Calculator_* with the five language options showing after opening the _Language_ drop-down list.
-image::img/choose-language.png[width=624,align="center"]
+image::img/web/choose-language.png[width=624,align="center"]
 
 === Step 2: Choose a Locality Type
 
@@ -15,7 +15,7 @@ Click on the _Locality Type_ drop-down to expand the list. When the list is expa
 
 [#img-choose-locality-type]
 .Step 2: Choose a locality type. The *_Calculator_* with the six basic *locality types* showing after opening the _Locality Type_ drop-down list.
-image::img/choose-locality-type.png[width=624,align="center"]
+image::img/web/choose-locality-type.png[width=624,align="center"]
 
 Select the _Locality Type_ that best matches the characteristics of the *locality* to be georeferenced. Each _Locality Type_ in the drop-down list shows an example to try to help match the *locality* to a *locality type* using the pattern shown. *Locality types* with more examples are described in the {gqg}[*_Georeferencing Quick Reference Guide_*].
 
@@ -25,7 +25,7 @@ After selecting the _Locality Type_, a variety of text boxes, drop-down boxes, a
 
 [#img-enter-parameters]
 .Step 3: Enter parameters. The *_Calculator_* after selecting the "_Distance at a heading_" _Locality Type_, with all of the relevant text and drop-down boxes needed to be filled in or selected correctly in order to do a *georeference* calculation.
-image::img/enter-parameters.png[width=624,align="center"]
+image::img/web/enter-parameters.png[width=624,align="center"]
 
 === Step 4: Calculate
 
@@ -60,7 +60,7 @@ Next, click the _Calculate_ button. The calculated *coordinates* (always present
 
 [#img-calculate]
 .Step 4: Calculate. The *_Calculator_* after clicking on the _Calculate_ button, with all of the relevant text and drop-down boxes filled in or selected for an example of *locality type* "_Distance at a heading_". Results appear written in blue in the grey text boxes in the middle section of the *_Calculator_* below the _Calculate_ button.
-image::img/calculate.png[width=624,align="center"]
+image::img/web/calculate.png[width=624,align="center"]
 
 === Step 5: Enter Metadata
 
@@ -68,7 +68,7 @@ After the results of the calculation have been presented, add the name of the ge
 
 [#img-enter-metadata]
 .Step 5: Enter Metadata. The *_Calculator_* after entering an example of *georeference* metadata for the *georeferencer* and the *georeferencing* _Protocol_ used.
-image::img/enter-metadata.png[width=624,align="center"]
+image::img/web/enter-metadata.png[width=624,align="center"]
 
 === Step 6: Copy Results
 
@@ -78,7 +78,7 @@ NOTE: This dialog box does not get translated based on the language chosen for t
 
 [#img-copy-results]
 .Step 6: Copy Results. Pop-up dialog box after clicking on the _Copy_ button, showing the tab-delimited results of the example georeference that have been copied to the system clipboard.
-image::img/copy-results.png[width=329,align="center"]
+image::img/web/copy-results.png[width=329,align="center"]
 
 === Step 7: Paste Results
 
@@ -86,7 +86,7 @@ The content on the system clipboard after clicking on the _Copy_ button is tab-d
 
 [#img-paste-results]
 .Step 7: Paste Results. Part of a Google Sheet™ into which the results have been pasted. The column names reflecting *Darwin Core* terms were already in row 1 when the results were pasted into the cell A2.
-image::img/paste-results.png[width=624,align="center"]
+image::img/web/paste-results.png[width=624,align="center"]
 
 === Step 8: Start a New Calculation
 
@@ -96,4 +96,4 @@ NOTE: Always check that all parameter values and choices are correct before acce
 
 [#img-new-calculation]
 .Step 8: Start a New Calculation. The *_Calculator_* after selecting a new _Locality Type_ to start a new *georeference* calculation following the calculation from xref:img-enter-metadata[xrefstyle="short"]. Note that there are fewer parameters to enter for this _Locality Type_, and that the relevant parameter values that were in the previous calculation are preserved for this calculation.
-image::img/new-calculation.png[width=624,align="center"]
+image::img/web/new-calculation.png[width=624,align="center"]
