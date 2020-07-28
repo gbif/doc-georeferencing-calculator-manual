@@ -1,0 +1,18 @@
+[[converters]]
+== Coordinate, Distance, and Scale Converters
+
+The *_Calculator_* has three converters built in to eliminate the need for additional tools during the *georeferencing* process. Built into the parameters section of the *_Calculator_* is a converter to change the format of *coordinates* between three *geographic coordinate* options: *decimal degrees*, degrees decimal minutes, and degrees minutes seconds.
+
+To convert between coordinate formats, simply select the desired format from the _Coordinate Format_ drop-down list. The text and drop-down boxes for the _Input Latitude_ and _Longitude_ will change and be populated with the values in the new format. For *coordinate systems* other than *geographic coordinates* (_e.g._, *UTM*), a *coordinate* transformation into *geographic coordinates* will have to be done to use the *_Georeferencing Calculator_*.
+
+Below the _Calculate_ section of the *_Calculator_* is a _Distance Converter_. To convert a distance from one unit to another, put the value and units in the text and drop-down boxes in the _Distance Converter_, to the left of the "=". The value in the units of the drop-down box will appear in blue in the text box with the grey background on the right side of the "=". For example, to convert 10 miles into kilometers, enter "_10_" in the first field of the _Distance Converter_, select "_mi_" from the left-hand unit drop-down list, and select "_km_" from the right-hand unit drop-down list. The result, "_16.09344_", automatically appears in the right-hand text box. This value can be copied and placed into a distance field in the input area of the *_Calculator_* or elsewhere (see xref:img-distance-conversion[xrefstyle="short"]).
+
+[#img-distance-conversion]
+.Distance Conversion. The _Distance Converter_ section of the *_Calculator_* showing a conversion of 10 miles into kilometers.
+image::img/distance-conversion.png[width=624,align="center"]
+
+Below the _Distance Converter_ is a _Scale Converter_ designed to convert a measurement on a map of a given scale to a real-world distance in another unit. To convert a distance measured on a map with a known scale into a distance on the ground, put the distance value, distance units, and map scale in the text and drop-down boxes in the _Scale Converter_, to the left of the "=". The value in the units of the drop-down box to the right of the "=" will appear in blue in the text box with the grey background on the right side of the "=". For example, to convert a map measurement of 8 centimeters on a 1:50000 map into miles on the ground, enter "_8_" in the first field of the _Scale Converter_, select "_cm_" from the left-hand unit drop-down list, select "_1:50000_" in the second drop-down list, containing scales, and select "_mi_" from the right-hand unit drop-down list. The result, "_2.48548_", automatically appears in the right-hand text box. This value can be copied and placed into a distance field in the input area of the *_Calculator_* or elsewhere (see xref:img-scale-conversion[xrefstyle="short"]).
+
+[#img-scale-conversion]
+.Map Measurement Distance Conversion. The _Scale Converter_ section of the *_Calculator_* showing a conversion of 8 centimeters on a map of 1:50000 scale to miles on the ground.
+image::img/scale-convertion.png[width=624,align="center"]
