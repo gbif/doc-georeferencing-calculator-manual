@@ -1,6 +1,8 @@
 [[detailed]]
 == Detailed Workflow
 
+:sectnums!:
+
 === Step 1: Choose a Language
 
 Click on the drop-down in the upper left-hand corner of the *_Calculator_* to choose the language for the *_Calculator_* interface. Note that despite the language chosen, the number format always uses the full stop '.' as the decimal indicator (_e.g_., 2.5 for the number halfway between 2 and 3). When the list is expanded, the application should appear as in xref:img-choose-language[xrefstyle="short"].
@@ -97,3 +99,5 @@ NOTE: Always check that all parameter values and choices are correct before acce
 [#img-new-calculation]
 .Step 8: Start a New Calculation. The *_Calculator_* after selecting a new _Locality Type_ to start a new *georeference* calculation following the calculation from xref:img-enter-metadata[xrefstyle="short"]. Note that there are fewer parameters to enter for this _Locality Type_, and that the relevant parameter values that were in the previous calculation are preserved for this calculation.
 image::img/web/new-calculation.png[width=624,align="center"]
+
+:sectnums:
