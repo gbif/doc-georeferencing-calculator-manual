@@ -50,12 +50,6 @@ include::0400.en.adoc[]
 
 include::0500.en.adoc[]
 
-:sectnums!:
-
-include::0510.en.adoc[]
-
-:sectnums:
-
 include::0600.en.adoc[]
 
 include::0700.en.adoc[]
