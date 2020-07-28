@@ -1,0 +1,10 @@
+[[going-to]]
+== "Going to" Calculated Coordinates
+
+Now that the starting *coordinates* for the *corrected center* of Bakersfield have been calculated after measuring *offsets* on a map, use those *coordinates* to *georeference* subsequent *locality* descriptions that reference Bakersfield. Rather than copying and pasting (and possibly also converting) the *coordinates* into the _Input Latitude_ and _Longitude_ fields, click the _Go Here_ button to copy and convert the previous _Latitude_ and _Longitude_ from the results into the _Input Latitude_ and _Longitude_ fields in the _Coordinate Format_ currently in use (degrees minutes seconds in this example), as shown in xref:img-going-to[xrefstyle="short"].
+
+[#img-going-to]
+.Calculated coordinates pushed to input coordinates. The *_Calculator_* after clicking on the _Copy_ button to move the *coordinates* in a previous result to the starting *coordinates* for a new calculation.
+image::img/going-to.png[width=624,align="center"]
+
+To complete a *georeference* using the new coordinates, follow the *Basic Workflow* starting with <<Step 2: Choose a Locality Type>>.
