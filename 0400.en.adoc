@@ -1,4 +1,4 @@
-[[citation]]
+[[citation-and-documentation]]
 == Citation and Documentation
 
 Any time the *_Georeferencing Calculator_* is used, the *georeferencer* should record its use.
