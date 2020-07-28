@@ -249,19 +249,3 @@ The *_Calculator_* is an excellent tool for investigating the contributions to *
 [#img-isolating-uncertainty]
 .Isolating *uncertainty* from an unknown *datum*. The *_Calculator_* showing parameter settings that reveal the *uncertainty* due to an unknown *datum* at the *coordinate* 0,0. The choices of all other parameters nullify all other contributions to overall *uncertainty*.
 image::img/isolating-uncertainty.png[width=624,align="center"]
-
-== References
-
-Chapman AD and Wieczorek J. 2020. _Georeferencing Best Practices_. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853[_https://doi.org/10.15468/doc-gg7h-s853_]
-
-Wieczorek C and Wieczorek J. 2019. _Georeferencing Calculator_. Rauthiflor LLC. Available: http://georeferencing.org/georefcalculator/gc.html[_http://georeferencing.org/georefcalculator/gc.html_] [Accessed 21 Nov 2019].
-
-Wieczorek J. 2001. _MaNIS/HerpNET/ORNIS Georeferencing Guidelines_. University of California, Berkeley: Museum of Vertebrate Zoology. http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[_http://georeferencing.org/georefcalculator/docs/GeorefGuide.html_] [Accessed 20 Nov 2019].
-
-Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, Giovanni R, Robertson T, Vieglais D. 2012. Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. _PLoS ONE_ 7(1): e29715. https://doi.org/10.1371/journal.pone.0029715[_https://doi.org/10.1371/journal.pone.0029715_]
-
-Wieczorek J. 2019. _Global estimates of worst-case datum shifts from WGS84_. Rauthiflor LLC. Available http://georeferencing.org/georefcalculator/source/python/datumshiftproj.py[_http://georeferencing.org/georefcalculator/source/python/datumshiftproj.py_] [Accessed 20 Nov 2019]
-
-Wieczorek J, Guo Q, Hijmans R. 2004. The point-radius method for georeferencing locality descriptions and calculating associated uncertainty. _International Journal of Geographical Information Science_. *18:* 745-767. https://doi.org/10.1080/13658810412331280211[_https://doi.org/10.1080/13658810412331280211_]
-
-Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC, Bloom DA. 2020. _Georeferencing Quick Reference Guide_. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/e09p-h128[_https://doi.org/10.35035/e09p-h128_]
