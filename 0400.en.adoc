@@ -3,7 +3,7 @@
 
 Any time the *_Georeferencing Calculator_* is used, the *georeferencer* should record its use.
 
-If the *Darwin Core* standard is used to record *_Calculator_* output, the *_Calculator_* version and the date of use should be recorded in the field *_georeferenceSources_*. The following format should be used:
+If the *Darwin Core* standard is used to record *_Calculator_* output, the *_Calculator_* version and the date of use should be recorded in the field term:[georeferenceSources]. The following format should be used:
 
 ====
 Wieczorek C, J Wieczorek. Georeferencing Calculator. Version: [yyyymmdd(language)]. Available: http://georeferencing.org/georefcalculator/gc.html. Accessed [yyyy-mm-dd].
