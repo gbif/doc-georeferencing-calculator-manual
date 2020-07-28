@@ -36,23 +36,23 @@ include::colophon.en.adoc[]
 
 :sectnums:
 
-include::100.en.adoc[]
+include::0100.en.adoc[]
 
-include::200.en.adoc[]
+include::0200.en.adoc[]
 
-include::300.en.adoc[]
+include::0300.en.adoc[]
 
-include::400.en.adoc[]
+include::0400.en.adoc[]
 
-include::500.en.adoc[]
+include::0500.en.adoc[]
 
-include::600.en.adoc[]
+include::0600.en.adoc[]
 
-include::700.en.adoc[]
+include::0700.en.adoc[]
 
-include::800.en.adoc[]
+include::0800.en.adoc[]
 
-include::900.en.adoc[]
+include::0900.en.adoc[]
 
 :sectnums!:
 
