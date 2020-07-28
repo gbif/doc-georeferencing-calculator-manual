@@ -32,18 +32,6 @@ endif::backend-html5[]
 
 :!sectnums:
 
-== Colophon
-
-[#citation]
-=== Suggested citation
-Bloom DA, https://orcid.org/0000-0003-1144-0290[Wieczorek JR], Zermoglio PF (2020) Georeferencing Calculator Manual. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/TODOTODO
-
-=== Licence
-The document _Georeferencing Calculator Manual_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License].
-
-=== Persistent URI
-https://doi.org/10.35035/TODOTODO
-
 == Introduction
 
 The *_Georeferencing Calculator_* (Wieczorek & Wieczorek 2019) described in this document is a tool created to aid in the *georeferencing* of descriptive *localities* such as those found in museum-based natural history collections. It was originally designed for the Mammal Networked Information System (MaNIS) and has been widely adopted in other large-scale collaborative *georeferencing* projects to supplement semi-automated *georeferencing* tools. The application makes calculations using the theory given in {gbp}[*_Georeferencing Best Practices_*] (Chapman and Wieczorek 2020), derived from the earlier *_MaNIS/HerpNET/ORNIS Georeferencing Guidelines_* (Wieczorek 2001), and *_The point-radius method for georeferencing locality descriptions and calculating associated uncertainty_* (Wieczorek _et al._ 2004). Specific methods for calculating a wide variety of examples of the distinct *locality types* are given in {gqg}[*_Georeferencing Quick Reference Guide_*] (Zermoglio _et al._ 2020).
