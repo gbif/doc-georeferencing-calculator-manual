@@ -1,7 +1,9 @@
 [glossary]
 == Glossary
 
-This glossary explains the user interface elements of the Calculator and how they relate to the underlying calculations.
+The first section of this glossary explains the user interface elements of the Calculator and how they relate to the underlying calculations. The second section includes definitions of terms drawn from {gbp}[Georeferencing Best Practices] (Chapman & Wieczorek 2020).
+
+#### User interface elements of the Calculator
 
 [glossary]
 [[calculate]]Calculate:: Button used to calculate <<coordinates>> and <<uncertainty>> using the <<point-radius>> <<georeferncing-method,method>> (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]), based on the values of parameters pertinent to the selected _Locality Type_. Clicking on the *_Calculate_* button fills in the results section of the Calculator formatted as *Darwin Core* fields that need to be recorded for a *georeference* that follows the *_Georeferencing Best Practices_* (i.e. term:dwc[decimalLatitude], term:dwc[decimalLongitude], term:dwc[geodeticDatum], term:dwc[coordinateUncertaintyInMeters], term:dwc[coordinatePrecision], term:dwc[georeferencedBy], term:dwc[georeferencedDate], and term:dwc[georeferenceProtocol]). The calculation combines the sources of *uncertainty* using an algorithm appropriate to the *locality type* (see {gbp}#calculating-uncertainties[Calculating Uncertainties^] in {gbp}[Georeferencing Best Practices^]). The calculations account for *uncertainties* due to *coordinate precision*, unknown *datum*, data source, *GPS* *error*, measurement *error*, *feature geographic radial*, distance *precision*, and *heading* *precision*.
@@ -79,8 +81,13 @@ East or West Offset Distance:: The distance to the east or west of the _Input Lo
 +
 .{blank}
 [caption="Example"]
-====
-20191217en is the English version created 17 December 2019.
-====
+
+#### Georeferencing terms
+
+[[accuracy]]accuracy:: the closeness of an estimated value (for example, measured or computed) to a standard or accepted ("true") value. Antonym: inaccuracy Compare <<error>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>.
++
+NOTE: "the true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated." (Geodetic Survey Division 1996, https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^]).
+
+[[altitude]]altitude:: a measurement of the vertical distance above a <<vertical datum>>, usually <<mean sea level>> or <<geoid>>. For points on the surface of the earth, altitude is synonymous with <<elevation>>.
 
 <<<
