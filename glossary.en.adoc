@@ -3,8 +3,6 @@
 
 The first section of this glossary explains the user interface elements of the Calculator and how they relate to the underlying calculations. The second section includes definitions of terms drawn from {gbp}[Georeferencing Best Practices] (Chapman & Wieczorek 2020).
 
-#### User interface elements of the Calculator
-
 [glossary]
 [[calculate]]Calculate:: Button used to calculate <<coordinates>> and <<uncertainty>> using the <<point-radius>> <<georeferncing-method,method>> (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]), based on the values of parameters pertinent to the selected _Locality Type_. Clicking on the *_Calculate_* button fills in the results section of the Calculator formatted as *Darwin Core* fields that need to be recorded for a *georeference* that follows the *_Georeferencing Best Practices_* (i.e. term:dwc[decimalLatitude], term:dwc[decimalLongitude], term:dwc[geodeticDatum], term:dwc[coordinateUncertaintyInMeters], term:dwc[coordinatePrecision], term:dwc[georeferencedBy], term:dwc[georeferencedDate], and term:dwc[georeferenceProtocol]). The calculation combines the sources of *uncertainty* using an algorithm appropriate to the *locality type* (see {gbp}#calculating-uncertainties[Calculating Uncertainties^] in {gbp}[Georeferencing Best Practices^]). The calculations account for *uncertainties* due to *coordinate precision*, unknown *datum*, data source, *GPS* *error*, measurement *error*, *feature geographic radial*, distance *precision*, and *heading* *precision*.
 
