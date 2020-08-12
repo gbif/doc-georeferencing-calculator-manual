@@ -78,9 +78,6 @@ East or West Offset Distance:: The distance to the east or west of the _Input Lo
 [[uncertainty]]Uncertainty (m):: The resulting combination of all sources of *uncertainty* (*coordinate precision*, unknown *datum*, data source, *GPS accuracy*, measurement *error*, *feature geographic radial*, distance *precision*, and *heading precision*) expressed as a linear distance – the radius in the *point-radius method* (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]). Along with the _Output Latitude_, _Output Longitude_, and _Datum_, the radius defines a *smallest encompassing circle* containing all of the possible places a *locality* description could mean.
 
 [[version]]Version:: Displayed in the bottom left-hand corner of the Calculator in the format yyyymmddll, where ll is the two-letter language code of the interface.
-+
-.{blank}
-[caption="Example"]
 
 #### Georeferencing terms
 
