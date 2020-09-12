@@ -1,14 +1,12 @@
 [bibliography]
 == References
 
-//The bibliography list is a style of AsciiDoc bulleted list.
-
-- [[chapman]] Chapman AD & Wieczorek J (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853[https://doi.org/10.15468/doc-gg7h-s853]
-- [[wieczorekc19]] Wieczorek C & Wieczorek J (2019) _Georeferencing Calculator_. Rauthiflor LLC. Available: http://georeferencing.org/georefcalculator/gc.html[http://georeferencing.org/georefcalculator/gc.html] [Accessed 21 Nov 2019].
-- [[wieczorek01]] Wieczorek J (2001) MaNIS/HerpNET/ORNIS Georeferencing Guidelines. University of California, Berkeley: Museum of Vertebrate Zoology. http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[http://georeferencing.org/georefcalculator/docs/GeorefGuide.html] [Accessed 20 Nov 2019].
-- [[wieczorek12]] Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, Giovanni R, Robertson T & Vieglais D (2012) Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715. https://doi.org/10.1371/journal.pone.0029715[https://doi.org/10.1371/journal.pone.0029715]
-- [[wieczorek19]] Wieczorek J (2019) Global estimates of worst-case datum shifts from WGS84. Rauthiflor LLC. Available http://georeferencing.org/georefcalculator/source/python/datumshiftproj.py[http://georeferencing.org/georefcalculator/source/python/datumshiftproj.py] [Accessed 20 Nov 2019]
-- [[wieczorek04]] Wieczorek J, Guo Q & Hijmans R (2004) The point-radius method for georeferencing locality descriptions and calculating associated uncertainty. International Journal of Geographical Information Science 18: 745-767. https://doi.org/10.1080/13658810412331280211[https://doi.org/10.1080/13658810412331280211]
-- [[zermoglio]] Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC & Bloom DA (2020) Georeferencing Quick Reference Guide. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/e09p-h128[https://doi.org/10.35035/e09p-h128]
+- [[chapman]] Chapman AD & Wieczorek J (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853[https://doi.org/10.15468/doc-gg7h-s853^]
+- [[wieczorekc19]] Wieczorek C & Wieczorek J (2020) Georeferencing Calculator. Rauthiflor LLC. Available: http://georeferencing.org/georefcalculator/gc.html[http://georeferencing.org/georefcalculator/gc.html^]
+- [[wieczorek01]] Wieczorek J (2001) MaNIS/HerpNET/ORNIS Georeferencing Guidelines. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[http://georeferencing.org/georefcalculator/docs/GeorefGuide.html^].
+- [[wieczorek12]] Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, Giovanni R, Robertson T & Vieglais D (2012) Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715. https://doi.org/10.1371/journal.pone.0029715[https://doi.org/10.1371/journal.pone.0029715^]
+- [[wieczorek19]] Wieczorek J (2019) Global estimates of worst-case datum shifts from WGS84. Rauthiflor LLC. Available http://georeferencing.org/georefcalculator/source/python/datumshiftproj.py[http://georeferencing.org/georefcalculator/source/python/datumshiftproj.py^]
+- [[wieczorek04]] Wieczorek J, Guo Q & Hijmans R (2004) The point-radius method for georeferencing locality descriptions and calculating associated uncertainty. International Journal of Geographical Information Science 18: 745-767. https://doi.org/10.1080/13658810412331280211[https://doi.org/10.1080/13658810412331280211^]
+- [[zermoglio]] Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC & Bloom DA (2020) Georeferencing Quick Reference Guide. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/e09p-h128[https://doi.org/10.35035/e09p-h128^]
 
 <<<
