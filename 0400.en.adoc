@@ -1,20 +1,20 @@
 [[citation-and-documentation]]
 == Citation and Documentation
 
-Any time the *_Georeferencing Calculator_* is used, the *georeferencer* should record its use.
+Any time the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] is used, the <<georeferencer* (`TERM NOT IN GLOSSARY`) should record its use.
 
-If the *Darwin Core* standard is used to record *_Calculator_* output, the *_Calculator_* version and the date of use should be recorded in the field term:dwc[georeferenceSources]. The following format should be used:
+If the <<darwin-core,Darwin Core>> standard is used to record Calculator output, the Calculator version and the date of use should be recorded in the field term:dwc[georeferenceSources]. The following format should be used:
 
 ====
-Wieczorek C, J Wieczorek. Georeferencing Calculator. Version: [yyyymmdd(language)]. Available: http://georeferencing.org/georefcalculator/gc.html. Accessed [yyyy-mm-dd].
+Wieczorek C & J Wieczorek (yyyy). Georeferencing Calculator, version [yyyymmdd(language)]. Available: http://georeferencing.org/georefcalculator/gc.html. Accessed [yyyy-mm-dd].
 ====
 
 .{blank}
 [caption="For example"]
 ====
-Wieczorek C, J Wieczorek. Georeferencing Calculator. Version: 20191217en. Available: http://georeferencing.org/georefcalculator/gc.html. Accessed 2020-01-28.
+Wieczorek C & J Wieczorek (2020) Georeferencing Calculator, version 20191217en. Available: http://georeferencing.org/georefcalculator/gc.html. Accessed 2020-01-28.
 ====
 
-The version and language of the *_Calculator_* can be found in the lower left-hand corner of the calculator.
+The version and language of the Calculator can be found in the lower left-hand corner of the calculator.
 
-If the *Darwin Core* standard is not used to record calculator output, the *georeferencer* should record this citation in a suitable field in the database of choice and in any written documentation or notes for future georeferencing efforts.
+If the Darwin Core standard is not used to record calculator output, the georeferencer should record this citation in a suitable field in the database of choice and in any written documentation or notes for future georeferencing efforts.
