@@ -59,6 +59,8 @@ include::0900.en.adoc[]
 
 :sectnums!:
 
+include::appa.en.adoc[]
+
 include::glossary.en.adoc[]
 
 include::bibliography.en.adoc[]
