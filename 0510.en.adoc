@@ -16,7 +16,7 @@ Click on the _Locality Type_ drop-down to expand the list. When the list is expa
 .Step 2: Choose a locality type. The Calculator with the six basic locality types showing after opening the Locality Type drop-down list.
 image::img/web/choose-locality-type.png[width=624,align="center"]
 
-Select the _Locality Type_ that best matches the characteristics of the <<locality>> to be georeferenced. Each _Locality Type_ in the drop-down list shows an example to try to help match the locality to a <<locality-type>> using the pattern shown. Locality types with more examples are described in the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^].
+Select the _Locality Type_ that best matches the characteristics of the <<locality>> to be georeferenced. Each _Locality Type_ in the drop-down list shows an example to try to help match the locality to a <<locality-type,locality type>> using the pattern shown. Locality types with more examples are described in the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^].
 
 === Step 3: Enter Parameters
 
