@@ -1,9 +1,11 @@
 === Step 1: Choose a Language
 
-Click on the drop-down in the upper left-hand corner of the *_Calculator_* to choose the language for the *_Calculator_* interface. Note that despite the language chosen, the number format always uses the full stop '.' as the decimal indicator (_e.g_., 2.5 for the number halfway between 2 and 3). When the list is expanded, the application should appear as in xref:img-choose-language[xrefstyle="short"].
+Click on the drop-down in the upper left-hand corner of the http://georeferencing.org/georefcalculator/gc.html[Calculator^] to choose the language for the interface. When the list is expanded, the application should appear as in xref:img-choose-language[xrefstyle="short"].
+
+NOTE: The number format always uses the full stop '.' as the decimal indicator (e.g. 2.5 for the number halfway between 2 and 3), regardless of the selected language.
 
 [#img-choose-language]
-.Step 1: Choose a language. The *_Calculator_* with the five language options showing after opening the _Language_ drop-down list.
+.Step 1: Choose a language. The Calculator with the five language options showing after opening the Language drop-down list.
 image::img/web/choose-language.png[width=624,align="center"]
 
 === Step 2: Choose a Locality Type
@@ -11,22 +13,22 @@ image::img/web/choose-language.png[width=624,align="center"]
 Click on the _Locality Type_ drop-down to expand the list. When the list is expanded, the application should appear as in xref:img-choose-locality-type[xrefstyle="short"].
 
 [#img-choose-locality-type]
-.Step 2: Choose a locality type. The *_Calculator_* with the six basic *locality types* showing after opening the _Locality Type_ drop-down list.
+.Step 2: Choose a locality type. The Calculator with the six basic locality types showing after opening the Locality Type drop-down list.
 image::img/web/choose-locality-type.png[width=624,align="center"]
 
-Select the _Locality Type_ that best matches the characteristics of the *locality* to be georeferenced. Each _Locality Type_ in the drop-down list shows an example to try to help match the *locality* to a *locality type* using the pattern shown. *Locality types* with more examples are described in the {gqg}[*_Georeferencing Quick Reference Guide_*].
+Select the _Locality Type_ that best matches the characteristics of the <<locality>> to be georeferenced. Each _Locality Type_ in the drop-down list shows an example to try to help match the locality to a <<locality-type>> using the pattern shown. Locality types with more examples are described in the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^].
 
 === Step 3: Enter Parameters
 
-After selecting the _Locality Type_, a variety of text boxes, drop-down boxes, and buttons will appear on the *_Calculator_* (xref:img-enter-parameters[xrefstyle="short"]). These text and drop-down boxes need to be filled and/or values selected to make the calculation of the selected _Locality Type_. If no parameters are entered, then the default values will be used automatically.
+After selecting the _Locality Type_, a variety of text boxes, drop-down boxes, and buttons will appear on the Calculator (xref:img-enter-parameters[xrefstyle="short"]). These text and drop-down boxes need to be filled and/or values selected to make the calculation of the selected _Locality Type_. If no parameters are entered, then the default values will be used automatically.
 
 [#img-enter-parameters]
-.Step 3: Enter parameters. The *_Calculator_* after selecting the "_Distance at a heading_" _Locality Type_, with all of the relevant text and drop-down boxes needed to be filled in or selected correctly in order to do a *georeference* calculation.
+.Step 3: Enter parameters. The Calculator after selecting the "Distance at a heading" Locality Type, with all of the relevant text and drop-down boxes needed to be filled in or selected correctly in order to do a georeference calculation.
 image::img/web/enter-parameters.png[width=624,align="center"]
 
 === Step 4: Calculate
 
-The _Calculate_ button appears after a _Locality Type_ is selected. After all the parameters are correctly chosen or entered, click the _Calculate_ button. The calculated results will fill the text boxes with grey backgrounds in the middle of the *_Calculator_*, below the buttons and above the converters.
+The _Calculate_ button appears after a _Locality Type_ is selected. After all the parameters are correctly chosen or entered, click the _Calculate_ button. The calculated results will fill the text boxes with grey backgrounds in the middle of the Calculator, below the buttons and above the converters.
 
 .Calculation Example
 ====
