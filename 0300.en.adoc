@@ -1,7 +1,7 @@
 [[workflow]]
 == Basic Workflow
 
-The *_Calculator_* is designed to prompt the user only for what is needed to *georeference* based on the _Locality Type_ selected. The steps in the basic workflow are:
+The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] is designed to prompt the user only for what is needed to <<georeference>> based on the _Locality Type_ selected. The steps in the basic workflow are:
 
 1. Choose the *_Calculator_* language.
 2. Select the *Locality Type* that best matches the descriptive *locality* for the *georeference*. The interface will add all of the fields necessary to calculate the *georeference*.
