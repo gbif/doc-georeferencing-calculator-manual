@@ -19,7 +19,7 @@ https://doi.org/10.35035/gdwq-3v93
 
 === Document control
 
-Community review version, August 2020
+Community review version, September 2020
 
 // include reference to provenance if possible/relevant
 
