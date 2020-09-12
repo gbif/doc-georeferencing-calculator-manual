@@ -1,6 +1,8 @@
 [glossary]
 == Glossary
 
+// Update after GBP glossary is refined. Consider adding text citing GBP. Remove terms not used here.
+
 [[accuracy]]accuracy:: the closeness of an estimated value (for example, measured or computed) to a standard or accepted ("true") value. Antonym: inaccuracy Compare <<error>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>.
 +
 NOTE: "the true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated." (ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf[Geodetic Survey Division 1996^], https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^]).
@@ -19,9 +21,9 @@ NOTE: "the true value is not known, but only estimated, the accuracy of the meas
 
 [[bounding-box]]bounding box:: an area defined by the <<coordinates>> of two diagonally opposite corners of a polygon, where those two corners define the north-south and east-west extremes of the area contained within.
 
-clause:: _see_ <<locality clause>>.
+clause:: see <<locality-clause>>.
 
-[[coordinate-format]]coordinate format:: the format in which <<coordinates>> are encoded, such as "<<decimal degrees>>", "<<DMS,degrees minutes seconds>>", "degrees decimal minutes", or <<UTM>>.
+[[coordinate-format]]coordinate format:: the format in which <<coordinates>> are encoded, such as "<<decimal-degrees>>", "<<DMS,degrees minutes seconds>>", "degrees decimal minutes", or <<UTM>>.
 
 [[coordinate-precision]]coordinate precision:: the fraction of a degree corresponding to the number of significant digits in the source <<coordinates>>. For example, if the coordinates are reported to the nearest minute, the <<precision>> is 1/3600th (0.00027778) of a degree; if a <<decimal-degrees,decimal degree>> is reported to two decimal places, the precision is 0.01 of a degree.
 
