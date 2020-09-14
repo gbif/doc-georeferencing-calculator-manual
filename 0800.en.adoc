@@ -15,4 +15,4 @@ Below the [ui-element]#Distance Converter# is a [ui-element]#Scale Converter# de
 
 [#img-scale-conversion]
 .Map Measurement Distance Conversion. The [ui-element]#Scale Converter# section of the Calculator showing a conversion of 8 centimeters on a map of 1:50000 scale to miles on the ground.
-image::img/web/scale-convertion.png[width=624,align="center"]
+image::img/web/scale-conversion.png[width=624,align="center"]

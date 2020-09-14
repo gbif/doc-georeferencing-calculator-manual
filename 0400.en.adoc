@@ -3,7 +3,7 @@
 
 Any time the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] is used, the georeferencer should record its use.
 
-If the <<darwin-core,Darwin Core>> standard is used to record Calculator output, the Calculator version and the date of use should be recorded in the field term:dwc[georeferenceSources]. The following format should be used:
+If the <<Darwin Core>> standard is used to record Calculator output, the Calculator version and the date of use should be recorded in the field term:dwc[georeferenceSources]. The following format should be used:
 
 ====
 Wieczorek C & J Wieczorek (yyyy). Georeferencing Calculator, version [yyyymmdd(language)]. Available: http://georeferencing.org/georefcalculator/gc.html. Accessed [yyyy-mm-dd].

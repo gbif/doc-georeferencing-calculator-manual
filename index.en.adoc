@@ -13,17 +13,14 @@
 :license: https://creativecommons.org/licenses/by-sa/4.0/
 // Special style for UI elements
 :docinfo: shared-head
-// PDF document title and back pages.
-:title-page-background-image: image::img/Hermann_Berghaus_R.jpg[position=left]
-:back-cover-image: image::img/Hermann_Berghaus_L.jpg[position=right]
-ifdef::backend-pdf[]
-:doctitle: Georeferencing + \
-Calculator Manual
-endif::backend-pdf[]
 
 // Shorthand for links to the other two documents
 :gqg: link:../../../georeferencing-quick-reference-guide/1.0/
 :gbp: link:../../../georeferencing-best-practices/1.0/
+ifdef::backend-pdf[]
+:gqg: link:https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/
+:gbp: link:https://docs.gbif.org/georeferencing-best-practices/1.0/
+endif::backend-pdf[]
 
 ifdef::backend-html5[]
 languageLinks:combined[]
