@@ -1,7 +1,7 @@
 [[citation-and-documentation]]
 == Citation and Documentation
 
-Any time the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] is used, the <<georeferencer* (`TERM NOT IN GLOSSARY`) should record its use.
+Any time the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] is used, the georeferencer should record its use.
 
 If the <<darwin-core,Darwin Core>> standard is used to record Calculator output, the Calculator version and the date of use should be recorded in the field term:dwc[georeferenceSources]. The following format should be used:
 
