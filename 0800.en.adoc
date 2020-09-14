@@ -1,7 +1,7 @@
 [[converters]]
 == Coordinate, Distance, and Scale Converters
 
-The Calculator has three converters built in to eliminate the need for additional tools during the <<georeference,georeferencing>> process. Built into the parameters section of the Calculator is a converter to change the format of <<coordinates>> between three <<geographic-coordinate>> options: <<decimal-degrees>>, degrees decimal minutes, and degrees minutes seconds.
+The Calculator has three converters built in to eliminate the need for additional tools during the <<georeference,georeferencing>> process. Built into the parameters section of the Calculator is a converter to change the format of <<coordinates>> between three <<geographic-coordinates,geographic coordinate>> options: <<decimal-degrees>>, degrees decimal minutes, and degrees minutes seconds.
 
 To convert between coordinate formats, simply select the desired format from the _Coordinate Format_ drop-down list. The text and drop-down boxes for the _Input Latitude_ and _Longitude_ will change and be populated with the values in the new format. For <<coordinate-system,coordinate systems>> other than geographic coordinates (e.g. <<UTM>>), a coordinate transformation into geographic coordinates will have to be done to use the Georeferencing Calculator.
 
