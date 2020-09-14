@@ -1,13 +1,13 @@
 [[workflow]]
 == Basic Workflow
 
-The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] is designed to prompt the user only for what is needed to <<georeference>> based on the _Locality Type_ selected. The steps in the basic workflow are:
+The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] is designed to prompt the user only for what is needed to <<georeference>> based on the xref:ui-locality-type[role=ui-element] selected. The steps in the basic workflow are:
 
 1. Choose the language for the Calculator.
 2. Select the <<locality-type>> that best matches the descriptive <<locality>> for the georeference. The interface will add all of the fields necessary to calculate the georeference.
 3. Make selections and fill in all of the parameters shown. Refer to the {gqg}#glossary[Glossary^] and {gqg}#georeferencing-concepts[Georeferencing Concepts^] in the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] to get a description of what each parameter means.
-4. Click on the _Calculate_ button to calculate the results.
+4. Click on the xref:ui-calculate[role=ui-element] button to calculate the results.
 5. Enter the metadata for the person who is georeferencing and the *protocol* being used.
-6. Click on the *_Copy_* button to put the results on the system clipboard.
+6. Click on the [ui-element]#Copy# button to put the results on the system clipboard.
 7. Paste the results where the georeference will be stored.
 8. Repeat for the next calculation. Note that the values for parameters chosen in one calculation will remain in the text and drop-down boxes and thus carry over to the next calculation whenever possible.

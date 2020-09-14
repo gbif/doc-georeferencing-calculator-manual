@@ -11,6 +11,8 @@
 :icons: font
 :pagenums:
 :license: https://creativecommons.org/licenses/by-sa/4.0/
+// Special style for UI elements
+:docinfo: shared-head
 // PDF document title and back pages.
 :title-page-background-image: image::img/Hermann_Berghaus_R.jpg[position=left]
 :back-cover-image: image::img/Hermann_Berghaus_L.jpg[position=right]
