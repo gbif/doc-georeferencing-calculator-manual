@@ -8,7 +8,11 @@ endif::backend-html5[]
 [#citation]
 === Suggested citation
 
-https://orcid.org/0000-0003-1273-1807[Bloom DA], https://orcid.org/0000-0003-1144-0290[Wieczorek JR] & https://orcid.org/0000-0002-6056-5084[Zermoglio PF] (2020) Georeferencing Calculator Manual. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/gdwq-3v93
+Bloom DA, Wieczorek JR & Zermoglio PF (2020) Georeferencing Calculator Manual. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/gdwq-3v93
+
+=== Authors
+
+https://orcid.org/0000-0003-1273-1807[David A. Bloom], https://orcid.org/0000-0003-1144-0290[John R. Wieczorek] & https://orcid.org/0000-0002-6056-5084[Paula F. Zermoglio] 
 
 === Licence
 The document _Georeferencing Calculator Manual_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License].
