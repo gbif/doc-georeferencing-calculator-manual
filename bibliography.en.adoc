@@ -1,8 +1,10 @@
-[bibliography]
 == References
 
 - [[chapman]] Chapman AD & Wieczorek J (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853[https://doi.org/10.15468/doc-gg7h-s853^]
+- [[chrisman]] Chrisman NR (1991) The Error Component in Spatial Data, in Maguire DJ, Goodchild MF & Rhind DW (eds), Geographical Information Systems Vol. 1, Principals. London: Longman Scientific and Technical Publishers, pp. 165-174.
 - [[cullen]] Cullen AC & Frey HC (1999) Probabilistic Techniques in Exposure Assessment: A Handbook for Dealing with Variability and Uncertainty in Models and Inputs. New York: Plenum Press.
+- [[juran]] Juran JM (1964) Managerial Breakthrough. New York: McGraw-Hill.
+- [[juran-2ed]] Juran JM (1995) Managerial Breakthrough. New York: McGraw-Hill. Revised 2nd edition.
 - [[wieczorekc19]] Wieczorek C & Wieczorek J (2020) Georeferencing Calculator. Rauthiflor LLC. Available: http://georeferencing.org/georefcalculator/gc.html[http://georeferencing.org/georefcalculator/gc.html^]
 - [[wieczorek01]] Wieczorek J (2001) MaNIS/HerpNET/ORNIS Georeferencing Guidelines. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[http://georeferencing.org/georefcalculator/docs/GeorefGuide.html^].
 - [[wieczorek12]] Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, Giovanni R, Robertson T & Vieglais D (2012) Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715. https://doi.org/10.1371/journal.pone.0029715[https://doi.org/10.1371/journal.pone.0029715^]
