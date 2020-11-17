@@ -1,8 +1,11 @@
 .DS_Store
 *.asis
+*.brotli
 *.html
 !docinfo.html
 *.pdf
+*.webp
 *.??.adoc
 !*.en.adoc
 *.mo
+*.icloud
