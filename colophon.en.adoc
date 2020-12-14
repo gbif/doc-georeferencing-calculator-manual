@@ -23,9 +23,7 @@ https://doi.org/10.35035/gdwq-3v93
 
 === Document control
 
-Community review version, September 2020
-
-// include reference to provenance if possible/relevant
+Version 1.0, December 2020
 
 Originally based on an earlier publication: Wieczorek J & Bloom DA (2015) Manual for the Georeferencing Calculator. University of California, Berkeley: Museum of Vertebrate Zoology. http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html.
 
