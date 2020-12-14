@@ -1,4 +1,4 @@
-= Georeferencing Calculator Manual [Community review draft]
+= Georeferencing Calculator Manual
 :authorcount: 3
 :author_1: David A. Bloom
 :author_2: John R. Wieczorek
