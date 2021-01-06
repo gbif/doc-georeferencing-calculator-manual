@@ -81,7 +81,7 @@ image::img/web/copy-results.png[width=329,align="center"]
 
 === Step 7: Paste Results
 
-The content on the system clipboard after clicking on the [ui-element]#Copy# button is tab-delimited. It can be pasted into a series of columns of a spreadsheet directly (this works in Excel as well as Google Sheets). It can also be pasted into a tab-delimited text file. When pasting the results, be certain that the order of the fields in the destination document matches the order of the fields in the results. Using http://rs.tdwg.org/dwc/terms/[Darwin Core standard term names^] (see also (https://doi.org/10.1371/journal.pone.0029715[(Wieczorek et al. 2012)^]), the order of the result fields is:
+The content on the system clipboard after clicking on the [ui-element]#Copy# button is tab-delimited. It can be pasted into a series of columns of a spreadsheet directly (this works in Excel as well as Google Sheets). It can also be pasted into a tab-delimited text file. When pasting the results, be certain that the order of the fields in the destination document matches the order of the fields in the results. Using http://rs.tdwg.org/dwc/terms/[Darwin Core standard term names^] (see also https://doi.org/10.1371/journal.pone.0029715[Wieczorek et al. 2012^]), the order of the result fields is:
 
 * term:dwc[decimalLatitude]
 * term:dwc[decimalLongitude]
