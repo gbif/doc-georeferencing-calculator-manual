@@ -1,0 +1,2291 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: georef-calculator-manu\n"
+"POT-Creation-Date: 2021-02-01 17:29+0000\n"
+"PO-Revision-Date: 2021-06-28 22:01\n"
+"Last-Translator: \n"
+"Language-Team: Afar\n"
+"Language: aa_ER\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: georef-calculator-manu\n"
+"X-Crowdin-Project-ID: 438720\n"
+"X-Crowdin-Language: aa\n"
+"X-Crowdin-File: /1.0/translations/index.pot\n"
+"X-Crowdin-File-ID: 562\n"
+
+#. type: Title =
+#: index.en.adoc:1
+#, no-wrap
+msgid "Georeferencing Calculator Manual"
+msgstr "crwdns67258:0crwdne67258:0"
+
+#. type: Plain text
+#: index.en.adoc:27
+msgid "languageLinks:combined[]"
+msgstr "crwdns67260:0crwdne67260:0"
+
+#. type: Target for macro image
+#: colophon.en.adoc:3
+#, no-wrap
+msgid "img/web/photo.jpg"
+msgstr "crwdns67262:0crwdne67262:0"
+
+#. type: Title ==
+#: colophon.en.adoc:6
+#, no-wrap
+msgid "Colophon"
+msgstr "crwdns67264:0crwdne67264:0"
+
+#. type: Title ===
+#: colophon.en.adoc:9
+#, no-wrap
+msgid "Suggested citation"
+msgstr "crwdns67266:0crwdne67266:0"
+
+#. type: Plain text
+#: colophon.en.adoc:12
+msgid "Bloom DA, Wieczorek JR & Zermoglio PF (2020) Georeferencing Calculator Manual. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/gdwq-3v93"
+msgstr "crwdns67268:0crwdne67268:0"
+
+#. type: Title ===
+#: colophon.en.adoc:13
+#, no-wrap
+msgid "Authors"
+msgstr "crwdns67270:0crwdne67270:0"
+
+#. type: Plain text
+#: colophon.en.adoc:16
+msgid "https://orcid.org/0000-0003-1273-1807[David A. Bloom], https://orcid.org/0000-0003-1144-0290[John R. Wieczorek] & https://orcid.org/0000-0002-6056-5084[Paula F. Zermoglio]"
+msgstr "crwdns67272:0crwdne67272:0"
+
+#. type: Title ===
+#: colophon.en.adoc:17
+#, no-wrap
+msgid "Licence"
+msgstr "crwdns67274:0crwdne67274:0"
+
+#. type: Plain text
+#: colophon.en.adoc:19
+msgid "The document _Georeferencing Calculator Manual_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License]."
+msgstr "crwdns67276:0crwdne67276:0"
+
+#. type: Title ===
+#: colophon.en.adoc:20
+#, no-wrap
+msgid "Persistent URI"
+msgstr "crwdns67278:0crwdne67278:0"
+
+#. type: Plain text
+#: colophon.en.adoc:23
+msgid "https://doi.org/10.35035/gdwq-3v93"
+msgstr "crwdns67280:0crwdne67280:0"
+
+#. type: Title ===
+#: colophon.en.adoc:24
+#, no-wrap
+msgid "Document control"
+msgstr "crwdns67282:0crwdne67282:0"
+
+#. type: Plain text
+#: colophon.en.adoc:27
+msgid "Version 1.0, December 2020"
+msgstr "crwdns67284:0crwdne67284:0"
+
+#. type: Plain text
+#: colophon.en.adoc:29
+msgid "Originally based on an earlier publication: Wieczorek J & Bloom DA (2015) Manual for the Georeferencing Calculator. University of California, Berkeley: Museum of Vertebrate Zoology. http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html."
+msgstr "crwdns67286:0crwdne67286:0"
+
+#. type: Title ===
+#: colophon.en.adoc:30
+#, no-wrap
+msgid "Cover image"
+msgstr "crwdns67288:0crwdne67288:0"
+
+#. type: Plain text
+#: colophon.en.adoc:32
+msgid "Western bobcat (_Lynx rufus_ subsp. _fasciatus_), Sonoma County, California, United States. Photo 2019 Sonoma Ecology Center–Research Department via https://www.gbif.org/occurrence/2597893778[iNaturalist research-grade observations], licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0]."
+msgstr "crwdns67290:0crwdne67290:0"
+
+#. type: Title ==
+#: 0100.en.adoc:2
+#, no-wrap
+msgid "Introduction"
+msgstr "crwdns67292:0crwdne67292:0"
+
+#. type: Plain text
+#: 0100.en.adoc:5
+msgid "The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] described in this document is a tool created to aid in the <<georeference,georeferencing>> of descriptive <<locality,localities>> such as those found in museum-based natural history collections. It was originally designed for the Mammal Networked Information System (MaNIS) and has been widely adopted in other large-scale collaborative georeferencing projects to supplement semi-automated georeferencing tools. The application makes calculations using the theory given in {gbp}[Georeferencing Best Practices (Chapman & Wieczorek 2020)^], derived from the earlier http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[MaNIS/HerpNET/ORNIS Georeferencing Guidelines (Wieczorek 2001)^], and https://doi.org/10.1080/13658810412331280211[The point-radius method for georeferencing locality descriptions and calculating associated uncertainty (Wieczorek et al. 2004)^]. Specific methods for calculating a wide variety of examples of the distinct locality types are given in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]."
+msgstr "crwdns67294:0{gbp}crwdnd67294:0{gqg}crwdne67294:0"
+
+#. type: Plain text
+#: 0100.en.adoc:6
+msgid "Underlined terms throughout this document (e.g. <<accuracy>>) link to definitions in the <<Glossary>> (the same glossary of terms used in {gbp}[Georeferencing Best Practices^], while terms in italics (e.g. xref:ui-input-latitude[role=ui-element]) refer to fields and/or labels in the Calculator. <<darwin-core,Darwin Core>> terms are displayed in monospace (e.g. term:dwc[georeferenceRemarks]) in all GBIF digital documentation and link to the definitions maintained by Biodiversity Information Standards (TDWG) in the approved https://dwc.tdwg.org/list/[List of Darwin Core terms^]."
+msgstr "crwdns67296:0{gbp}crwdnd67296:0[georeferenceRemarks]crwdne67296:0"
+
+#. type: Title ==
+#: 0200.en.adoc:2
+#, no-wrap
+msgid "Running the Calculator"
+msgstr "crwdns67298:0crwdne67298:0"
+
+#. type: Plain text
+#: 0200.en.adoc:5
+msgid "The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator^] uses JavaScript and runs in a browser. The latest version can be initiated http://georeferencing.org/georefcalculator/gc.html[here^], or it can be downloaded in a .zip or .tar.gz archive from the https://github.com/VertNet/georefcalculator/releases[releases page of the Calculator GitHub repository^], unzipped to a convenient location and run in a browser by opening the file gc.html. Problems encountered with the Calculator should be entered as issues in the https://github.com/VertNet/georefcalculator/issues[GitHub repository issue tracker^] and should include the version identifier, which can be found in the lower right-hand corner of the Calculator (see xref:img-screen-image[xrefstyle=\"short\"]). When the Calculator is opened it should appear as shown in xref:img-screen-image[xrefstyle=\"short\"]."
+msgstr "crwdns67300:0crwdne67300:0"
+
+#. type: Block title
+#: 0200.en.adoc:7
+#, no-wrap
+msgid "Screen image of the Georeferencing Calculator when it first opens, showing the language selection drop-down, the xref:ui-locality-type[role=ui-element] drop-down box to initiate a georeference calculation, the [ui-element]#Distance Converter#, and the [ui-element]#Scale Converter#."
+msgstr "crwdns67302:0[ui-element]crwdnd67302:0[ui-element]crwdne67302:0"
+
+#. type: Target for macro image
+#: 0200.en.adoc:8
+#, no-wrap
+msgid "img/web/screen-image.png"
+msgstr "crwdns67304:0crwdne67304:0"
+
+#. type: Title ==
+#: 0300.en.adoc:2
+#, no-wrap
+msgid "Basic Workflow"
+msgstr "crwdns67306:0crwdne67306:0"
+
+#. type: Plain text
+#: 0300.en.adoc:5
+msgid "The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] is designed to prompt the user only for what is needed to <<georeference>> based on the xref:ui-locality-type[role=ui-element] selected. The steps in the basic workflow are:"
+msgstr "crwdns67308:0crwdne67308:0"
+
+#. type: Plain text
+#: 0300.en.adoc:7
+msgid "Choose the language for the Calculator."
+msgstr "crwdns67310:0crwdne67310:0"
+
+#. type: Plain text
+#: 0300.en.adoc:8
+msgid "Select the <<locality-type>> that best matches the descriptive <<locality>> for the georeference. The interface will add all of the fields necessary to calculate the georeference."
+msgstr "crwdns67312:0crwdne67312:0"
+
+#. type: Plain text
+#: 0300.en.adoc:9
+msgid "Make selections and fill in all of the parameters shown. Refer to the {gqg}#glossary[Glossary^] and {gqg}#georeferencing-concepts[Georeferencing Concepts^] in the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] to get a description of what each parameter means."
+msgstr "crwdns67314:0{gqg}crwdnd67314:0{gqg}crwdnd67314:0{gqg}crwdne67314:0"
+
+#. type: Plain text
+#: 0300.en.adoc:10
+msgid "Click on the xref:ui-calculate[role=ui-element] button to calculate the results."
+msgstr "crwdns67316:0crwdne67316:0"
+
+#. type: Plain text
+#: 0300.en.adoc:11
+msgid "Enter the metadata for the person who is georeferencing and the *protocol* being used."
+msgstr "crwdns67318:0crwdne67318:0"
+
+#. type: Plain text
+#: 0300.en.adoc:12
+msgid "Click on the [ui-element]#Copy# button to put the results on the system clipboard."
+msgstr "crwdns67320:0[ui-element]crwdne67320:0"
+
+#. type: Plain text
+#: 0300.en.adoc:13
+msgid "Paste the results where the georeference will be stored."
+msgstr "crwdns67322:0crwdne67322:0"
+
+#. type: Plain text
+#: 0300.en.adoc:13
+msgid "Repeat for the next calculation. Note that the values for parameters chosen in one calculation will remain in the text and drop-down boxes and thus carry over to the next calculation whenever possible."
+msgstr "crwdns67324:0crwdne67324:0"
+
+#. type: Title ==
+#: 0400.en.adoc:2
+#, no-wrap
+msgid "Citation and Documentation"
+msgstr "crwdns67326:0crwdne67326:0"
+
+#. type: Plain text
+#: 0400.en.adoc:5
+msgid "Any time the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] is used, the georeferencer should record its use."
+msgstr "crwdns67328:0crwdne67328:0"
+
+#. type: Plain text
+#: 0400.en.adoc:7
+msgid "If the <<Darwin Core>> standard is used to record Calculator output, the Calculator version and the date of use should be recorded in the field term:dwc[georeferenceSources]. The following format should be used:"
+msgstr "crwdns67330:0[georeferenceSources]crwdne67330:0"
+
+#. type: delimited block =
+#: 0400.en.adoc:10
+msgid "Wieczorek C & J Wieczorek (yyyy). Georeferencing Calculator, version [yyyymmdd(language)]. Available: http://georeferencing.org/georefcalculator/gc.html. Accessed [yyyy-mm-dd]."
+msgstr "crwdns67332:0[yyyy-mm-dd]crwdne67332:0"
+
+#. type: Block title
+#: 0400.en.adoc:12 appa.en.adoc:9 appa.en.adoc:27 appa.en.adoc:36
+#, no-wrap
+msgid "{blank}"
+msgstr "crwdns67334:0{blank}crwdne67334:0"
+
+#. type: Named 'caption' AttributeList argument for style 'caption'
+#: 0400.en.adoc:13
+#, no-wrap
+msgid "For example"
+msgstr "crwdns67336:0crwdne67336:0"
+
+#. type: delimited block =
+#: 0400.en.adoc:16
+msgid "Wieczorek C & J Wieczorek (2020) Georeferencing Calculator, version 20191217en. Available: http://georeferencing.org/georefcalculator/gc.html. Accessed 2020-01-28."
+msgstr "crwdns67338:0crwdne67338:0"
+
+#. type: Plain text
+#: 0400.en.adoc:19
+msgid "The version and language of the Calculator can be found in the lower left-hand corner of the calculator."
+msgstr "crwdns67340:0crwdne67340:0"
+
+#. type: Plain text
+#: 0400.en.adoc:20
+msgid "If the Darwin Core standard is not used to record calculator output, the georeferencer should record this citation in a suitable field in the database of choice and in any written documentation or notes for future georeferencing efforts."
+msgstr "crwdns67342:0crwdne67342:0"
+
+#. type: Title ==
+#: 0500.en.adoc:2
+#, no-wrap
+msgid "Detailed Workflow"
+msgstr "crwdns67344:0crwdne67344:0"
+
+#. type: Title ===
+#: 0510.en.adoc:1
+#, no-wrap
+msgid "Step 1: Choose a Language"
+msgstr "crwdns67346:0crwdne67346:0"
+
+#. type: Plain text
+#: 0510.en.adoc:4
+msgid "Click on the drop-down in the upper left-hand corner of the http://georeferencing.org/georefcalculator/gc.html[Calculator^] to choose the language for the interface. When the list is expanded, the application should appear as in xref:img-choose-language[xrefstyle=\"short\"]."
+msgstr "crwdns67348:0crwdne67348:0"
+
+#. type: Plain text
+#: 0510.en.adoc:6
+msgid "The number format always uses the full stop '.' as the decimal indicator (e.g. 2.5 for the number halfway between 2 and 3), regardless of the selected language."
+msgstr "crwdns67350:0crwdne67350:0"
+
+#. type: Block title
+#: 0510.en.adoc:8
+#, no-wrap
+msgid "Step 1: Choose a language. The Calculator with the five language options showing after opening the Language drop-down list."
+msgstr "crwdns67352:0crwdne67352:0"
+
+#. type: Target for macro image
+#: 0510.en.adoc:9
+#, no-wrap
+msgid "img/web/choose-language.png"
+msgstr "crwdns67354:0crwdne67354:0"
+
+#. type: Title ===
+#: 0510.en.adoc:11
+#, no-wrap
+msgid "Step 2: Choose a Locality Type"
+msgstr "crwdns67356:0crwdne67356:0"
+
+#. type: Plain text
+#: 0510.en.adoc:14
+msgid "Click on the xref:ui-locality-type[role=ui-element] drop-down to expand the list. When the list is expanded, the application should appear as in xref:img-choose-locality-type[xrefstyle=\"short\"]."
+msgstr "crwdns67358:0crwdne67358:0"
+
+#. type: Block title
+#: 0510.en.adoc:16
+#, no-wrap
+msgid "Step 2: Choose a locality type. The Calculator with the six basic locality types showing after opening the Locality Type drop-down list."
+msgstr "crwdns67360:0crwdne67360:0"
+
+#. type: Target for macro image
+#: 0510.en.adoc:17
+#, no-wrap
+msgid "img/web/choose-locality-type.png"
+msgstr "crwdns67362:0crwdne67362:0"
+
+#. type: Plain text
+#: 0510.en.adoc:20
+msgid "Select the xref:ui-locality-type[role=ui-element] that best matches the characteristics of the <<locality>> to be georeferenced. Each xref:ui-locality-type[role=ui-element] in the drop-down list shows an example to try to help match the locality to a <<locality-type,locality type>> using the pattern shown. Locality types with more examples are described in the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]."
+msgstr "crwdns67364:0{gqg}crwdne67364:0"
+
+#. type: Title ===
+#: 0510.en.adoc:21
+#, no-wrap
+msgid "Step 3: Enter Parameters"
+msgstr "crwdns67366:0crwdne67366:0"
+
+#. type: Plain text
+#: 0510.en.adoc:24
+msgid "After selecting the xref:ui-locality-type[role=ui-element], a variety of text boxes, drop-down boxes, and buttons will appear on the Calculator (xref:img-enter-parameters[xrefstyle=\"short\"]). These text and drop-down boxes need to be filled and/or values selected to make the calculation of the selected xref:ui-locality-type[role=ui-element]. If no parameters are entered, then the default values will be used automatically."
+msgstr "crwdns67368:0crwdne67368:0"
+
+#. type: Block title
+#: 0510.en.adoc:26
+#, no-wrap
+msgid "Step 3: Enter parameters. The Calculator after selecting the \"Distance at a heading\" xref:ui-locality-type[role=ui-element], with all of the relevant text and drop-down boxes needed to be filled in or selected correctly in order to do a georeference calculation."
+msgstr "crwdns67370:0crwdne67370:0"
+
+#. type: Target for macro image
+#: 0510.en.adoc:27
+#, no-wrap
+msgid "img/web/enter-parameters.png"
+msgstr "crwdns67372:0crwdne67372:0"
+
+#. type: Title ===
+#: 0510.en.adoc:29
+#, no-wrap
+msgid "Step 4: Calculate"
+msgstr "crwdns67374:0crwdne67374:0"
+
+#. type: Plain text
+#: 0510.en.adoc:32
+msgid "The xref:ui-calculate[role=ui-element] button appears after a xref:ui-locality-type[role=ui-element] is selected. After all the parameters are correctly chosen or entered, click the xref:ui-calculate[role=ui-element] button. The calculated results will fill the text boxes with grey backgrounds in the middle of the Calculator, below the buttons and above the converters."
+msgstr "crwdns67376:0crwdne67376:0"
+
+#. type: Block title
+#: 0510.en.adoc:33
+#, no-wrap
+msgid "Calculation Example"
+msgstr "crwdns67378:0crwdne67378:0"
+
+#. type: delimited block =
+#: 0510.en.adoc:36
+msgid "Suppose the <<locality>> to be <<georeference,georeferenced>> is \"10 mi E (by air) Bakersfield\", as shown in the example in selection box for the \"[ui-element]#Distance at a heading#\" xref:ui-locality-type[role=ui-element] (for details about this type of locality see {gqg}#offset-distance-at-a-heading[Offset – Distance at a Heading^] in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]). Next, suppose the <<coordinates>> for Bakersfield (35° 22′ 24″ N, 119° 1′ 4″ W) were obtained by determining the centre of town to the nearest second using a USGS Gosford 1:24,000 Quad map."
+msgstr "crwdns67380:0[ui-element]crwdnd67380:0{gqg}crwdnd67380:0{gqg}crwdne67380:0"
+
+#. type: delimited block =
+#: 0510.en.adoc:38
+msgid "To begin, select \"_USGS map: 1:24,000_\" from the xref:ui-coordinate-source[role=ui-element] drop-down. Next, select \"[ui-element]#degrees minutes seconds#\" from the xref:ui-coordinate-format[role=ui-element] drop-down. Next, enter the coordinates for Bakersfield in the xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element] boxes that appear after selecting the _Coordinate Format_. Make certain to select the correct hemisphere from the drop-downs to the right of each coordinate field."
+msgstr "crwdns67382:0[ui-element]crwdne67382:0"
+
+#. type: delimited block =
+#: 0510.en.adoc:40
+msgid "For this example, the <<coordinate-format,Coordinate Format>> \"[ui-element]#degrees minutes seconds#\" was selected because the USGS map showed coordinates in degrees minutes seconds, thus the coordinates determined for the centre of Bakersfield were described in the same way. In some cases, coordinates on a map, or other resource, may be represented in degrees decimal minutes (e.g. 35° 22′ N, 119° 0′ W or 35° 22.4′ N, 119° 1.066667′ W) or as decimal degrees (e.g. 35.3733333, −119.0177778). The Coordinate Format selected in the Calculator MUST reflect the coordinate format used on the map or other resource."
+msgstr "crwdns67384:0[ui-element]crwdne67384:0"
+
+#. type: delimited block =
+#: 0510.en.adoc:42
+msgid "The Gosford Quad map uses the North American 1927 horizontal <<datum>>, so select \"[ui-element]#North American Datum 1927#\" from the xref:ui-datum[role=ui-element] drop-down list. In most cases the datum can be found printed on the map, although sometimes an <<ellipsoid>> is listed instead. The Calculator also includes ellipsoids in the _Datum_ drop-down list. If a resource, such as a map with a datum, is not listed in the Calculator, try to find the ellipsoid for that datum using online resources such as http://epsg.io[epsg.io^] and then select the appropriate ellipsoid in the _Datum_ drop-down list."
+msgstr "crwdns67386:0[ui-element]crwdne67386:0"
+
+#. type: delimited block =
+#: 0510.en.adoc:44
+msgid "The coordinates in this example have been specified to the nearest second, so select \"[ui-element]#nearest second#\" from the xref:ui-input-coordinate-precision[role=ui-element] drop-down list. The direction given in the locality description is E (east), so select \"[ui-element]#E#\" in the xref:ui-direction[role=ui-element] drop-down list. The <<offset>> distance is 10 mi (miles), so type \"_10_\" into the [ui-element]#Offset Distance# text box and select \"[ui-element]#miles#\" from the xref:ui-distance-units[role=ui-element] drop-down list."
+msgstr "crwdns67388:0[ui-element]crwdnd67388:0[ui-element]crwdnd67388:0[ui-element]crwdnd67388:0[ui-element]crwdne67388:0"
+
+#. type: delimited block =
+#: 0510.en.adoc:46
+msgid "Bakersfield is a large place, and we don't know if the original locality means 10 miles from the center of town, 10 miles from the city limits, or something else entirely. Given that it is 3 miles from the specified coordinates to the furthest edge of town (as measured on the USGS map), the xref:ui-radial-of-feature[role=ui-element] should be 3 miles (see {gqg}#feature-with-av-obvious-spatial-extent[Feature – with an Obvious Spatial Extent^] in the {gqg}[Georeferencing Quick Reference Guide^]). Enter \"_3_\" into the xref:ui-radial-of-feature[role=ui-element] text field, since the units of the <<radial>> must be in the same units as the offset."
+msgstr "crwdns67390:0{gqg}crwdnd67390:0{gqg}crwdne67390:0"
+
+#. type: delimited block =
+#: 0510.en.adoc:48
+msgid "If this distance had been measured in kilometres the value should be converted to miles using the [ui-element]#Distance Converter# at the bottom of the Calculator. The converted number should then be entered into the appropriate field (see <<converters>> to learn how to use the converters). All distance measurements MUST be in the same units as the locality description for the Calculator to return proper results."
+msgstr "crwdns67392:0[ui-element]crwdne67392:0"
+
+#. type: delimited block =
+#: 0510.en.adoc:50
+msgid "The determination of the coordinates for Bakersfield is only as <<accuracy,accurate>> as the tools that are used; the map, the size of the units on the measurement tool, and the georeferencer's ability to place a marker relative to items on the map. Any error associated with the map itself is accounted for in the xref:ui-coordinate-source[role=ui-element] selection. Error associated with the georeferencer's ability to measure on the map is accounted for in the xref:ui-measurement-error[role=ui-element] field."
+msgstr "crwdns67394:0crwdne67394:0"
+
+#. type: delimited block =
+#: 0510.en.adoc:52
+msgid "To complete the xref:ui-measurement-error[role=ui-element] field, the smallest distance that can be measured on the map reliably and repeatedly must be determined. Generally, features or locations can be distinguished on a map to within about one (1) millimetre, given a ruler with millimetre divisions. If a ruler with English units is used, it may be possible to distinguish to 1/16th of an inch. The quality of the measuring tool, eyesight, and technique may alter these suggested values."
+msgstr "crwdns67396:0crwdne67396:0"
+
+#. type: delimited block =
+#: 0510.en.adoc:54
+msgid "Once the smallest distance that can be measured consistently and reliably has been determined, enter that value and its units into the [ui-element]#Scale Converter# at the bottom of the Calculator, select the scale of the map used for the measurement, and then select the unit of measure into which the conversion should be made. For example, if a digital measuring tool was used to measure to the nearest 0.1 mm on a 1:24000 map and this needs to be converted to miles, enter \"_0.1_\" into the xref:ui-radial-of-feature[role=ui-element], then select \"[ui-element]#mm#\" from the units drop-down list. Next, choose the \"_1:24000_\" scale option in the map scale drop-down list. Finally, select \"[ui-element]#mi#\" in the second drop-down list. The value of 0.1 mm at 1:24000 converted into miles will be displayed in blue (\"_0.00149 mi_\") within the grey text box on the right side of the [ui-element]#Scale Converter#. Type \"_0.00149_\" into the xref:ui-measurement-error[role=ui-element] field, or move it from the _Scale Converter_ using copy and paste keyboard combinations."
+msgstr "crwdns67398:0[ui-element]crwdnd67398:0[ui-element]crwdnd67398:0[ui-element]crwdnd67398:0[ui-element]crwdne67398:0"
+
+#. type: delimited block =
+#: 0510.en.adoc:56
+msgid "Next, make certain that \"[ui-element]#mi#\" is selected in the xref:ui-distance-units[role=ui-element] drop-down, since the locality is described in miles (\"10 mi E…\"). The offset component in this locality is 10 mi, which is <<precision,precise>> to the nearest 10 miles (see the discussion on this topic in the section {gbp}#uncertainty-related-to-offset-precision[Uncertainty Related to Offset Precision^] in {gbp}[Georeferencing Best Practices (Chapman & Wieczorek 2020)^]. Select \"_10 mi_\" in the distance [ui-element]#Precision# drop-down."
+msgstr "crwdns67400:0[ui-element]crwdnd67400:0{gbp}crwdnd67400:0{gbp}crwdnd67400:0[ui-element]crwdne67400:0"
+
+#. type: delimited block =
+#: 0510.en.adoc:58
+msgid "Next, click the xref:ui-calculate[role=ui-element] button. The calculated coordinates (always presented in <<decimal-degrees>>) for the locality \"10 mi E (by air) Bakersfield\" and the xref:ui-uncertainty[role=ui-element] for the calculation (always in meters) will be given in the controls just above the [ui-element]#Distance Converter# at the lower part of the Calculator, as shown in xref:img-calculate[xrefstyle=\"short\"]."
+msgstr "crwdns67402:0[ui-element]crwdne67402:0"
+
+#. type: Block title
+#: 0510.en.adoc:61
+#, no-wrap
+msgid "Step 4: Calculate. The Calculator after clicking on the Calculate button, with all of the relevant text and drop-down boxes filled in or selected for an example of locality type \"Distance at a heading\". Results appear written in blue in the grey text boxes in the middle section of the Calculator below the Calculate button."
+msgstr "crwdns67404:0crwdne67404:0"
+
+#. type: Target for macro image
+#: 0510.en.adoc:62
+#, no-wrap
+msgid "img/web/calculate.png"
+msgstr "crwdns67406:0crwdne67406:0"
+
+#. type: Title ===
+#: 0510.en.adoc:64
+#, no-wrap
+msgid "Step 5: Enter Metadata"
+msgstr "crwdns67408:0crwdne67408:0"
+
+#. type: Plain text
+#: 0510.en.adoc:67
+msgid "After the results of the calculation have been presented, add the name of the georeferencer in the [ui-element]#Georeferenced by# text box. If there is more than one person, separate the names in the list by ' | '. Finally, select the appropriate <<georeference,georeferencing>> [ui-element]#Protocol#. We recommend the {gqg}[Georeferencing Quick Referencing Guide (Zermoglio et al. 2020)^] as the <<georeferencing-protocol>> to follow and select. Do not use this option if the protocol was altered in any way. Rather, make a citable document available and reference that. People will rely on strict application of the georeferencing protocol in order to be able to reproduce a georeference given the same input parameters. If an undocumented protocol is followed, select \"[ui-element]#protocol not recorded#\". The example georeference from xref:img-calculate[xrefstyle=\"short\"], with the metadata filled in, is shown in xref:img-enter-metadata[xrefstyle=\"short\"]."
+msgstr "crwdns67410:0[ui-element]crwdnd67410:0[ui-element]crwdnd67410:0{gqg}crwdnd67410:0[ui-element]crwdne67410:0"
+
+#. type: Block title
+#: 0510.en.adoc:69
+#, no-wrap
+msgid "Step 5: Enter Metadata. The Calculator after entering an example of georeference metadata for the georeferencer and the georeferencing Protocol used."
+msgstr "crwdns67412:0crwdne67412:0"
+
+#. type: Target for macro image
+#: 0510.en.adoc:70
+#, no-wrap
+msgid "img/web/enter-metadata.png"
+msgstr "crwdns67414:0crwdne67414:0"
+
+#. type: Title ===
+#: 0510.en.adoc:72
+#, no-wrap
+msgid "Step 6: Copy Results"
+msgstr "crwdns67416:0crwdne67416:0"
+
+#. type: Plain text
+#: 0510.en.adoc:75
+msgid "The results (in blue in the middle section of the Calculator after clicking on the xref:ui-calculate[role=ui-element] button), including the metadata, can be copied onto the system clipboard by clicking on the [ui-element]#Copy# button, after which a dialog box will appear displaying the content that has been copied, as shown in xref:img-copy-results[xrefstyle=\"short\"]."
+msgstr "crwdns67418:0[ui-element]crwdne67418:0"
+
+#. type: Plain text
+#: 0510.en.adoc:77
+msgid "This dialog box does not get translated based on the language chosen for the Calculator interface. To close the box, click the [ui-element]#OK# button. Once copied, the content can be transferred and pasted to a spreadsheet, database or text file as a tab-delimited record of the data for the current calculation."
+msgstr "crwdns67420:0[ui-element]crwdne67420:0"
+
+#. type: Block title
+#: 0510.en.adoc:79
+#, no-wrap
+msgid "Step 6: Copy Results. Pop-up dialog box after clicking on the Copy button, showing the tab-delimited results of the example georeference that have been copied to the system clipboard."
+msgstr "crwdns67422:0crwdne67422:0"
+
+#. type: Target for macro image
+#: 0510.en.adoc:80
+#, no-wrap
+msgid "img/web/copy-results.png"
+msgstr "crwdns67424:0crwdne67424:0"
+
+#. type: Title ===
+#: 0510.en.adoc:82
+#, no-wrap
+msgid "Step 7: Paste Results"
+msgstr "crwdns67426:0crwdne67426:0"
+
+#. type: Plain text
+#: 0510.en.adoc:85
+msgid "The content on the system clipboard after clicking on the [ui-element]#Copy# button is tab-delimited. It can be pasted into a series of columns of a spreadsheet directly (this works in Excel as well as Google Sheets). It can also be pasted into a tab-delimited text file. When pasting the results, be certain that the order of the fields in the destination document matches the order of the fields in the results. Using http://rs.tdwg.org/dwc/terms/[Darwin Core standard term names^] (see also https://doi.org/10.1371/journal.pone.0029715[Wieczorek et al. 2012^]), the order of the result fields is:"
+msgstr "crwdns67428:0[ui-element]crwdne67428:0"
+
+#. type: Plain text
+#: 0510.en.adoc:87
+msgid "term:dwc[decimalLatitude]"
+msgstr "crwdns67430:0[decimalLatitude]crwdne67430:0"
+
+#. type: Plain text
+#: 0510.en.adoc:88
+msgid "term:dwc[decimalLongitude]"
+msgstr "crwdns67432:0[decimalLongitude]crwdne67432:0"
+
+#. type: Plain text
+#: 0510.en.adoc:89
+msgid "term:dwc[geodeticDatum]"
+msgstr "crwdns67434:0[geodeticDatum]crwdne67434:0"
+
+#. type: Plain text
+#: 0510.en.adoc:90
+msgid "term:dwc[coordinateUncertaintyInMeters]"
+msgstr "crwdns67436:0[coordinateUncertaintyInMeters]crwdne67436:0"
+
+#. type: Plain text
+#: 0510.en.adoc:91
+msgid "term:dwc[coordinatePrecision]"
+msgstr "crwdns67438:0[coordinatePrecision]crwdne67438:0"
+
+#. type: Plain text
+#: 0510.en.adoc:92
+msgid "term:dwc[georeferencedBy]"
+msgstr "crwdns67440:0[georeferencedBy]crwdne67440:0"
+
+#. type: Plain text
+#: 0510.en.adoc:93
+msgid "term:dwc[georeferencedDate]"
+msgstr "crwdns67442:0[georeferencedDate]crwdne67442:0"
+
+#. type: Plain text
+#: 0510.en.adoc:94
+msgid "term:dwc[georeferenceProtocol]"
+msgstr "crwdns67444:0[georeferenceProtocol]crwdne67444:0"
+
+#. type: Plain text
+#: 0510.en.adoc:96
+msgid "Note that only the values are copied and can be pasted, and not the corresponding headers. xref:img-paste-results[xrefstyle=\"short\"] shows the results after being pasted into a cell in a Google Sheet."
+msgstr "crwdns67446:0crwdne67446:0"
+
+#. type: Block title
+#: 0510.en.adoc:98
+#, no-wrap
+msgid "Step 7: Paste Results. Part of a Google Sheet into which the results have been pasted. The column names reflecting Darwin Core terms were already in row 1 when the results were pasted into the cell A2."
+msgstr "crwdns67448:0crwdne67448:0"
+
+#. type: Target for macro image
+#: 0510.en.adoc:99
+#, no-wrap
+msgid "img/web/paste-results.png"
+msgstr "crwdns67450:0crwdne67450:0"
+
+#. type: Title ===
+#: 0510.en.adoc:101
+#, no-wrap
+msgid "Step 8: Start a New Calculation"
+msgstr "crwdns67452:0crwdne67452:0"
+
+#. type: Plain text
+#: 0510.en.adoc:104
+msgid "A new calculation can be started simply by entering new parameter values and selecting new drop-down list values pertinent to the next calculation. If the xref:ui-locality-type[role=ui-element] for the next calculation is different from the previous one, make a new selection on the xref:ui-locality-type[role=ui-element] drop-down list. New parameters will appear that are relevant to the new xref:ui-locality-type[role=ui-element] calculation. Previously entered and chosen values will remain in the text and drop-down boxes and thus carry over to the next calculation whenever possible. This can increase the efficiency of calculations if <<locality>> descriptions that include the same feature are <<georeference,georeferenced>> one after another."
+msgstr "crwdns67454:0crwdne67454:0"
+
+#. type: Plain text
+#: 0510.en.adoc:106
+msgid "Always check that all parameter values and choices are correct before accepting the results of a calculation. xref:img-new-calculation[xrefstyle=\"short\"] shows the Calculator after selecting the xref:ui-locality-type[role=ui-element]: [ui-element]#Geographic feature only# for a new georeference following the georeference calculation shown in xref:img-enter-metadata[xrefstyle=\"short\"]. Without doing anything further, the Calculator would be ready to calculate the georeference for the locality \"Bakersfield\" based on the previous entries. Note that the [ui-element]#Date# value will change automatically when the xref:ui-calculate[role=ui-element] button is clicked."
+msgstr "crwdns67456:0[ui-element]crwdnd67456:0[ui-element]crwdne67456:0"
+
+#. type: Block title
+#: 0510.en.adoc:108
+#, no-wrap
+msgid "Step 8: Start a New Calculation. The Calculator after selecting a new Locality Type to start a new georeference calculation following the calculation from xref:img-enter-metadata[xrefstyle=\"short\"]. Note that there are fewer parameters to enter for this Locality Type, and that the relevant parameter values that were in the previous calculation are preserved for this calculation."
+msgstr "crwdns67458:0crwdne67458:0"
+
+#. type: Target for macro image
+#: 0510.en.adoc:109
+#, no-wrap
+msgid "img/web/new-calculation.png"
+msgstr "crwdns67460:0crwdne67460:0"
+
+#. type: Title ==
+#: 0600.en.adoc:2
+#, no-wrap
+msgid "Calculating Coordinates from a Map"
+msgstr "crwdns67462:0crwdne67462:0"
+
+#. type: Plain text
+#: 0600.en.adoc:5
+msgid "<<georeference,Georeferences>> for every <<locality-type>> require <<coordinates>>. For all of the locality types except \"[ui-element]#Coordinates only#\" and \"[ui-element]#Distance along path#\", the coordinates of the <<corrected-center>> of the reference <<feature>> are needed. In many cases these can be determined directly from a <<gazetteer>> or from an online tool such as Google Maps. If the coordinates of a feature need to be determined from other reference points that have coordinates on a map (such as the corners), there is a nice little trick that can be done with the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator] to determine the coordinates of the feature easily. For example, to georeference the locality \"10 mi E (by air) Bakersfield\", first determine the coordinates for \"Bakersfield\". Suppose the xref:ui-coordinate-source[role=ui-element] is the USGS Gosford 1:24,000 Quad map. Once the corrected centre of Bakersfield has been determined on the map, find a convenient spot on the map having known coordinates, such as the corner nearest to the feature. In this case, the northeast corner of the map is closest and marked with the coordinates 35° 22′ 30″ N, 119° 00′ W."
+msgstr "crwdns67464:0[ui-element]crwdnd67464:0[ui-element]crwdne67464:0"
+
+#. type: Plain text
+#: 0600.en.adoc:7
+msgid "To begin the calculation, select the xref:ui-locality-type[role=ui-element] \"[ui-element]#Distance along orthogonal directions#\" (because the measurement is due south and due west from the northeast corner of the map to the corrected centre of Bakersfield). Next, select \"[ui-element]#degrees minutes seconds#\" as the xref:ui-coordinate-format[role=ui-element]. Enter the coordinates of the known point (the northeast corner of the map, in this example) into the xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element] fields (35° 22′ 30″ N, 119° 0′ 0′ W – don't neglect the hemisphere indicators). Select \"[ui-element]#North American Datum 1927#\" as the xref:ui-datum[role=ui-element] used by the map."
+msgstr "crwdns67466:0[ui-element]crwdnd67466:0[ui-element]crwdnd67466:0[ui-element]crwdne67466:0"
+
+#. type: Plain text
+#: 0600.en.adoc:9
+msgid "Now use a measuring tool (e.g. a ruler) to measure a) the distance between the northeast corner of the map and the line of <<latitude>> of the corrected center of Bakersfield where it meets the east edge of the map, and b) the distance between the northeast corner of the map and the line of <<longitude>> of the corrected center of Bakersfield where it meets the north edge of the map. These are the orthogonal distances to the S and W of the known point, the northeast corner of the map."
+msgstr "crwdns67468:0crwdne67468:0"
+
+#. type: Plain text
+#: 0600.en.adoc:11
+msgid "Convert all measurements made on the maps (mm, cm, or inches) into the distance unit provided in the locality (miles, in this example). Use the [ui-element]#Scale Converter# at the bottom of the Calculator, to do this calculation (see <<converters>>)."
+msgstr "crwdns67470:0[ui-element]crwdne67470:0"
+
+#. type: Plain text
+#: 0600.en.adoc:13
+msgid "The point we have determined to be the corrected center of Bakersfield is 8 mm south of the 35° N line of latitude and 67 mm west of the 119° W line of longitude. After the [ui-element]#Scale Converter# has been used to convert millimetres to miles, cut and paste the values for miles into the [ui-element]#Offset Distance# text boxes on the right side of the Calculator: 0.1193 should be pasted or typed into the [ui-element]#North or South Offset Distance# field, and the cardinal direction drop-down should be set to \"[ui-element]#S#\" (south); 0.99916 should be pasted or typed into the [ui-element]#East or West Offset Distance# field, and the cardinal direction drop-down should be set to \"[ui-element]#W#\" (west). The xref:ui-distance-units[role=ui-element] drop-down should display \"[ui-element]#mi#\" (miles), since that is the unit described in the locality. The Calculator now has all of the parameters necessary to complete the calculation and should appear as in xref:img-calculate-from-a-map[xrefstyle=\"short\"]."
+msgstr "crwdns67472:0[ui-element]crwdnd67472:0[ui-element]crwdnd67472:0[ui-element]crwdnd67472:0[ui-element]crwdnd67472:0[ui-element]crwdnd67472:0[ui-element]crwdnd67472:0[ui-element]crwdne67472:0"
+
+#. type: Block title
+#: 0600.en.adoc:15
+#, no-wrap
+msgid "Calculating coordinates from a map: The Calculator after setting the parameters needed to calculate the coordinates of the corrected center of Bakersfield by using measured offsets south and west of the northeast corner of a 1:24000 map, converted to miles."
+msgstr "crwdns67474:0crwdne67474:0"
+
+#. type: Target for macro image
+#: 0600.en.adoc:16
+#, no-wrap
+msgid "img/web/calculate-from-a-map.png"
+msgstr "crwdns67476:0crwdne67476:0"
+
+#. type: Plain text
+#: 0600.en.adoc:19
+msgid "Next, click the xref:ui-calculate[role=ui-element] button. The calculated coordinates (always in <<decimal-degrees>>) for the corrected center of Bakersfield are displayed in blue in the xref:ui-output-latitude[role=ui-element] and xref:ui-output-longitude[role=ui-element] fields in the results section of the Calculator, as shown in xref:img-calculated-from-a-map[xrefstyle=\"short\"]."
+msgstr "crwdns67478:0crwdne67478:0"
+
+#. type: Plain text
+#: 0600.en.adoc:21
+msgid "This calculation was only to determine a new set of coordinates based on offsets from a known set of coordinates. The parameters Coordinate Precision, Radial of Feature, Measurement Error, and Distance Precision were irrelevant to this calculation."
+msgstr "crwdns67480:0crwdne67480:0"
+
+#. type: Block title
+#: 0600.en.adoc:23
+#, no-wrap
+msgid "Calculated coordinates from a map. The Calculator after clicking on the Calculate button to determine the coordinates of Bakersfield by using measured offsets south and west of the northeast corner of a 1:24000 map, converted to miles."
+msgstr "crwdns67482:0crwdne67482:0"
+
+#. type: Target for macro image
+#: 0600.en.adoc:24
+#, no-wrap
+msgid "img/web/calculated-from-a-map.png"
+msgstr "crwdns67484:0crwdne67484:0"
+
+#. type: Title ==
+#: 0700.en.adoc:2
+#, no-wrap
+msgid "\"Going to\" Calculated Coordinates"
+msgstr "crwdns67486:0crwdne67486:0"
+
+#. type: Plain text
+#: 0700.en.adoc:5
+msgid "Now that the starting <<coordinates>> for the <<corrected-center>> of Bakersfield have been calculated after measuring <<offset,offsets>> on a map, use those coordinates to <<georeference>> subsequent <<locality>> descriptions that reference Bakersfield. Rather than copying and pasting (and possibly also converting) the coordinates into the xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element] fields, click the xref:ui-go-here[role=ui-element] button to copy and convert the previous xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element] from the results into the xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element] fields in the xref:ui-coordinate-format[role=ui-element] currently in use (degrees minutes seconds in this example), as shown in xref:img-going-to[xrefstyle=\"short\"]."
+msgstr "crwdns67488:0crwdne67488:0"
+
+#. type: Block title
+#: 0700.en.adoc:7
+#, no-wrap
+msgid "Calculated coordinates pushed to input coordinates. The Calculator after clicking on the Copy button to move the coordinates in a previous result to the starting coordinates for a new calculation."
+msgstr "crwdns67490:0crwdne67490:0"
+
+#. type: Target for macro image
+#: 0700.en.adoc:8
+#, no-wrap
+msgid "img/web/going-to.png"
+msgstr "crwdns67492:0crwdne67492:0"
+
+#. type: Plain text
+#: 0700.en.adoc:10
+msgid "To complete a georeference using the new coordinates, follow the <<workflow,Basic Workflow>> starting with <<Step 2: Choose a Locality Type>>."
+msgstr "crwdns67494:0crwdne67494:0"
+
+#. type: Title ==
+#: 0800.en.adoc:2
+#, no-wrap
+msgid "Coordinate, Distance, and Scale Converters"
+msgstr "crwdns67496:0crwdne67496:0"
+
+#. type: Plain text
+#: 0800.en.adoc:5
+msgid "The Calculator has three converters built in to eliminate the need for additional tools during the <<georeference,georeferencing>> process. Built into the parameters section of the Calculator is a converter to change the format of <<coordinates>> between three <<geographic-coordinates,geographic coordinate>> options: <<decimal-degrees>>, degrees decimal minutes, and degrees minutes seconds."
+msgstr "crwdns67498:0crwdne67498:0"
+
+#. type: Plain text
+#: 0800.en.adoc:7
+msgid "To convert between coordinate formats, simply select the desired format from the xref:ui-coordinate-format[role=ui-element] drop-down list. The text and drop-down boxes for the xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element] will change and be populated with the values in the new format. For <<coordinate-system,coordinate systems>> other than geographic coordinates (e.g. <<UTM>>), a coordinate transformation into geographic coordinates will have to be done to use the Georeferencing Calculator."
+msgstr "crwdns67500:0crwdne67500:0"
+
+#. type: Plain text
+#: 0800.en.adoc:9
+msgid "Below the xref:ui-calculate[role=ui-element] section of the Calculator is a [ui-element]#Distance Converter#. To convert a distance from one unit to another, put the value and units in the text and drop-down boxes in the _Distance Converter_, to the left of the \"=\". The value in the units of the drop-down box will appear in blue in the text box with the grey background on the right side of the \"=\". For example, to convert 10 miles into kilometres, enter \"_10_\" in the first field of the _Distance Converter_, select \"[ui-element]#mi#\" from the left-hand unit drop-down list, and select \"[ui-element]#km#\" from the right-hand unit drop-down list. The result, \"_16.09344_\", automatically appears in the right-hand text box. This value can be copied and placed into a distance field in the input area of the Calculator or elsewhere (see xref:img-distance-conversion[xrefstyle=\"short\"])."
+msgstr "crwdns67502:0[ui-element]crwdnd67502:0[ui-element]crwdnd67502:0[ui-element]crwdne67502:0"
+
+#. type: Block title
+#: 0800.en.adoc:11
+#, no-wrap
+msgid "Distance Conversion. The Distance Converter section of the Calculator showing a conversion of 10 miles into kilometres."
+msgstr "crwdns67504:0crwdne67504:0"
+
+#. type: Target for macro image
+#: 0800.en.adoc:12
+#, no-wrap
+msgid "img/web/distance-conversion.png"
+msgstr "crwdns67506:0crwdne67506:0"
+
+#. type: Plain text
+#: 0800.en.adoc:15
+msgid "Below the [ui-element]#Distance Converter# is a [ui-element]#Scale Converter# designed to convert a measurement on a map of a given scale to a real-world distance in another unit. To convert a distance measured on a map with a known scale into a distance on the ground, put the distance value, distance units, and map scale in the text and drop-down boxes in the [ui-element]#Scale Converter#, to the left of the \"=\". The value in the units of the drop-down box to the right of the \"=\" will appear in blue in the text box with the grey background on the right side of the \"=\". For example, to convert a map measurement of 8 centimetres on a 1:50000 map into miles on the ground, enter \"_8_\" in the first field of the [ui-element]#Scale Converter#, select \"[ui-element]#cm#\" from the left-hand unit drop-down list, select \"_1:50000_\" in the second drop-down list, containing scales, and select \"[ui-element]#mi#\" from the right-hand unit drop-down list. The result, \"_2.48548_\", automatically appears in the right-hand text box. This value can be copied and placed into a distance field in the input area of the Calculator or elsewhere (see xref:img-scale-conversion[xrefstyle=\"short\"])."
+msgstr "crwdns67508:0[ui-element]crwdnd67508:0[ui-element]crwdnd67508:0[ui-element]crwdnd67508:0[ui-element]crwdnd67508:0[ui-element]crwdnd67508:0[ui-element]crwdne67508:0"
+
+#. type: Block title
+#: 0800.en.adoc:17
+#, no-wrap
+msgid "Map Measurement Distance Conversion. The [ui-element]#Scale Converter# section of the Calculator showing a conversion of 8 centimetres on a map of 1:50000 scale to miles on the ground."
+msgstr "crwdns67510:0[ui-element]crwdne67510:0"
+
+#. type: Target for macro image
+#: 0800.en.adoc:18
+#, no-wrap
+msgid "img/web/scale-conversion.png"
+msgstr "crwdns67512:0crwdne67512:0"
+
+#. type: Title ==
+#: 0900.en.adoc:2
+#, no-wrap
+msgid "Understanding uncertainty contributions"
+msgstr "crwdns67514:0crwdne67514:0"
+
+#. type: Plain text
+#: 0900.en.adoc:5
+msgid "The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator^] is an excellent tool for investigating the contributions to <<uncertainty>> from distinct sources. For any given xref:ui-locality-type[role=ui-element], one can nullify all but one source of uncertainty to see what the contribution to overall uncertainty is from that source. For example, to see what the contribution to overall uncertainty is from an unknown <<datum>> at a given <<location>>, choose the \"Coordinate only\" xref:ui-locality-type[role=ui-element], set the xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element] to the place that needs to be checked, set the xref:ui-coordinate-source[role=ui-element] to \"gazetteer\" or \"locality description\" (because neither of these choices contributes an uncertainty to the calculation), select \"datum not recorded\" from the xref:ui-datum[role=ui-element] drop-down list, select \"exact\" from the xref:ui-input-coordinate-precision[role=ui-element] drop-down list, set the xref:ui-measurement-error[role=ui-element] to \"0\". With these settings, the only source of uncertainty is the unknown datum. At the coordinate 0,0, the calculated uncertainty is 5030m, as shown in xref:img-isolating-uncertainty[xrefstyle=\"short\"]. This large uncertainty reflects the maximum distance between the point 0,0 in any <<geographic-coordinate-reference-system>> and the point 0,0 in the coordinate reference system <<WGS84>>. See {gbp}#coordinate-reference-system[Coordinate Reference System^] in {gbp}[Georeferencing Best Practices (Chapman & Wieczorek 2020)^] for further discussion on the subject."
+msgstr "crwdns67516:0{gbp}crwdnd67516:0{gbp}crwdne67516:0"
+
+#. type: Block title
+#: 0900.en.adoc:7
+#, no-wrap
+msgid "Isolating uncertainty from an unknown datum. The Calculator showing parameter settings that reveal the uncertainty due to an unknown datum at the coordinate 0,0. The choices of all other parameters nullify all other contributions to overall uncertainty."
+msgstr "crwdns67518:0crwdne67518:0"
+
+#. type: Target for macro image
+#: 0900.en.adoc:8
+#, no-wrap
+msgid "img/web/isolating-uncertainty.png"
+msgstr "crwdns67520:0crwdne67520:0"
+
+#. type: Title ==
+#: appa.en.adoc:1
+#, no-wrap
+msgid "Appendix A: UI components and how they relate to calculations"
+msgstr "crwdns67522:0crwdne67522:0"
+
+#. type: Labeled list
+#: appa.en.adoc:3
+#, no-wrap
+msgid "[[ui-calculate]]Calculate"
+msgstr "crwdns67524:0[ui-calculate]crwdne67524:0"
+
+#. type: Plain text
+#: appa.en.adoc:4
+msgid "Button used to calculate <<coordinates>> and <<uncertainty>> using the <<point-radius>> <<georeferencing-method,method>> (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]), based on the values of parameters pertinent to the selected xref:ui-locality-type[role=ui-element]. Clicking on the xref:ui-calculate[role=ui-element] button fills in the results section of the Calculator formatted as <<Darwin-Core>> fields that need to be recorded for a <<georeference>> that follows the {gbp}[Georeferencing Best Practices (Chapman & Wieczorek 2020)^] (i.e. term:dwc[decimalLatitude], term:dwc[decimalLongitude], term:dwc[geodeticDatum], term:dwc[coordinateUncertaintyInMeters], term:dwc[coordinatePrecision], term:dwc[georeferencedBy], term:dwc[georeferencedDate], and term:dwc[georeferenceProtocol]). The calculation combines the sources of uncertainty using an algorithm appropriate to the <<locality-type>> (see {gbp}#calculating-uncertainties[Calculating Uncertainties^] in Georeferencing Best Practices). The calculations account for <<uncertainty,uncertainties>> due to <<coordinate-precision>>, unknown <<datum>>, data source, <<GPS>> <<error>>, measurement error, <<feature>> <<geographic-radial>>, distance <<precision>>, and <<heading>> precision."
+msgstr "crwdns67526:0{gbp}crwdnd67526:0[decimalLatitude]crwdnd67526:0[decimalLongitude]crwdnd67526:0[geodeticDatum]crwdnd67526:0[coordinateUncertaintyInMeters]crwdnd67526:0[coordinatePrecision]crwdnd67526:0[georeferencedBy]crwdnd67526:0[georeferencedDate]crwdnd67526:0[georeferenceProtocol]crwdnd67526:0{gbp}crwdne67526:0"
+
+#. type: Labeled list
+#: appa.en.adoc:5
+#, no-wrap
+msgid "[[ui-coordinate-format]]Coordinate Format"
+msgstr "crwdns67528:0[ui-coordinate-format]crwdne67528:0"
+
+#. type: Plain text
+#: appa.en.adoc:6
+msgid "Defines the original <<geographic-coordinates,geographic coordinate>> format (<<decimal-degrees>>, degrees minutes seconds, degrees decimal minutes) of the <<coordinates,coordinate>> source. Equivalent to the <<Darwin-Core>> term term:dwc[verbatimCoordinateSystem]. Selecting the original xref:ui-coordinate-format[role=ui-element] allows the coordinates to be entered in their native format and forces the Calculator to present appropriate options for xref:ui-input-coordinate-precision[role=ui-element]. Note that changing the xref:ui-coordinate-format[role=ui-element] will reset the xref:ui-input-coordinate-precision[role=ui-element] value to \"nearest degree\". Be sure to correct this for the actual <<coordinate-precision>>. Behind the scenes, the Calculator stores coordinates in decimal degrees to seven decimal places. This is to preserve the correct coordinates in all formats regardless of how many transformations are done."
+msgstr "crwdns67530:0[verbatimCoordinateSystem]crwdne67530:0"
+
+#. type: Labeled list
+#: appa.en.adoc:7
+#, no-wrap
+msgid "[[ui-input-coordinate-precision,Coordinate Precision]]Coordinate Precision (input)"
+msgstr "crwdns67532:0crwdne67532:0"
+
+#. type: Plain text
+#: appa.en.adoc:8
+msgid "Labelled as _Precision_ in the first column of input parameters, this drop-down list is populated with levels of <<precision>> in keeping with the xref:ui-coordinate-format[role=ui-element] chosen for the verbatim original <<coordinates>>. This is similar to, but *NOT* the same as the <<Darwin-Core>> term term:dwc[coordinatePrecision], which applies to the output coordinates. A value of \"[ui-element]#exact#\" is any level of <<precision>> higher than the otherwise highest *precision* given on the list."
+msgstr "crwdns67534:0[coordinatePrecision]crwdnd67534:0[ui-element]crwdne67534:0"
+
+#. type: Named 'caption' AttributeList argument for style 'caption'
+#: appa.en.adoc:10
+#, no-wrap
+msgid "Example"
+msgstr "crwdns67536:0crwdne67536:0"
+
+#. type: delimited block =
+#: appa.en.adoc:13
+msgid "For 35° 22′ 24″, the xref:ui-input-coordinate-precision[role=ui-element] would be \"nearest second\"."
+msgstr "crwdns67538:0crwdne67538:0"
+
+#. type: Labeled list
+#: appa.en.adoc:15
+#, no-wrap
+msgid "[[ui-output-coordinate-precision,Coordinate Precision]]Coordinate Precision (output)"
+msgstr "crwdns67540:0crwdne67540:0"
+
+#. type: Plain text
+#: appa.en.adoc:16
+msgid "Labelled as _Precision_ in the results, this text box is populated with <<precision>> of the output <<coordinates>>, and as such is equivalent to the <<Darwin-Core>> term term:dwc[coordinatePrecision]. The precision of the output in the Calculator is always \"0.0000001\", no matter how many digits appear to the right of the decimal indicator in the xref:ui-output-latitude[role=ui-element] and xref:ui-output-longitude[role=ui-element]."
+msgstr "crwdns67542:0[coordinatePrecision]crwdne67542:0"
+
+#. type: Labeled list
+#: appa.en.adoc:17
+#, no-wrap
+msgid "[[ui-coordinate-source]]Coordinate Source"
+msgstr "crwdns67544:0[ui-coordinate-source]crwdne67544:0"
+
+#. type: Plain text
+#: appa.en.adoc:18
+msgid "The resources (map, <<GPS>>, <<gazetteer>>, <<locality>> description) from which the xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element] were derived. Related to, but *NOT* the same as the <<Darwin-Core>> term term:dwc[georeferenceSources], which requires the specific resources used rather than their characteristics. Note that the <<uncertainty,uncertainties>> from the two sources \"_gazetteer_\" and \"_locality description_\" can not be anticipated universally, and therefore do not contribute to the uncertainty in the calculations. If the <<error>> characteristics of the specific sources of this type are known, they can be added in the xref:ui-measurement-error[role=ui-element] before calculating. If the source \"_GPS_\" is selected, the label for xref:ui-measurement-error[role=ui-element] will change to xref:ui-gps-accuracy[role=ui-element], which is where <<accuracy>> distance of the <<GPS>> at the time the <<coordinates>> were taken should be entered. For details on xref:ui-gps-accuracy[role=ui-element] see {gbp}using-a-gps[Using a GPS^] in {gbp}[Georeferencing Best Practices (Chapman & Wieczorek 2020)^]."
+msgstr "crwdns67546:0[georeferenceSources]crwdnd67546:0{gbp}crwdnd67546:0{gbp}crwdne67546:0"
+
+#. type: Labeled list
+#: appa.en.adoc:19
+#, no-wrap
+msgid "[[ui-datum]]Datum"
+msgstr "crwdns67548:0[ui-datum]crwdne67548:0"
+
+#. type: Plain text
+#: appa.en.adoc:20
+msgid "Defines the position of the origin and orientation of an <<ellipsoid>> upon which the <<coordinates>> are based for the given xref:ui-coordinate-source[role=ui-element]. Equivalent to the <<Darwin-Core>> term term:dwc[geodeticDatum]. The Calculator includes ellipsoids on the xref:ui-datum[role=ui-element] drop-down list, as sometimes that is all that coordinate source shows. The choice of xref:ui-datum[role=ui-element] has two important effects. The first is the contribution to <<uncertainty>> if the <<datum>> of the source coordinates is not known. If the datum and ellipsoid are not known, choose the option \"_datum not recorded_\". _Uncertainty_ due to an unknown datum can be severe and varies geographically in a complex way, with a worst-case contribution of 5359 m (see {gbp}#coordinate-reference-system[Coordinate Reference System^] in {gbp}[Georeferencing Best Practices (Chapman & Wieczorek 2020)^]. The second important effect of the xref:ui-datum[role=ui-element] selection is to provide the characteristics of the ellipsoid model of the earth, which the distance calculations depend on."
+msgstr "crwdns67550:0[geodeticDatum]crwdnd67550:0{gbp}crwdnd67550:0{gbp}crwdne67550:0"
+
+#. type: Labeled list
+#: appa.en.adoc:21
+#, no-wrap
+msgid "[[ui-direction]]Direction"
+msgstr "crwdns67552:0[ui-direction]crwdne67552:0"
+
+#. type: Plain text
+#: appa.en.adoc:22
+msgid "The <<heading>> given in the <<locality>> description, either as a standard compass point (see https://en.wikipedia.org/wiki/Boxing_the_compass[Boxing the compass]) or as a number of degrees in the clockwise direction from north. If \"_degrees from N_\" is selected, there will appear a text box to the right of it in which to enter the degree heading."
+msgstr "crwdns67554:0crwdne67554:0"
+
+#. type: Plain text
+#: appa.en.adoc:24
+msgid "Some marine locality descriptions reference a direction to a landmark (azimuth) rather than a heading from the current location, for example, \"327° to Nubble Lighthouse\". To make an offset at a heading calculation for such a locality description, use the compass point 180 degrees from the one given in the locality description (147° in the example above) as the Direction."
+msgstr "crwdns67556:0crwdne67556:0"
+
+#. type: Labeled list
+#: appa.en.adoc:25
+#, no-wrap
+msgid "[[ui-distance-precision]]Distance Precision"
+msgstr "crwdns67558:0[ui-distance-precision]crwdne67558:0"
+
+#. type: Plain text
+#: appa.en.adoc:26
+msgid "Labelled as [ui-element]#Precision# in the second column of input parameters. Refers to the <<precision>> with which a distance was described in a <<locality>> (see {gbp}#uncertainty-related-to-offset-precision[Uncertainty Related to Offset Precision] in {gbp}[Georeferencing Best Practices (Chapman & Wieczorek 2020)^]. This drop-down list is populated in keeping with the _Distance Units_ chosen and contains powers of ten and simple fractions to indicate the precision demonstrated in the verbatim original <<offset>>."
+msgstr "crwdns67560:0[ui-element]crwdnd67560:0{gbp}crwdnd67560:0{gbp}crwdne67560:0"
+
+#. type: Named 'caption' AttributeList argument for style 'caption'
+#: appa.en.adoc:28 appa.en.adoc:37
+#, no-wrap
+msgid "Examples"
+msgstr "crwdns67562:0crwdne67562:0"
+
+#. type: delimited block =
+#: appa.en.adoc:32
+msgid "select \"_1 mi_\" for \"6 mi NE of Davis,\" select \"_1/10 km_\" for \"3.2 km SE of Lisbon\"."
+msgstr "crwdns67564:0crwdne67564:0"
+
+#. type: Labeled list
+#: appa.en.adoc:34
+#, no-wrap
+msgid "[[ui-distance-units]]Distance Units"
+msgstr "crwdns67566:0[ui-distance-units]crwdne67566:0"
+
+#. type: Plain text
+#: appa.en.adoc:35
+msgid "Denotes the real world units used in the <<locality>> description. It is important to select the original units as given in the description, because this is needed to properly incorporate the <<uncertainty>> from distance <<precision>>."
+msgstr "crwdns67568:0crwdne67568:0"
+
+#. type: delimited block =
+#: appa.en.adoc:41
+msgid "select \"_mi_\" for \"10 mi E (by air) Bakersfield,\" + select \"_km_\" for \"3.2 km SE of Lisbon\"."
+msgstr "crwdns67570:0crwdne67570:0"
+
+#. type: Labeled list
+#: appa.en.adoc:43
+#, no-wrap
+msgid "[[ui-go-here]]Go here"
+msgstr "crwdns67572:0[ui-go-here]crwdne67572:0"
+
+#. type: Plain text
+#: appa.en.adoc:44
+msgid "Button used to copy and potentially convert the calculated <<coordinates>> from the xref:ui-output-latitude[role=ui-element] and xref:ui-output-longitude[role=ui-element] into the xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element] fields in preparation for a new calculation based on the previous results, eliminating the need to copy manually or to use cut and paste keyboard combinations."
+msgstr "crwdns67574:0crwdne67574:0"
+
+#. type: Labeled list
+#: appa.en.adoc:45
+#, no-wrap
+msgid "[[ui-gps-accuracy]]GPS Accuracy"
+msgstr "crwdns67576:0[ui-gps-accuracy]crwdne67576:0"
+
+#. type: Plain text
+#: appa.en.adoc:46
+msgid "When \"_GPS_\" is selected from the xref:ui-coordinate-source[role=ui-element] drop-down list, the label for the xref:ui-measurement-error[role=ui-element] text box changes to xref:ui-gps-accuracy[role=ui-element]. Enter the value given by the <<GPS>> at the time the <<coordinates>> were captured. If not known, enter 100 m for standard hand-held GPS coordinates taken before 1 May 2000 when Selective Availability was discontinued. After that, use 30 m as a default value."
+msgstr "crwdns67578:0crwdne67578:0"
+
+#. type: Labeled list
+#: appa.en.adoc:47
+#, no-wrap
+msgid "[[ui-language]]Language"
+msgstr "crwdns67580:0[ui-language]crwdne67580:0"
+
+#. type: Plain text
+#: appa.en.adoc:48
+msgid "The Calculator may be used in English, Spanish, Portuguese, French, or Dutch. The language can be changed using the [ui-element]#Language# drop-down in the upper left-hand corner of the Calculator. Regardless of the language chosen, the Calculator always uses a period ('.') as the decimal separator. If you would like to contribute labels for another language, please submit an issue to the Calculator https://github.com/VertNet/georefcalculator/issues[GitHub repository]."
+msgstr "crwdns67582:0[ui-element]crwdne67582:0"
+
+#. type: Labeled list
+#: appa.en.adoc:49
+#, no-wrap
+msgid "[[ui-input-latitude]]Input Latitude"
+msgstr "crwdns67584:0[ui-input-latitude]crwdne67584:0"
+
+#. type: Plain text
+#: appa.en.adoc:50
+msgid "The <<geographic-coordinates,geographic coordinate>> north or south of the Equator (where <<latitude>> is 0) for the point of reference for the calculation, which is determined by the specific <<locality-type>>. <<latitude,Latitudes>> north of the Equator are positive by convention, while latitudes to the south are negative. The minus sign (\"−\") should be included as appropriate. The Calculator supports degree-based <<geographic-coordinates,geographic coordinate>> formats for latitude and <<longitude>>: <<decimal-degrees>> (e.g. 35.3733333), degrees decimal minutes (e.g. 35° 22.4′ N) and <<DMS,degrees-minutes-seconds>> (e.g. 35° 22′ 24″ N)."
+msgstr "crwdns67586:0crwdne67586:0"
+
+#. type: Labeled list
+#: appa.en.adoc:51
+#, no-wrap
+msgid "[[ui-output-latitude]]Output Latitude"
+msgstr "crwdns67588:0[ui-output-latitude]crwdne67588:0"
+
+#. type: Plain text
+#: appa.en.adoc:52
+msgid "The resulting <<latitude>> for a given calculation, in <<decimal-degrees>>. Equivalent to the <<Darwin-Core>> term term:dwc[decimalLatitude]. See also, xref:ui-input-latitude[role=ui-element]."
+msgstr "crwdns67590:0[decimalLatitude]crwdne67590:0"
+
+#. type: Labeled list
+#: appa.en.adoc:53
+#, no-wrap
+msgid "[[ui-locality-type]]Locality Type"
+msgstr "crwdns67592:0[ui-locality-type]crwdne67592:0"
+
+#. type: Plain text
+#: appa.en.adoc:54
+msgid "The pattern of the most specific part of a <<locality>> description to be <<georeference,georeferenced>>. The Calculator can compute georeferences for six basic <<locality-type,locality types>>: _Coordinates only_, _Geographic feature only_, _Distance only_, _Distance along a path_, _Distance along orthogonal directions_, and _Distance at a heading_. Selecting a xref:ui-locality-type[role=ui-element] will configure the Calculator to show all of the parameters that need to be set or chosen in order to do the georeference calculation. The {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] gives specific instructions for how to set the parameters for different examples of each of the locality types."
+msgstr "crwdns67594:0{gqg}crwdne67594:0"
+
+#. type: Labeled list
+#: appa.en.adoc:55
+#, no-wrap
+msgid "[[ui-input-longitude]]Input Longitude"
+msgstr "crwdns67596:0[ui-input-longitude]crwdne67596:0"
+
+#. type: Plain text
+#: appa.en.adoc:56
+msgid "The <<geographic-coordinates,geographic coordinate>> east or west of the <<prime-meridian>> (an arc between the north and south poles where <<longitude>> is 0) for the point of reference for the calculation, which is determined by the specific <<locality-type>>. Longitudes east of the prime meridian are positive by convention, while longitudes to the west are negative. The minus sign (\"−\") should be included as appropriate. The Calculator supports degree-based <<geographic-coordinates,geographic coordinate>> formats for <<latitude>> and longitude: <<decimal-degrees>> (−105.3733333), degrees decimal minutes (105° 22.4′ W), and degrees minutes seconds (105° 22′ 24″ W), ."
+msgstr "crwdns67598:0crwdne67598:0"
+
+#. type: Labeled list
+#: appa.en.adoc:57
+#, no-wrap
+msgid "[[ui-output-longitude]]Output Longitude"
+msgstr "crwdns67600:0[ui-output-longitude]crwdne67600:0"
+
+#. type: Plain text
+#: appa.en.adoc:58
+msgid "The resulting <<longitude>> for a given calculation in <<decimal-degrees>>. Equivalent to the <<Darwin-Core>> term term:dwc[decimalLongitude]. See also, xref:ui-input-longitude[role=ui-element]."
+msgstr "crwdns67602:0[decimalLongitude]crwdne67602:0"
+
+#. type: Labeled list
+#: appa.en.adoc:59
+#, no-wrap
+msgid "[[ui-measurement-error]]Measurement Error"
+msgstr "crwdns67604:0[ui-measurement-error]crwdne67604:0"
+
+#. type: Plain text
+#: appa.en.adoc:60
+msgid "Accounts for <<error>> associated with the ability to distinguish one point from another using any measuring tool, such as rulers on paper maps or the measuring tools on Google Maps or Google Earth. The units of the measurement must be the same as those for the <<locality>> description. The _Distance Converter_ at the bottom of the Calculator is provided to aid in changing a measurement to the locality description units."
+msgstr "crwdns67606:0crwdne67606:0"
+
+#. type: Plain text
+#: appa.en.adoc:62
+msgid "If more than one measurement is made in the course of a georeference determination, enter the sum of all the measurement errors."
+msgstr "crwdns67608:0crwdne67608:0"
+
+#. type: Labeled list
+#: appa.en.adoc:63
+#, no-wrap
+msgid "[[ui-offset-distance]]Offset Distance"
+msgstr "crwdns67610:0[ui-offset-distance]crwdne67610:0"
+
+#. type: Plain text
+#: appa.en.adoc:64
+msgid "The linear distance from a point of origin. <<offset,Offsets>> are used for the _Locality Types_ \"_Distance at a heading_\" and \"_Distance only_\". If the xref:ui-locality-type[role=ui-element] \"_Distance in orthogonal directions_\" is selected, there are two distinct offsets:"
+msgstr "crwdns67612:0crwdne67612:0"
+
+#. type: Labeled list
+#: appa.en.adoc:66
+#, no-wrap
+msgid "North or South Offset Distance"
+msgstr "crwdns67614:0crwdne67614:0"
+
+#. type: Plain text
+#: appa.en.adoc:67
+msgid "The distance to the north or south of the xref:ui-input-latitude[role=ui-element]."
+msgstr "crwdns67616:0crwdne67616:0"
+
+#. type: Labeled list
+#: appa.en.adoc:67
+#, no-wrap
+msgid "East or West Offset Distance"
+msgstr "crwdns67618:0crwdne67618:0"
+
+#. type: Plain text
+#: appa.en.adoc:68
+msgid "The distance to the east or west of the xref:ui-input-longitude[role=ui-element]."
+msgstr "crwdns67620:0crwdne67620:0"
+
+#. type: Labeled list
+#: appa.en.adoc:70
+#, no-wrap
+msgid "[[ui-radial-of-feature]]Radial of Feature"
+msgstr "crwdns67622:0[ui-radial-of-feature]crwdne67622:0"
+
+#. type: Plain text
+#: appa.en.adoc:71
+msgid "The <<feature>> is the place in the <<locality>> description that corresponds to the xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element]. Types of features vary widely and include, for example, populated places, street addresses, junctions, crossings, lakes, mountains, parks, islands, etc. The <<geographic-radial>> of the feature is the distance from the <<corrected-center>> of the feature to the furthest point on the <<geographic-boundary>> of that feature (see {gbp}#extent-of-a-location[Extent of a Location] in {gbp}[Georeferencing Best Practices (Chapman & Wieczorek 2020)^] and {gqg}#radial-of-feature[Radial of Feature] in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^])."
+msgstr "crwdns67624:0{gbp}crwdnd67624:0{gbp}crwdnd67624:0{gqg}crwdnd67624:0{gqg}crwdne67624:0"
+
+#. type: Labeled list
+#: appa.en.adoc:72
+#, no-wrap
+msgid "[[ui-uncertainty,Uncertainty]]Uncertainty (m)"
+msgstr "crwdns67626:0crwdne67626:0"
+
+#. type: Plain text
+#: appa.en.adoc:73
+msgid "The resulting combination of all sources of <<uncertainty>> (<<coordinate-precision>>, unknown <<datum>>, data source, <<GPS>> <<accuracy>>, measurement <<error>>, <<feature>> <<geographic-radial>>, distance <<precision>>, and <<heading>> precision) expressed as a linear distance – the radius in the <<point-radius>> <<georeferencing-method,method>> (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]). Along with the xref:ui-output-latitude[role=ui-element], xref:ui-output-longitude[role=ui-element], and xref:ui-datum[role=ui-element], the radius defines a <<smallest-enclosing-circle>> containing all of the possible places a <<locality>> description could mean."
+msgstr "crwdns67628:0crwdne67628:0"
+
+#. type: Labeled list
+#: appa.en.adoc:74
+#, no-wrap
+msgid "[[ui-version]]Version"
+msgstr "crwdns67630:0[ui-version]crwdne67630:0"
+
+#. type: Plain text
+#: appa.en.adoc:74
+msgid "Displayed in the bottom left-hand corner of the Calculator in the format yyyymmddll, where ll is the two-letter language code of the interface."
+msgstr "crwdns67632:0crwdne67632:0"
+
+#. type: Title ==
+#: glossary.en.adoc:2
+#, no-wrap
+msgid "Glossary"
+msgstr "crwdns67634:0crwdne67634:0"
+
+#.  Update after GBP glossary is refined. Consider adding text citing GBP. Remove terms not used here.
+#. type: Labeled list
+#: glossary.en.adoc:6
+#, no-wrap
+msgid "[[accuracy]]accuracy"
+msgstr "crwdns67636:0[accuracy]crwdne67636:0"
+
+#. type: Plain text
+#: glossary.en.adoc:7
+msgid "The closeness of an estimated value (for example, measured or computed) to a standard or accepted (\"true\") value. Antonym: inaccuracy. Compare <<error>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>."
+msgstr "crwdns67638:0crwdne67638:0"
+
+#. type: Plain text
+#: glossary.en.adoc:9
+msgid "\"The true value is not known, but only estimated, the accuracy of the measured quantity is also unknown. Therefore, accuracy of coordinate information can only be estimated.\" (ftp://glonass-center.ru/REPORTS/OLD/NRCAN/Accuracy_Standards.pdf[Geodetic Survey Division 1996^], https://www.fgdc.gov/standards/projects/accuracy/part3/chapter3[FGDC 1998^])."
+msgstr "crwdns67640:0crwdne67640:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:10
+#, no-wrap
+msgid "[[altitude]]altitude"
+msgstr "crwdns67642:0[altitude]crwdne67642:0"
+
+#. type: Plain text
+#: glossary.en.adoc:11
+msgid "A measurement of the vertical distance above a <<vertical datum>>, usually <<mean sea level>> or <<geoid>>. For points on the surface of the earth, altitude is synonymous with <<elevation>>."
+msgstr "crwdns67644:0crwdne67644:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:12
+#, no-wrap
+msgid "[[antimeridian]]antimeridian"
+msgstr "crwdns67646:0[antimeridian]crwdne67646:0"
+
+#. type: Plain text
+#: glossary.en.adoc:13
+msgid "The <<meridian>> of <<longitude>> opposite a given <<meridian>>. A meridian and its antimeridian form a continuous ring around the Earth. The \"Antimeridian\" is the specific meridian of longitude opposite the <<prime meridian>> and is used as the rough basis of the International Date Line."
+msgstr "crwdns67648:0crwdne67648:0"
+
+#. type: Plain text
+#: glossary.en.adoc:15
+msgid "[[bathymetry]]bathymetry::"
+msgstr "crwdns67650:0[bathymetry]crwdne67650:0"
+
+#. type: Plain text
+#: glossary.en.adoc:16
+msgid "The measure of <<depth>> of water in oceans, seas and lakes."
+msgstr "crwdns67652:0crwdne67652:0"
+
+#. type: Plain text
+#: glossary.en.adoc:17
+msgid "The shapes of underwater terrains, including underwater topography and sea floor mapping."
+msgstr "crwdns67654:0crwdne67654:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:18
+#, no-wrap
+msgid "[[bias]]bias"
+msgstr "crwdns67656:0[bias]crwdne67656:0"
+
+#. type: Plain text
+#: glossary.en.adoc:19
+msgid "The difference between the average value of a set of measurements and the accepted true value. Bias is equivalent to the average systematic <<error>> in a set of measurements and a correction to negate the systematic error can be made by adjusting for the bias. Compare <<accuracy>>, <<error>>, <<precision>>, <<false precision>> and <<uncertainty>>."
+msgstr "crwdns67658:0crwdne67658:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:20
+#, no-wrap
+msgid "[[boundary]]boundary"
+msgstr "crwdns67660:0[boundary]crwdne67660:0"
+
+#. type: Plain text
+#: glossary.en.adoc:21
+msgid "The spatial divide between what is inside a <<location>> and what is outside of it."
+msgstr "crwdns67662:0crwdne67662:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:22
+#, no-wrap
+msgid "[[bounding-box]]bounding box"
+msgstr "crwdns67664:0[bounding-box]crwdne67664:0"
+
+#. type: Plain text
+#: glossary.en.adoc:23
+msgid "An area defined by the <<coordinates>> of two diagonally opposite corners of a polygon, where those two corners define the north-south and east-west extremes of the area contained within."
+msgstr "crwdns67666:0crwdne67666:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:24
+#, no-wrap
+msgid "clause"
+msgstr "crwdns67668:0crwdne67668:0"
+
+#. type: Plain text
+#: glossary.en.adoc:25
+msgid "see <<locality clause>>."
+msgstr "crwdns67670:0crwdne67670:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:26
+#, no-wrap
+msgid "[[coordinate-format]]coordinate format"
+msgstr "crwdns67672:0[coordinate-format]crwdne67672:0"
+
+#. type: Plain text
+#: glossary.en.adoc:27
+msgid "The format in which <<coordinates>> are encoded, such as \"<<decimal degrees>>\", \"<<DMS,degrees minutes seconds>>\", \"degrees decimal minutes\", or <<UTM>>."
+msgstr "crwdns67674:0crwdne67674:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:28
+#, no-wrap
+msgid "[[coordinate-precision]]coordinate precision"
+msgstr "crwdns67676:0[coordinate-precision]crwdne67676:0"
+
+#. type: Plain text
+#: glossary.en.adoc:29
+msgid "The fraction of a degree corresponding to the number of significant digits in the source <<coordinates>>. For example, if the coordinates are reported to the nearest minute, the <<precision>> is 1/3600th (0.00027778) of a degree; if a <<decimal-degrees,decimal degree>> is reported to two decimal places, the precision is 0.01 of a degree."
+msgstr "crwdns67678:0crwdne67678:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:30
+#, no-wrap
+msgid "[[coordinate-reference-system]]coordinate reference system"
+msgstr "crwdns67680:0[coordinate-reference-system]crwdne67680:0"
+
+#. type: Plain text
+#: glossary.en.adoc:31
+msgid "(also <<spatial reference system>>) A <<coordinate system>> defined in relation to a standard reference or <<datum>>."
+msgstr "crwdns67682:0crwdne67682:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:32
+#, no-wrap
+msgid "[[coordinate-system]]coordinate system"
+msgstr "crwdns67684:0[coordinate-system]crwdne67684:0"
+
+#. type: Plain text
+#: glossary.en.adoc:33
+msgid "A geometric system that defines the nature and relationship of the <<coordinates>> it uses to uniquely define positions. Examples include the <<geographic coordinate system>> and the <<UTM>> coordinate system."
+msgstr "crwdns67686:0crwdne67686:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:34
+#, no-wrap
+msgid "[[coordinate-uncertainty]]coordinate uncertainty"
+msgstr "crwdns67688:0[coordinate-uncertainty]crwdne67688:0"
+
+#. type: Plain text
+#: glossary.en.adoc:35
+msgid "A measure of the minimum distance on the surface from a <<coordinates,coordinate>> within which a <<locality>> might be interpreted to be."
+msgstr "crwdns67690:0crwdne67690:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:36
+#, no-wrap
+msgid "[[coordinates]]coordinates"
+msgstr "crwdns67692:0[coordinates]crwdne67692:0"
+
+#. type: Plain text
+#: glossary.en.adoc:37
+msgid "A set of values that define a position within a <<coordinate system>>. Coordinates are used to represent <<location,locations>> in space relative to other locations."
+msgstr "crwdns67694:0crwdne67694:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:38
+#, no-wrap
+msgid "[[coordinateUncertaintyInMeters]]coordinateUncertaintyInMeters"
+msgstr "crwdns67696:0[coordinateUncertaintyInMeters]crwdne67696:0"
+
+#. type: Plain text
+#: glossary.en.adoc:39
+msgid "The <<Darwin Core>> term corresponding to the <<maximum uncertainty distance>> when given in meters."
+msgstr "crwdns67698:0crwdne67698:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:40
+#, no-wrap
+msgid "[[corrected-center]]corrected center"
+msgstr "crwdns67700:0[corrected-center]crwdne67700:0"
+
+#. type: Plain text
+#: glossary.en.adoc:41
+msgid "The point within a <<location>>, or on its <<boundary>>, that minimizes the <<geographic radial>> of the location. This point is obtained by making the <<smallest enclosing circle>> that contains the entire <<feature>>, and then taking the center of that circle. If that center does not fall inside the boundaries of the feature, make the <<smallest enclosing circle>> that has its center on the boundary of the feature. Note that in the second case, the new circle, and hence the <<radial>>, will always be larger than the uncorrected one (see {gbp}#img-polygon-center[Polygons (Chapman & Wieczorek 2020)^])."
+msgstr "crwdns67702:0{gbp}crwdne67702:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:42
+#, no-wrap
+msgid "[[Darwin-Core]]Darwin Core"
+msgstr "crwdns67704:0[Darwin-Core]crwdne67704:0"
+
+#. type: Plain text
+#: glossary.en.adoc:43
+msgid "A standard for exchanging information about biological diversity (see https://www.tdwg.org/standards/dwc/[Darwin Core^])."
+msgstr "crwdns67706:0crwdne67706:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:44
+#, no-wrap
+msgid "[[data-quality]]data quality"
+msgstr "crwdns67708:0[data-quality]crwdne67708:0"
+
+#. type: Plain text
+#: glossary.en.adoc:45
+msgid "‘Fitness for use’ of data (<<juran,Juran 1964>>, <<juran-2ed,Juran 1995>>, <<chrisman,Chrisman 1991>>, https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). As the collector of the original data, you may have an intended use for the data you collect but data have the potential to be used in unforeseen ways; therefore, the value of your data is directly related to the fitness of those data for a variety of uses. As data become more accessible, many more uses become apparent (http://www.gbif.org/document/80545[Chapman 2005c^])."
+msgstr "crwdns67710:0crwdne67710:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:46
+#, no-wrap
+msgid "[[datum]]datum"
+msgstr "crwdns67712:0[datum]crwdne67712:0"
+
+#. type: Plain text
+#: glossary.en.adoc:47
+msgid "A set of one or more parameters that serve as a reference or basis for the calculation of other parameters https://www.iso.org/standard/74039.html[ISO 19111^]. A datum defines the position of the origin, the scale, and the orientation of the axes of a <<coordinate system>>. For <<georeference,georeferencing>> purposes, a datum may be a <<geodetic datum>> or a <<vertical datum>>."
+msgstr "crwdns67714:0crwdne67714:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:48
+#, no-wrap
+msgid "[[decimal-degrees]]decimal degrees"
+msgstr "crwdns67716:0[decimal-degrees]crwdne67716:0"
+
+#. type: Plain text
+#: glossary.en.adoc:49
+msgid "Degrees expressed as a single real number (e.g. −22.343456). Note that <<latitude,latitudes>> south of the equator are negative, as are <<longitude,longitudes>> west of the <<prime meridian>> to −180 degrees. See also <<decimal latitude>> and <<decimal longitude>>."
+msgstr "crwdns67718:0crwdne67718:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:50
+#, no-wrap
+msgid "[[decimal-latitude]]decimal latitude"
+msgstr "crwdns67720:0[decimal-latitude]crwdne67720:0"
+
+#. type: Plain text
+#: glossary.en.adoc:51
+msgid "<<latitude,Latitude>> expressed in <<decimal degrees>>. The limits of decimal latitude are −90 to 90, inclusive."
+msgstr "crwdns67722:0crwdne67722:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:52
+#, no-wrap
+msgid "[[decimal-longitude]]decimal longitude"
+msgstr "crwdns67724:0[decimal-longitude]crwdne67724:0"
+
+#. type: Plain text
+#: glossary.en.adoc:53
+msgid "<<longitude,Longitude>> expressed in <<decimal degrees>>. The limits of decimal longitude are −180 to 180, inclusive."
+msgstr "crwdns67726:0crwdne67726:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:54
+#, no-wrap
+msgid "declination"
+msgstr "crwdns67728:0crwdne67728:0"
+
+#. type: Plain text
+#: glossary.en.adoc:55
+msgid "see <<magnetic declination>>."
+msgstr "crwdns67730:0crwdne67730:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:56
+#, no-wrap
+msgid "[[DEM]]DEM"
+msgstr "crwdns67732:0[DEM]crwdne67732:0"
+
+#. type: Plain text
+#: glossary.en.adoc:57
+msgid "see <<digital elevation model>>."
+msgstr "crwdns67734:0crwdne67734:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:58
+#, no-wrap
+msgid "[[depth]]depth"
+msgstr "crwdns67736:0[depth]crwdne67736:0"
+
+#. type: Plain text
+#: glossary.en.adoc:59
+msgid "A measurement of the vertical distance below a <<vertical datum>>. In this document, we try to modify the term to signify the medium in which the measurement is made. Thus, \"water depth\" is the vertical distance below an air-water interface in a waterbody (ocean, lake, river, sinkhole, etc.). Compare <<distance above surface>>. Depth is always a non-negative number."
+msgstr "crwdns67738:0crwdne67738:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:60
+#, no-wrap
+msgid "[[digital-elevation-model,digital elevation model]]digital elevation model (DEM)"
+msgstr "crwdns67740:0crwdne67740:0"
+
+#. type: Plain text
+#: glossary.en.adoc:61
+msgid "A digital representation of the elevation of <<location,locations>> on the surface of the earth, usually represented in the form of a rectangular <<grid>> (raster) that stores the <<elevation>> relative to <<mean-sea-level>> or some other known <<vertical datum>>. The term Digital Terrain Model (DTM) is sometimes used interchangeably with DEM, although it is usually restricted to models representing landscapes. A DTM usually contains additional surface information such as peaks and breaks in slope."
+msgstr "crwdns67742:0crwdne67742:0"
+
+#.  TODO, link directly to heading?
+#. type: Labeled list
+#: glossary.en.adoc:63
+#, no-wrap
+msgid "[[direction]]direction"
+msgstr "crwdns67744:0[direction]crwdne67744:0"
+
+#. type: Plain text
+#: glossary.en.adoc:64
+msgid "see <<heading>>."
+msgstr "crwdns67746:0crwdne67746:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:65
+#, no-wrap
+msgid "[[distance-above-surface]]distance above surface"
+msgstr "crwdns67748:0[distance-above-surface]crwdne67748:0"
+
+#. type: Plain text
+#: glossary.en.adoc:66
+msgid "In addition to <<elevation>> and <<depth>>, a measurement of the vertical distance above a reference point, with a minimum and a maximum distance to cover a range. For surface terrestrial <<location,locations>>, the reference point should be the elevation at ground level. Over a body of water (ocean, sea, lake, river, glacier, etc.), the reference point for aerial locations should be the elevation of the air-water interface, while the reference point for sub-surface benthic locations should be the interface between the water and the substrate. Locations within a water body should use depth rather than a negative <<distance above surface>>. Distances above a reference point should be expressed as positive numbers, while those below should be negative. The maximum distance above a surface will always be a number greater than or equal to the minimum distance above the surface. Since distances below a surface are negative numbers, the maximum distance will always be a number less than or equal to the minimum distance. Compare <<altitude>>."
+msgstr "crwdns67750:0crwdne67750:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:67
+#, no-wrap
+msgid "[[DMS]]DMS"
+msgstr "crwdns67752:0[DMS]crwdne67752:0"
+
+#. type: Plain text
+#: glossary.en.adoc:68
+msgid "Degrees, minutes and seconds – one of the most common formats for expressing <<geographic coordinates>> on maps. A degree is divided into 60 minutes of arc and each minute is divided into 60 seconds of arc. Degrees, minutes and seconds are denoted by the symbols °, ′, ″. Degrees of <<latitude>> are integers between 0 and 90, and should be followed by an indicator for the hemisphere (e.g. N or S). Degrees of <<longitude>> are integers between 0 and 180, and should be followed by an indicator for the hemisphere (e.g. E or W)."
+msgstr "crwdns67754:0crwdne67754:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:69
+#, no-wrap
+msgid "[[easting]]easting"
+msgstr "crwdns67756:0[easting]crwdne67756:0"
+
+#. type: Plain text
+#: glossary.en.adoc:70
+msgid "Within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing eastward distance from a reference <<meridian>> on a map."
+msgstr "crwdns67758:0crwdne67758:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:71
+#, no-wrap
+msgid "[[elevation]]elevation"
+msgstr "crwdns67760:0[elevation]crwdne67760:0"
+
+#. type: Plain text
+#: glossary.en.adoc:72
+msgid "A measurement of the vertical distance of a land or water surface above a <<vertical datum>>. On maps, the reference <<datum>> is generally some interpretation of <<mean-sea-level>> or the <<geoid>>, while in devices using <<GPS>>/<<GNSS>>, the reference datum is the <<ellipsoid>> of the <<geodetic datum>> to which the GPS unit is configured, though the device may make corrections to report the elevation above mean sea level or the geoid. Elevations that are above a reference point should be expressed as positive numbers, while those below should be negative. Compare <<depth>>, <<distance above surface>>, and <<altitude>>."
+msgstr "crwdns67762:0crwdne67762:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:73
+#, no-wrap
+msgid "[[ellipsoid]]ellipsoid"
+msgstr "crwdns67764:0[ellipsoid]crwdne67764:0"
+
+#. type: Plain text
+#: glossary.en.adoc:74
+msgid "A three-dimensional, closed geometric <<shape>>, all planar sections of which are ellipses or circles. An ellipsoid has three independent axes. If an ellipsoid is made by rotating an ellipse about one of its axes, then two axes of the ellipsoid are the same, and it is called an ellipsoid of revolution. When used to represent a model of the earth, the ellipsoid is an oblate ellipsoid of revolution made by rotating an ellipse about its minor axis."
+msgstr "crwdns67766:0crwdne67766:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:75
+#, no-wrap
+msgid "[[entry-point]]entry point"
+msgstr "crwdns67768:0[entry-point]crwdne67768:0"
+
+#. type: Plain text
+#: glossary.en.adoc:76
+msgid "The entry point on the surface of the ocean or lake where a diver enters the water and from which all activities are measured. See {gbp}#img-underwater-event[Three-Dimensional Shapes (Chapman & Wieczorek 2020)^]."
+msgstr "crwdns67770:0{gbp}crwdne67770:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:77
+#, no-wrap
+msgid "[[EPSG]]EPSG"
+msgstr "crwdns67772:0[EPSG]crwdne67772:0"
+
+#. type: Plain text
+#: glossary.en.adoc:78
+msgid "EPSG codes are defined by the International Association of Oil and Gas Producers, using a spatial reference identifier (SRID) to reference <<spatial reference system,spatial reference systems>>. The EPSG Geodetic Parameter Dataset (http://www.epsg.org/[IOPG 2019^]) is a collection of definitions of <<coordinate reference system,coordinate reference systems>> (including <<datum,datums>>) and <<coordinates,coordinate>> transformations which may be global, regional, national or local in application."
+msgstr "crwdns67774:0crwdne67774:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:79
+#, no-wrap
+msgid "[[error]]error"
+msgstr "crwdns67776:0[error]crwdne67776:0"
+
+#. type: Plain text
+#: glossary.en.adoc:80
+msgid "The difference between a computed, estimated, or measured value and the accepted true, specified, or theoretically correct value. It encompasses both the <<precision,imprecision>> of a measurement and its inaccuracies. Error can be either random or systematic. If the error is systematic, it is called \"<<bias>>\". Compare <<accuracy>>, <<bias>>, <<precision>>, <<false precision>> and <<uncertainty>>."
+msgstr "crwdns67778:0crwdne67778:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:81
+#, no-wrap
+msgid "[[event]]event"
+msgstr "crwdns67780:0[event]crwdne67780:0"
+
+#. type: Plain text
+#: glossary.en.adoc:82
+msgid "A process occurring at a particular <<location>> during a period of time. Used generically to cover various kinds of collecting events, sampling events, and observations."
+msgstr "crwdns67782:0crwdne67782:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:83
+#, no-wrap
+msgid "[[extent]]extent"
+msgstr "crwdns67784:0[extent]crwdne67784:0"
+
+#. type: Plain text
+#: glossary.en.adoc:84
+msgid "The entire space within the <<boundary>> a <<location>> actually represents. The extent can be a volume, an area, or a distance."
+msgstr "crwdns67786:0crwdne67786:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:85
+#, no-wrap
+msgid "[[false-precision]]false precision"
+msgstr "crwdns67788:0[false-precision]crwdne67788:0"
+
+#. type: Plain text
+#: glossary.en.adoc:86
+msgid "An artefact of recording data with a greater number of decimal places than implied by the original data. This often occurs following transformations from one unit or <<coordinate system>> to another, for example from feet to meters, or from <<DMS,degrees-minutes-and-seconds>> to <<decimal degrees>>. In general, <<precision>> cannot be conserved across metric transformations; however, in practice it is often recorded as such. For example, a record of 10°20’ stored in a database in decimal degrees is ~10.3°. When exported from some databases, it will result in a value of 10.3333333333 with a <<precision>> of 10 decimal places in degrees rather than the original precision of 1-minute. Misinterpreting the precision of the <<coordinates,coordinate>> representation as a precision in distance on the ground, 10^-10^ degrees corresponds to about 0.002 mm at the equator, while the precision of 1-minute corresponds to about 2.6 km. This is not a true precision as it relates to the original data, but a false precision as reported from a combination of the coordinate conversion and the representation of resulting fraction in the export from a database. Compare with <<precision>> and <<accuracy>>."
+msgstr "crwdns67790:0crwdne67790:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:87
+#, no-wrap
+msgid "[[feature]]feature"
+msgstr "crwdns67792:0[feature]crwdne67792:0"
+
+#. type: Plain text
+#: glossary.en.adoc:88
+msgid "An object of observation, measurement, or reference that can be represented spatially. Often categorized into \"feature types\" (e.g. mountain, road, populated place, etc.) and given names for specific instances (e.g. \"Mount Everest\", \"Ruta 40\", \"Istanbul\"), which are also sometimes referred to as \"named places\", \"place names\" or \"toponyms\"."
+msgstr "crwdns67794:0crwdne67794:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:89
+#, no-wrap
+msgid "[[footprint]]footprint"
+msgstr "crwdns67796:0[footprint]crwdne67796:0"
+
+#. type: Plain text
+#: glossary.en.adoc:90
+msgid "See <<shape>>. Note that \"footprint\" was used in some earlier <<georeference,georeferencing>> documents and in the <<Darwin Core>> term names term:dwc[footprintWKT] and term:dwc[footprintSpatialFit]."
+msgstr "crwdns67798:0[footprintWKT]crwdnd67798:0[footprintSpatialFit]crwdne67798:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:91
+#, no-wrap
+msgid "[[gazetteer]]gazetteer"
+msgstr "crwdns67800:0[gazetteer]crwdne67800:0"
+
+#. type: Plain text
+#: glossary.en.adoc:92
+msgid "An index of geographical <<feature,features>> and their <<location,locations>>, often with <<geographic coordinates>>."
+msgstr "crwdns67802:0crwdne67802:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:93
+#, no-wrap
+msgid "[[generalization]]generalization"
+msgstr "crwdns67804:0[generalization]crwdne67804:0"
+
+#. type: Plain text
+#: glossary.en.adoc:94
+msgid "In geographic terms, refers to the conversion of a geographic representation to one with less resolution and less information content; traditionally associated with a change in scale. Also referred to as: _fuzzying_, _dummying-up_, etc. (https://doi.org/10.15468/doc-5jp4-5g10[Chapman 2020^])."
+msgstr "crwdns67806:0crwdne67806:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:95
+#, no-wrap
+msgid "[[geocode]]geocode"
+msgstr "crwdns67808:0[geocode]crwdne67808:0"
+
+#. type: Plain text
+#: glossary.en.adoc:96
+msgid "The process (verb) or product (noun) of determining the <<coordinates>> for a street address. It is also sometimes used as a synonym for <<georeference>>."
+msgstr "crwdns67810:0crwdne67810:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:97
+#, no-wrap
+msgid "[[geodetic-coordinate-reference-system]]geodetic coordinate reference system"
+msgstr "crwdns67812:0[geodetic-coordinate-reference-system]crwdne67812:0"
+
+#. type: Plain text
+#: glossary.en.adoc:98
+msgid "A <<coordinate reference system>> based on a <<geodetic datum>>, used to describe positions on the surface of the earth."
+msgstr "crwdns67814:0crwdne67814:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:99
+#, no-wrap
+msgid "[[geodetic-datum]]geodetic datum"
+msgstr "crwdns67816:0[geodetic-datum]crwdne67816:0"
+
+#. type: Plain text
+#: glossary.en.adoc:100
+msgid "A mathematical model that uses a reference <<ellipsoid>> to describe the size and shape of the surface of the earth and adds to it the information needed for the origin and orientation of <<coordinate system,coordinate systems>> on that surface."
+msgstr "crwdns67818:0crwdne67818:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:101
+#, no-wrap
+msgid "[[geographic-boundary]]geographic boundary"
+msgstr "crwdns67820:0[geographic-boundary]crwdne67820:0"
+
+#. type: Plain text
+#: glossary.en.adoc:102
+msgid "The representation in <<geographic coordinates>> of a vertical projection of a <<boundary>> onto a model of the surface of the earth."
+msgstr "crwdns67822:0crwdne67822:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:103
+#, no-wrap
+msgid "[[geographic-center]]geographic center"
+msgstr "crwdns67824:0[geographic-center]crwdne67824:0"
+
+#. type: Plain text
+#: glossary.en.adoc:104
+msgid "The midpoint of the extremes of <<latitude>> and <<longitude>> of a <<feature>>. Geographic centers are relatively easy to determine, but they generally do not correspond to the center obtained by a least circumscribing circle. For that reason it is not recommended to use a geographic center for any application in <<georeference,georeferencing>>. Compare <<corrected center>>."
+msgstr "crwdns67826:0crwdne67826:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:105
+#, no-wrap
+msgid "[[geographic-component]]geographic component"
+msgstr "crwdns67828:0[geographic-component]crwdne67828:0"
+
+#. type: Plain text
+#: glossary.en.adoc:106
+msgid "The part of a description of a <<location>> that consists of <<geographic coordinates>> and associated <<uncertainty>>. Non-geographic components of a location description include <<elevation>>, <<depth>>, and <<distance above surface>>."
+msgstr "crwdns67830:0crwdne67830:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:107
+#, no-wrap
+msgid "[[geographic-coordinate-system]]geographic coordinate system"
+msgstr "crwdns67832:0[geographic-coordinate-system]crwdne67832:0"
+
+#. type: Plain text
+#: glossary.en.adoc:108
+msgid "A <<coordinate system>> that uses <<geographic coordinates>>."
+msgstr "crwdns67834:0crwdne67834:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:109
+#, no-wrap
+msgid "[[geographic-coordinate-reference-system]]geographic coordinate reference system"
+msgstr "crwdns67836:0[geographic-coordinate-reference-system]crwdne67836:0"
+
+#. type: Plain text
+#: glossary.en.adoc:110
+msgid "A <<geodetic coordinate reference system>> that uses <<geographic coordinates>>."
+msgstr "crwdns67838:0crwdne67838:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:111
+#, no-wrap
+msgid "[[geographic-coordinates]]geographic coordinates"
+msgstr "crwdns67840:0[geographic-coordinates]crwdne67840:0"
+
+#. type: Plain text
+#: glossary.en.adoc:112
+msgid "A measurement of a <<location>> on the earth's surface expressed as <<latitude>> and <<longitude>>."
+msgstr "crwdns67842:0crwdne67842:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:113
+#, no-wrap
+msgid "[[geographic-extent]]geographic extent"
+msgstr "crwdns67844:0[geographic-extent]crwdne67844:0"
+
+#. type: Plain text
+#: glossary.en.adoc:114
+msgid "The entire space within the <<geographic boundary>> of a <<location>>. The geographic extent can be an area or a distance."
+msgstr "crwdns67846:0crwdne67846:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:115
+#, no-wrap
+msgid "[[geographic-information-system,geographic information system]]geographic information system (GIS)"
+msgstr "crwdns67848:0crwdne67848:0"
+
+#. type: Plain text
+#: glossary.en.adoc:116
+msgid "A set of computer-based tools designed to capture, store, manipulate, analyse, map, manage, and present all types of geographical data and information in the form of maps."
+msgstr "crwdns67850:0crwdne67850:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:117
+#, no-wrap
+msgid "[[geographic-radial]]geographic radial"
+msgstr "crwdns67852:0[geographic-radial]crwdne67852:0"
+
+#. type: Plain text
+#: glossary.en.adoc:118
+msgid "The distance from the <<corrected center>> of a <<location>> to the furthest point on the <<geographic boundary>> of that location. The geographical radial is what contributes to calculations of the <<maximum uncertainty distance>> using the <<point-radius>> <<georeferencing method>>. The term geographic radial, as defined here, replaces its equivalent \"extent\" used in the early versions of these Best Practices and related documents, including the http://georeferencing.org/docs/GeoreferencingQuickGuide.pdf[Georeferencing Quick Reference Guide (Wieczorek et al. 2012a)^] and versions of the https://github.com/VertNet/georefcalculator/releases/tag/v20180620[Georeferencing Calculator (Wieczorek & Wieczorek 2018)^] and its http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html[Manual for the Georeferencing Calculator (Wieczorek & Bloom 2015)] before 2019, while the new definition of <<extent>> as found in this document remains more in keeping with common usage and understanding and has also been updated in the latest versions of the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] and in this Manual."
+msgstr "crwdns67854:0{gqg}crwdne67854:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:119
+#, no-wrap
+msgid "[[geoid]]geoid"
+msgstr "crwdns67856:0[geoid]crwdne67856:0"
+
+#. type: Plain text
+#: glossary.en.adoc:120
+msgid "A global equipotential surface that approximates <<mean sea level>>. This surface is everywhere perpendicular to the force of gravity (https://doi.org/10.1007/978-94-011-5826-8[Loweth 1997^])."
+msgstr "crwdns67858:0crwdne67858:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:121
+#, no-wrap
+msgid "[[geometry]]geometry"
+msgstr "crwdns67860:0[geometry]crwdne67860:0"
+
+#. type: Plain text
+#: glossary.en.adoc:122
+msgid "The measures and properties of points, lines, and surfaces. Geometry is used to represent the <<geographic component>> of <<location,locations>>."
+msgstr "crwdns67862:0crwdne67862:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:123
+#, no-wrap
+msgid "[[georeference]]georeference"
+msgstr "crwdns67864:0[georeference]crwdne67864:0"
+
+#. type: Plain text
+#: glossary.en.adoc:124
+msgid "The process (verb) or product (noun) of interpreting a <<locality>> description into a spatially mappable representation using a <<georeferencing method>>. Compare with <<geocode>>. The usage here is distinct from the concept of georeferencing satellite and other imagery (known as georectification)."
+msgstr "crwdns67866:0crwdne67866:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:125
+#, no-wrap
+msgid "[[georeferencing-method]]georeferencing method"
+msgstr "crwdns67868:0[georeferencing-method]crwdne67868:0"
+
+#. type: Plain text
+#: glossary.en.adoc:126
+msgid "The type of spatial representation produced as the output of a <<georeferencing protocol>>. In this document we discuss three particular methods of representation in detail, the <<shape>> method, the <<bounding-box>> method, and the <<point-radius>> method."
+msgstr "crwdns67870:0crwdne67870:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:127
+#, no-wrap
+msgid "[[georeferencing-protocol]]georeferencing protocol"
+msgstr "crwdns67872:0[georeferencing-protocol]crwdne67872:0"
+
+#. type: Plain text
+#: glossary.en.adoc:128
+msgid "The documented specific steps to apply to a <<locality>>, based on the <<locality type>>, to produce a particular type of spatial representation."
+msgstr "crwdns67874:0crwdne67874:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:129
+#, no-wrap
+msgid "GIS"
+msgstr "crwdns67876:0crwdne67876:0"
+
+#. type: Plain text
+#: glossary.en.adoc:130
+msgid "_see_ <<geographic-information-system>>."
+msgstr "crwdns67878:0crwdne67878:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:131
+#, no-wrap
+msgid "[[GUID,Globally Unique Identifier]]Globally Unique Identifier (GUID)"
+msgstr "crwdns67880:0crwdne67880:0"
+
+#. type: Plain text
+#: glossary.en.adoc:132
+msgid "Globally Unique Identifier, a 128-bit string of characters applied to one and only one physical or digital entity so that the string uniquely identifies the entity and can be used to refer to the entity. See also <<PID>>."
+msgstr "crwdns67882:0crwdne67882:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:133
+#, no-wrap
+msgid "[[GNSS]]GNSS"
+msgstr "crwdns67884:0[GNSS]crwdne67884:0"
+
+#. type: Plain text
+#: glossary.en.adoc:134
+msgid "Global Navigation Satellite System, the generic term for satellite navigation systems that provide global autonomous geo-spatial positioning. This term encompasses <<GPS>>, GLONASS, Galileo, BeiDou and other regional systems."
+msgstr "crwdns67886:0crwdne67886:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:135
+#, no-wrap
+msgid "[[GPS]]GPS"
+msgstr "crwdns67888:0[GPS]crwdne67888:0"
+
+#. type: Plain text
+#: glossary.en.adoc:136
+msgid "Global Positioning System, a satellite-based system used for determining positions on or near the earth. Orbiting satellites transmit radio signals that allow a receiver to calculate its own <<location>> as <<coordinates>> and <<elevation>>, sometimes with <<accuracy>> estimates. A GPS or <<GNSS>> Receiver (including those in smartphones and cameras) is the instrument that receives the radio signals and translates them into <<geographic coordinates>>. See also <<GNSS>> of which GPS is one example."
+msgstr "crwdns67890:0crwdne67890:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:137
+#, no-wrap
+msgid "[[GPS-receiver]]GPS (receiver)"
+msgstr "crwdns67892:0[GPS-receiver]crwdne67892:0"
+
+#. type: Plain text
+#: glossary.en.adoc:138
+msgid "The colloquial term used to refer to both GPS and <<GNSS>> receivers. A GPS or GNSS receiver is an instrument which, in combination with an inbuilt or separate antenna, is able to receive and interpret signals from GNSS satellites."
+msgstr "crwdns67894:0crwdne67894:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:139
+#, no-wrap
+msgid "[[grid]]grid"
+msgstr "crwdns67896:0[grid]crwdne67896:0"
+
+#. type: Plain text
+#: glossary.en.adoc:140
+msgid "a network or array of evenly spaced orthogonal lines used to organize space into partitions. Often these are superimposed on a map and used for reference, such as <<UTM>> grid."
+msgstr "crwdns67898:0crwdne67898:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:141
+#, no-wrap
+msgid "[[ground-zero]]ground zero"
+msgstr "crwdns67900:0[ground-zero]crwdne67900:0"
+
+#. type: Plain text
+#: glossary.en.adoc:142
+msgid "{caves} the <<location>> on the land surface directly above a radiolocation point in a cave where the magnetic radiation lines are vertical. See {gbp}#img-vertical-position-in-a-cave[Elevation (Chapman & Wieczorek 2020)^]."
+msgstr "crwdns67902:0{caves}crwdnd67902:0{gbp}crwdne67902:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:143
+#, no-wrap
+msgid "GUID"
+msgstr "crwdns67904:0crwdne67904:0"
+
+#. type: Plain text
+#: glossary.en.adoc:144
+msgid "see <<GUID,Globally Unique Identifier>>."
+msgstr "crwdns67906:0crwdne67906:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:145
+#, no-wrap
+msgid "[[heading]]heading"
+msgstr "crwdns67908:0[heading]crwdne67908:0"
+
+#. type: Plain text
+#: glossary.en.adoc:146
+msgid "Compass direction such as east or northwest, or sometimes given as degrees clockwise from north. Usually used in conjunction with <<offset>> to give a distance and direction from a <<feature>>."
+msgstr "crwdns67910:0crwdne67910:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:147
+#, no-wrap
+msgid "[[height-datum]]height datum"
+msgstr "crwdns67912:0[height-datum]crwdne67912:0"
+
+#. type: Plain text
+#: glossary.en.adoc:148
+msgid "see <<vertical datum>>."
+msgstr "crwdns67914:0crwdne67914:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:149
+#, no-wrap
+msgid "[[latitude]]latitude"
+msgstr "crwdns67916:0[latitude]crwdne67916:0"
+
+#. type: Plain text
+#: glossary.en.adoc:150
+msgid "The angular distance of a point north or south of the equator."
+msgstr "crwdns67918:0crwdne67918:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:151
+#, no-wrap
+msgid "[[locality]]locality"
+msgstr "crwdns67920:0[locality]crwdne67920:0"
+
+#. type: Plain text
+#: glossary.en.adoc:152
+msgid "The verbal representation of a <<location>>, also sometimes called \"locality description\"."
+msgstr "crwdns67922:0crwdne67922:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:153
+#, no-wrap
+msgid "[[locality-clause]]locality clause"
+msgstr "crwdns67924:0[locality-clause]crwdne67924:0"
+
+#. type: Plain text
+#: glossary.en.adoc:154
+msgid "A part of a <<locality>> description that can be categorized into one of the <<locality type,locality types>>, to which a specific <<georeferencing method>> can be applied."
+msgstr "crwdns67926:0crwdne67926:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:155
+#, no-wrap
+msgid "[[locality-type]]locality type"
+msgstr "crwdns67928:0[locality-type]crwdne67928:0"
+
+#. type: Plain text
+#: glossary.en.adoc:156
+msgid "A category applied to a <<locality clause>> that determines the specific <<georeferencing method>> that should be applied."
+msgstr "crwdns67930:0crwdne67930:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:157
+#, no-wrap
+msgid "[[location]]location"
+msgstr "crwdns67932:0[location]crwdne67932:0"
+
+#. type: Plain text
+#: glossary.en.adoc:158
+msgid "A physical space that can be positioned and oriented relative to a reference point, and potentially described in a natural language <<locality>> description. In <<georeference,georeferencing>>, a location can have distinct representations based on distinct <<rules of interpretation>>, each of which is embodied in a <<georeferencing method>>."
+msgstr "crwdns67934:0crwdne67934:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:159
+#, no-wrap
+msgid "[[longitude]]longitude"
+msgstr "crwdns67936:0[longitude]crwdne67936:0"
+
+#. type: Plain text
+#: glossary.en.adoc:160
+msgid "The angular distance of a point east or west of a <<prime meridian>> at a given <<latitude>>."
+msgstr "crwdns67938:0crwdne67938:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:161
+#, no-wrap
+msgid "[[magnetic-declination]]magnetic declination"
+msgstr "crwdns67940:0[magnetic-declination]crwdne67940:0"
+
+#. type: Plain text
+#: glossary.en.adoc:162
+msgid "The angle on the horizontal plane between magnetic north (the direction the north end of a magnetized compass needle points, corresponding to the direction of the Earth's magnetic field lines) and true north (the direction along a <<meridian>> towards the geographic North Pole). This angle varies depending on the position on the Earth's surface and https://en.wikipedia.org/wiki/Polar_wandering[changes^] over time."
+msgstr "crwdns67942:0crwdne67942:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:163
+#, no-wrap
+msgid "[[maximum-uncertainty-distance]]maximum uncertainty distance"
+msgstr "crwdns67944:0[maximum-uncertainty-distance]crwdne67944:0"
+
+#. type: Plain text
+#: glossary.en.adoc:164
+msgid "The radius in a <<point-radius>> representation of a <<location>>, that is a numerical value that defines the upper limit of the horizontal distance from the position of the given <<geographic-coordinates,geographic coordinate>> to a point on the outer extremity of the geographic area within which the whole of a location lies. When given in meters, it corresponds to the <<Darwin Core>> term term:dwc[coordinateUncertaintyInMeters]."
+msgstr "crwdns67946:0[coordinateUncertaintyInMeters]crwdne67946:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:165
+#, no-wrap
+msgid "[[mean-sea-level,mean sea level]]mean sea level (MSL)"
+msgstr "crwdns67948:0crwdne67948:0"
+
+#. type: Plain text
+#: glossary.en.adoc:166
+msgid "A <<vertical datum>> from which heights such as <<elevation>> are usually measured. Mean sea levels were traditionally determined locally by measuring the midpoint between a mean low and mean high tide at a particular <<location>> averaged over a 19-year period covering a complete tidal cycle. More recently, MSL is best described by a <<geoid>>."
+msgstr "crwdns67950:0crwdne67950:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:167
+#, no-wrap
+msgid "[[meridian]]meridian"
+msgstr "crwdns67952:0[meridian]crwdne67952:0"
+
+#. type: Plain text
+#: glossary.en.adoc:168
+msgid "A line on the surface of the earth where all of the <<location,locations>> have the same <<longitude>>. Compare <<antimeridian>> and <<prime meridian>>."
+msgstr "crwdns67954:0crwdne67954:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:169
+#, no-wrap
+msgid "[[named-place]]named place"
+msgstr "crwdns67956:0[named-place]crwdne67956:0"
+
+#. type: Plain text
+#: glossary.en.adoc:170
+msgid "see <<feature>>. Note that \"named place\" was used in some earlier <<georeference,georeferencing>> documents."
+msgstr "crwdns67958:0crwdne67958:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:171
+#, no-wrap
+msgid "[[northing]]northing"
+msgstr "crwdns67960:0[northing]crwdne67960:0"
+
+#. type: Plain text
+#: glossary.en.adoc:172
+msgid "Within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing northward distance from a reference <<latitude>>."
+msgstr "crwdns67962:0crwdne67962:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:173
+#, no-wrap
+msgid "[[offset]]offset"
+msgstr "crwdns67964:0[offset]crwdne67964:0"
+
+#. type: Plain text
+#: glossary.en.adoc:174
+msgid "A displacement from a reference <<location>>. Usually used in conjunction with <<heading>> to give a distance and <<direction>> from a <<feature>>."
+msgstr "crwdns67966:0crwdne67966:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:175
+#, no-wrap
+msgid "[[path]]path"
+msgstr "crwdns67968:0[path]crwdne67968:0"
+
+#. type: Plain text
+#: glossary.en.adoc:176
+msgid "A route or track between one place and another. In some cases the path may cross itself."
+msgstr "crwdns67970:0crwdne67970:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:177
+#, no-wrap
+msgid "[[PID]]persistent identifier (PID)"
+msgstr "crwdns67972:0[PID]crwdne67972:0"
+
+#. type: Plain text
+#: glossary.en.adoc:178
+msgid "A long-lasting reference to a document, file, web page, or other object. The term \"persistent identifier\" is usually used in the context of digital objects accessible over the Internet. There are many options for PIDs, such as <<GUID,Globally Unique Identifiers (GUIDs)>>, https://www.doi.org[Digital Object Identifiers (DOIs)^], and Universal Unique Identifiers (UUIDs)."
+msgstr "crwdns67974:0crwdne67974:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:179
+#, no-wrap
+msgid "[[point-radius]]point-radius"
+msgstr "crwdns67976:0[point-radius]crwdne67976:0"
+
+#. type: Plain text
+#: glossary.en.adoc:180
+msgid "A representation of the <<geographic component>> of a <<location>> as a <<geographic-coordinates,geographic coordinate>> and a <<maximum uncertainty distance>>. The <<point-radius>> <<georeferencing method>> produces <<georeference,georeferences>> that include geographic coordinates, a <<coordinate reference system>>, and a maximum uncertainty distance that encompasses all of the possible geographic coordinates where a <<locality>> might be interpreted to be. This representation encompasses all of the geographical <<uncertainty,uncertainties>> within a circle. The point-radius method uses ranges to represent the non-geographic descriptors of the location (<<elevation>>, <<depth>>, <<distance above surface>>)."
+msgstr "crwdns67978:0crwdne67978:0"
+
+#. type: Plain text
+#: glossary.en.adoc:182
+msgid "[[precision]]precision::"
+msgstr "crwdns67980:0[precision]crwdne67980:0"
+
+#. type: Plain text
+#: glossary.en.adoc:185
+msgid "The closeness of a repeated set of observations of the same quantity to one another – a measure of control over random <<error>>."
+msgstr "crwdns67982:0crwdne67982:0"
+
+#. type: Plain text
+#: glossary.en.adoc:186
+msgid "With values, it describes the finest unit of measurement used to express that value (e.g. if a record is reported to the nearest second, the precision is 1/3600^th^ of a degree; if a <<decimal degrees,decimal degree>> is reported to two decimal places, the precision is 0.01 of a degree)."
+msgstr "crwdns67984:0crwdne67984:0"
+
+#. type: Plain text
+#: glossary.en.adoc:189
+msgid "Antonym: imprecision. Compare <<accuracy>>, <<error>>, <<bias>>, <<false precision>>, and <<uncertainty>>."
+msgstr "crwdns67986:0crwdne67986:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:190
+#, no-wrap
+msgid "[[prime-meridian]]prime meridian"
+msgstr "crwdns67988:0[prime-meridian]crwdne67988:0"
+
+#. type: Plain text
+#: glossary.en.adoc:191
+msgid "The set of <<location,locations>> with <<longitude>> designated as 0 degrees east and west, to which all other longitudes are referenced. The Greenwich <<meridian>> is internationally recognized as the <<prime meridian>> for many popular and official purposes."
+msgstr "crwdns67990:0crwdne67990:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:192
+#, no-wrap
+msgid "[[projection]]projection"
+msgstr "crwdns67992:0[projection]crwdne67992:0"
+
+#. type: Plain text
+#: glossary.en.adoc:193
+msgid "A series of transformations that convert the locations of points in a <<coordinate reference system>> on a curved surface (the reference surface or <<datum>>) to the <<location,locations>> of corresponding points in a coordinate reference system on a flat plane. The datum is an integral part of the projection, as projected <<coordinate system,coordinate systems>> are based on <<geographic coordinates>>, which are in turn referenced to a <<geodetic datum>>. It is possible, and even common for datasets to be in the same projection, but referenced to distinct geodetic datums, and therefore have different <<coordinates,coordinate>> values."
+msgstr "crwdns67994:0crwdne67994:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:194
+#, no-wrap
+msgid "[[quality]]quality"
+msgstr "crwdns67996:0[quality]crwdne67996:0"
+
+#. type: Plain text
+#: glossary.en.adoc:195
+msgid "see <<data quality>>."
+msgstr "crwdns67998:0crwdne67998:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:196
+#, no-wrap
+msgid "[[radial]]radial"
+msgstr "crwdns68000:0[radial]crwdne68000:0"
+
+#. type: Plain text
+#: glossary.en.adoc:197
+msgid "The distance from a center point (e.g. the <<corrected center,corrected>> or <<geographic center>>) within a <<location>> to the furthest point on the outermost <<boundary>> of that <<location>>. See also <<geographic radial>>."
+msgstr "crwdns68002:0crwdne68002:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:198
+#, no-wrap
+msgid "[[repatriate]]repatriate, repatriation"
+msgstr "crwdns68004:0[repatriate]crwdne68004:0"
+
+#. type: Plain text
+#: glossary.en.adoc:199
+msgid "The process of returning something to the source from which it was extracted. In the <<georeference,georeferencing>> sense, this refers to the process of adding the results of georeferencing to the original data, especially when georeferencing was done by a third party."
+msgstr "crwdns68006:0crwdne68006:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:200
+#, no-wrap
+msgid "[[rules-of-interpretation]]rules of interpretation"
+msgstr "crwdns68008:0[rules-of-interpretation]crwdne68008:0"
+
+#. type: Plain text
+#: glossary.en.adoc:201
+msgid "A documented set of steps to take in order to produce a standardized representation of source information."
+msgstr "crwdns68010:0crwdne68010:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:202
+#, no-wrap
+msgid "[[sbas]]Satellite Based Augmentation System (SBAS)"
+msgstr "crwdns68012:0[sbas]crwdne68012:0"
+
+#. type: Plain text
+#: glossary.en.adoc:203
+msgid "A civil aviation safety-critical system that supports wide-area or regional augmentation through the use of geostationary (GEO) satellites that broadcast the augmentation information (see discussion in {gbp}#satellite-based-augmentation-system[Satellite Based Augmentation System (Chapman & Wieczorek 2020)^])."
+msgstr "crwdns68014:0{gbp}crwdne68014:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:204
+#, no-wrap
+msgid "[[shape]]shape"
+msgstr "crwdns68016:0[shape]crwdne68016:0"
+
+#. type: Plain text
+#: glossary.en.adoc:205
+msgid "Synonym of <<footprint>>. A representation of the <<geographic component>> of a location as a <<geometry>>. The result of a <<georeferencing method,shape georeferencing method>> includes a shape as the geographic component of the <<georeference>>, which contains the set of all possible <<geographic coordinates>> where a <<location>> might be interpreted to be. This representation encompasses all of the geographical <<uncertainty,uncertainties>> within the geometry given. The shape method uses ranges to represent the non-geographic descriptors of the location (<<elevation>>, <<depth>>, <<distance above surface>>)."
+msgstr "crwdns68018:0crwdne68018:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:206
+#, no-wrap
+msgid "[[smallest-enclosing-circle]]smallest enclosing circle"
+msgstr "crwdns68020:0[smallest-enclosing-circle]crwdne68020:0"
+
+#. type: Plain text
+#: glossary.en.adoc:207
+msgid "a circle with the smallest radius (<<radial>>) that contains all of a given set of points (or a given <<shape>>) on a surface (see https://en.wikipedia.org/wiki/Smallest-circle_problem[Smallest-circle problem]). This is seldom the same as the <<geographic center>>, nor the midpoint between two most distant <<geographic coordinates>> of a <<location>>."
+msgstr "crwdns68022:0crwdne68022:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:208
+#, no-wrap
+msgid "[[spatial-fit]]spatial fit"
+msgstr "crwdns68024:0[spatial-fit]crwdne68024:0"
+
+#. type: Plain text
+#: glossary.en.adoc:209
+msgid "a measure of how well one geometric representation matches another geometric representation as a ratio of the area of the larger of the two to the area of the smaller one. (See {gbp}#img-spatial-fit[Determining Spatial Fit (Chapman & Wieczorek 2020)^])."
+msgstr "crwdns68026:0{gbp}crwdne68026:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:210
+#, no-wrap
+msgid "[[spatial-reference-system]]spatial reference system"
+msgstr "crwdns68028:0[spatial-reference-system]crwdne68028:0"
+
+#. type: Plain text
+#: glossary.en.adoc:211
+msgid "see <<coordinate reference system>>."
+msgstr "crwdns68030:0crwdne68030:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:212
+#, no-wrap
+msgid "[[stratigraphic-section]]stratigraphic section"
+msgstr "crwdns68032:0[stratigraphic-section]crwdne68032:0"
+
+#. type: Plain text
+#: glossary.en.adoc:213
+msgid "A local outcrop or series of adjacent outcrops that display a vertical sequence of strata in the order they were deposited."
+msgstr "crwdns68034:0crwdne68034:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:214
+#, no-wrap
+msgid "[[transect]]transect"
+msgstr "crwdns68036:0[transect]crwdne68036:0"
+
+#. type: Plain text
+#: glossary.en.adoc:215
+msgid "A <<path>> along which observations, measurements, or samples are made. Transects are often recorded as a starting <<location>> and a terminating <<location>>."
+msgstr "crwdns68038:0crwdne68038:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:216
+#, no-wrap
+msgid "[[trig-point]]trig point"
+msgstr "crwdns68040:0[trig-point]crwdne68040:0"
+
+#. type: Plain text
+#: glossary.en.adoc:217
+msgid "A surveyed reference point, often on high points of <<elevation>> (mountain tops, etc.) and usually designated with a fixed marker on a small pyramidal structure or a pillar. The exact <<location>> is determined by survey triangulation and hence the alternative names \"trigonometrical point\", \"triangulation point\" or \"benchmark\"."
+msgstr "crwdns68042:0crwdne68042:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:218
+#, no-wrap
+msgid "[[uncertainty]]uncertainty"
+msgstr "crwdns68044:0[uncertainty]crwdne68044:0"
+
+#. type: Plain text
+#: glossary.en.adoc:219
+msgid "A measure of the incompleteness of one’s knowledge or information about an unknown quantity whose true value could be established if complete knowledge and a perfect measuring device were available (<<cullen,Cullen & Frey 1999>>). <<georeferencing method,Georeferencing methods>> codify how to incorporate uncertainties from a variety of sources (including <<accuracy>> and <<precision>>) in the interpretation of a <<location>>. Compare <<accuracy>>, <<error>>, <<bias>>, <<precision>>, and <<false precision>>."
+msgstr "crwdns68046:0crwdne68046:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:220
+#, no-wrap
+msgid "[[UTM]]Universal Transverse Mercator (UTM)"
+msgstr "crwdns68048:0[UTM]crwdne68048:0"
+
+#. type: Plain text
+#: glossary.en.adoc:221
+msgid "A standardized <<coordinate system>> based on a metric rectangular <<grid>> system and a division of the earth into sixty 6-degree longitudinal zones. The scope of UTM covers from 84° N to 80° S. (See {gbp}##universal-transverse-mercator-utm-coordinates[Universal Transverse Mercator (UTM) Coordinates (Chapman & Wieczorek 2020)^])."
+msgstr "crwdns68050:0{gbp}crwdne68050:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:222
+#, no-wrap
+msgid "[[vertical-datum]]vertical datum"
+msgstr "crwdns68052:0[vertical-datum]crwdne68052:0"
+
+#. type: Plain text
+#: glossary.en.adoc:223
+msgid "A reference surface for vertical positions, such as <<elevation>>. Vertical datums fall into several categories, including: tidal, based on sea level; gravimetric, based on a <<geoid>>; geodetic, based on <<ellipsoid>> models of the Earth; or local, based on a local reference surface. Also known as height datum."
+msgstr "crwdns68054:0crwdne68054:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:224
+#, no-wrap
+msgid "[[WAAS]]Wide Area Augmentation System (WAAS)"
+msgstr "crwdns68056:0[WAAS]crwdne68056:0"
+
+#. type: Plain text
+#: glossary.en.adoc:225
+msgid "An air navigation aid developed by the US Federal Aviation Administration to augment the Global Positioning System (<<GPS>>), with the goal of improving its <<accuracy>>, integrity, and availability. See also <<sbas,SBAS>>, of which WAAS is one example."
+msgstr "crwdns68058:0crwdne68058:0"
+
+#. type: Labeled list
+#: glossary.en.adoc:226
+#, no-wrap
+msgid "[[WGS84]]WGS84"
+msgstr "crwdns68060:0[WGS84]crwdne68060:0"
+
+#. type: Plain text
+#: glossary.en.adoc:227
+msgid "World Geodetic System 1984, a popular globally-used horizontal <<geodetic coordinate reference system>> (EPSG:4326) upon which raw <<GPS>> measurements are based (though a GPS receiver is capable of delivering <<coordinates>> in other reference systems). The term is also commonly used for the <<geodetic datum>> used by that system and for the <<ellipsoid>> (EPSG:7030) upon which that <<datum>> (EPSG:6326) is based."
+msgstr "crwdns68062:0crwdne68062:0"
+
+#. type: Plain text
+#: glossary.en.adoc:228 bibliography.en.adoc:15
+msgid "<<<"
+msgstr "crwdns68064:0crwdne68064:0"
+
+#. type: Title ==
+#: bibliography.en.adoc:1
+#, no-wrap
+msgid "References"
+msgstr "crwdns68066:0crwdne68066:0"
+
+#. type: Plain text
+#: bibliography.en.adoc:4
+msgid "[[chapman]] Chapman AD & Wieczorek J (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853[https://doi.org/10.15468/doc-gg7h-s853^]"
+msgstr "crwdns68068:0[chapman]crwdne68068:0"
+
+#. type: Plain text
+#: bibliography.en.adoc:5
+msgid "[[chrisman]] Chrisman NR (1991) The Error Component in Spatial Data, in Maguire DJ, Goodchild MF & Rhind DW (eds), Geographical Information Systems Vol. 1, Principals. London: Longman Scientific and Technical Publishers, pp. 165-174."
+msgstr "crwdns68070:0[chrisman]crwdne68070:0"
+
+#. type: Plain text
+#: bibliography.en.adoc:6
+msgid "[[cullen]] Cullen AC & Frey HC (1999) Probabilistic Techniques in Exposure Assessment: A Handbook for Dealing with Variability and Uncertainty in Models and Inputs. New York: Plenum Press."
+msgstr "crwdns68072:0[cullen]crwdne68072:0"
+
+#. type: Plain text
+#: bibliography.en.adoc:7
+msgid "[[juran]] Juran JM (1964) Managerial Breakthrough. New York: McGraw-Hill."
+msgstr "crwdns68074:0[juran]crwdne68074:0"
+
+#. type: Plain text
+#: bibliography.en.adoc:8
+msgid "[[juran-2ed]] Juran JM (1995) Managerial Breakthrough. New York: McGraw-Hill. Revised 2nd edition."
+msgstr "crwdns68076:0[juran-2ed]crwdne68076:0"
+
+#. type: Plain text
+#: bibliography.en.adoc:9
+msgid "[[wieczorekc19]] Wieczorek C & Wieczorek J (2020) Georeferencing Calculator. Rauthiflor LLC. Available: http://georeferencing.org/georefcalculator/gc.html[http://georeferencing.org/georefcalculator/gc.html^]"
+msgstr "crwdns68078:0[wieczorekc19]crwdne68078:0"
+
+#. type: Plain text
+#: bibliography.en.adoc:10
+msgid "[[wieczorek01]] Wieczorek J (2001) MaNIS/HerpNET/ORNIS Georeferencing Guidelines. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[http://georeferencing.org/georefcalculator/docs/GeorefGuide.html^]."
+msgstr "crwdns68080:0[wieczorek01]crwdne68080:0"
+
+#. type: Plain text
+#: bibliography.en.adoc:11
+msgid "[[wieczorek12]] Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, Giovanni R, Robertson T & Vieglais D (2012) Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715. https://doi.org/10.1371/journal.pone.0029715[https://doi.org/10.1371/journal.pone.0029715^]"
+msgstr "crwdns68082:0[wieczorek12]crwdne68082:0"
+
+#. type: Plain text
+#: bibliography.en.adoc:12
+msgid "[[wieczorek19]] Wieczorek J (2019) Global estimates of worst-case datum shifts from WGS84. Rauthiflor LLC. Available http://georeferencing.org/georefcalculator/source/python/datumshiftproj.py[http://georeferencing.org/georefcalculator/source/python/datumshiftproj.py^]"
+msgstr "crwdns68084:0[wieczorek19]crwdne68084:0"
+
+#. type: Plain text
+#: bibliography.en.adoc:13
+msgid "[[wieczorek04]] Wieczorek J, Guo Q & Hijmans R (2004) The point-radius method for georeferencing locality descriptions and calculating associated uncertainty. International Journal of Geographical Information Science 18: 745-767. https://doi.org/10.1080/13658810412331280211[https://doi.org/10.1080/13658810412331280211^]"
+msgstr "crwdns68086:0[wieczorek04]crwdne68086:0"
+
+#. type: Plain text
+#: bibliography.en.adoc:14
+msgid "[[zermoglio]] Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC & Bloom DA (2020) Georeferencing Quick Reference Guide. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/e09p-h128[https://doi.org/10.35035/e09p-h128^]"
+msgstr "crwdns68088:0[zermoglio]crwdne68088:0"
+
