@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
-"POT-Creation-Date: 2021-02-01 17:29+0000\n"
-"PO-Revision-Date: 2021-06-28 22:01\n"
+"POT-Creation-Date: 2021-10-27 12:39+0000\n"
+"PO-Revision-Date: 2021-10-27 17:01\n"
 "Last-Translator: \n"
 "Language-Team: Afar\n"
 "Language: aa_ER\n"
@@ -23,7 +23,7 @@ msgid "Georeferencing Calculator Manual"
 msgstr "crwdns67258:0crwdne67258:0"
 
 #. type: Plain text
-#: index.en.adoc:27
+#: index.en.adoc:31
 msgid "languageLinks:combined[]"
 msgstr "crwdns67260:0crwdne67260:0"
 
@@ -1087,10 +1087,11 @@ msgstr "crwdns67646:0[antimeridian]crwdne67646:0"
 msgid "The <<meridian>> of <<longitude>> opposite a given <<meridian>>. A meridian and its antimeridian form a continuous ring around the Earth. The \"Antimeridian\" is the specific meridian of longitude opposite the <<prime meridian>> and is used as the rough basis of the International Date Line."
 msgstr "crwdns67648:0crwdne67648:0"
 
-#. type: Plain text
-#: glossary.en.adoc:15
-msgid "[[bathymetry]]bathymetry::"
-msgstr "crwdns67650:0[bathymetry]crwdne67650:0"
+#. type: Labeled list
+#: glossary.en.adoc:14
+#, no-wrap
+msgid "[[bathymetry]]bathymetry"
+msgstr "crwdns82555:0[bathymetry]crwdne82555:0"
 
 #. type: Plain text
 #: glossary.en.adoc:16
@@ -1994,10 +1995,11 @@ msgstr "crwdns67976:0[point-radius]crwdne67976:0"
 msgid "A representation of the <<geographic component>> of a <<location>> as a <<geographic-coordinates,geographic coordinate>> and a <<maximum uncertainty distance>>. The <<point-radius>> <<georeferencing method>> produces <<georeference,georeferences>> that include geographic coordinates, a <<coordinate reference system>>, and a maximum uncertainty distance that encompasses all of the possible geographic coordinates where a <<locality>> might be interpreted to be. This representation encompasses all of the geographical <<uncertainty,uncertainties>> within a circle. The point-radius method uses ranges to represent the non-geographic descriptors of the location (<<elevation>>, <<depth>>, <<distance above surface>>)."
 msgstr "crwdns67978:0crwdne67978:0"
 
-#. type: Plain text
-#: glossary.en.adoc:182
-msgid "[[precision]]precision::"
-msgstr "crwdns67980:0[precision]crwdne67980:0"
+#. type: Labeled list
+#: glossary.en.adoc:181
+#, no-wrap
+msgid "[[precision]]precision"
+msgstr "crwdns82557:0[precision]crwdne82557:0"
 
 #. type: Plain text
 #: glossary.en.adoc:185
