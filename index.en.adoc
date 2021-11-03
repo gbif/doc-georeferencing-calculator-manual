@@ -15,11 +15,15 @@
 :docinfo: shared-head
 
 // Shorthand for links to the other two documents
-:gqg: link:../../../georeferencing-quick-reference-guide/1.0/en/
 :gbp: link:../../../georeferencing-best-practices/1.0/en/
+:gqg: link:../../../georeferencing-quick-reference-guide/1.0/en/
+:gbp-es: link:../../../georeferencing-best-practices/1.0/es/
+:gqg-es: link:../../../georeferencing-quick-reference-guide/1.0/es/
 ifdef::backend-pdf[]
-:gqg: link:https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/
 :gbp: link:https://docs.gbif.org/georeferencing-best-practices/1.0/en/
+:gqg: link:https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/
+:gbp: link:https://docs.gbif.org/georeferencing-best-practices/1.0/es/
+:gqg: link:https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/es/
 endif::backend-pdf[]
 
 ifdef::backend-html5[]
