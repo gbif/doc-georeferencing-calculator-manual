@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-10-27 17:01\n"
+"PO-Revision-Date: 2021-11-10 16:14\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,90 +20,90 @@ msgstr ""
 #: index.en.adoc:1
 #, no-wrap
 msgid "Georeferencing Calculator Manual"
-msgstr ""
+msgstr "Manual de la Calculadora de Georreferenciación"
 
 #. type: Plain text
 #: index.en.adoc:31
 msgid "languageLinks:combined[]"
-msgstr ""
+msgstr "languageLinks:combined[]"
 
 #. type: Target for macro image
 #: colophon.en.adoc:3
 #, no-wrap
 msgid "img/web/photo.jpg"
-msgstr ""
+msgstr "img/web/photo.jpg"
 
 #. type: Title ==
 #: colophon.en.adoc:6
 #, no-wrap
 msgid "Colophon"
-msgstr ""
+msgstr "Colofón"
 
 #. type: Title ===
 #: colophon.en.adoc:9
 #, no-wrap
 msgid "Suggested citation"
-msgstr ""
+msgstr "Citación sugerida"
 
 #. type: Plain text
 #: colophon.en.adoc:12
 msgid "Bloom DA, Wieczorek JR & Zermoglio PF (2020) Georeferencing Calculator Manual. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/gdwq-3v93"
-msgstr ""
+msgstr "Bloom DA, Wieczorek JR & Zermoglio PF (2020) Manual de la Calculadora de Georreferenciación. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/gdwq-3v93"
 
 #. type: Title ===
 #: colophon.en.adoc:13
 #, no-wrap
 msgid "Authors"
-msgstr ""
+msgstr "Autores"
 
 #. type: Plain text
 #: colophon.en.adoc:16
 msgid "https://orcid.org/0000-0003-1273-1807[David A. Bloom], https://orcid.org/0000-0003-1144-0290[John R. Wieczorek] & https://orcid.org/0000-0002-6056-5084[Paula F. Zermoglio]"
-msgstr ""
+msgstr "https://orcid.org/0000-0003-1273-1807[David A. Bloom], https://orcid.org/0000-0003-1144-0290[John R. Wieczorek] & https://orcid.org/0000-0002-6056-5084[Paula F. Zermoglio]"
 
 #. type: Title ===
 #: colophon.en.adoc:17
 #, no-wrap
 msgid "Licence"
-msgstr ""
+msgstr "Licencia"
 
 #. type: Plain text
 #: colophon.en.adoc:19
 msgid "The document _Georeferencing Calculator Manual_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License]."
-msgstr ""
+msgstr "Este documento _Manual de la Calculadora de Georreferenciación_ se publica bajo una licencia https://creativecommons.org/licenses/by-sa/4.0/deed.es[Creative Commons Attribución-CompartirIgual 4.0 Internacional]."
 
 #. type: Title ===
 #: colophon.en.adoc:20
 #, no-wrap
 msgid "Persistent URI"
-msgstr ""
+msgstr "URI persistente"
 
 #. type: Plain text
 #: colophon.en.adoc:23
 msgid "https://doi.org/10.35035/gdwq-3v93"
-msgstr ""
+msgstr "https://doi.org/10.35035/gdwq-3v93"
 
 #. type: Title ===
 #: colophon.en.adoc:24
 #, no-wrap
 msgid "Document control"
-msgstr ""
+msgstr "Control del documento"
 
 #. type: Plain text
 #: colophon.en.adoc:27
 msgid "Version 1.0, December 2020"
-msgstr ""
+msgstr "V1.0, Diciembre 2020"
 
 #. type: Plain text
 #: colophon.en.adoc:29
 msgid "Originally based on an earlier publication: Wieczorek J & Bloom DA (2015) Manual for the Georeferencing Calculator. University of California, Berkeley: Museum of Vertebrate Zoology. http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html."
-msgstr ""
+msgstr "Originalmente basado en una publicación anterior: Wieczorek J & Bloom DA (2015) Manual for the Georeferencing Calculator. University of California, Berkeley: Museum of Vertebrate Zoology. http://georeferencing.org/gci2/docs/GeoreferencingCalculatorManualv2.html."
 
 #. type: Title ===
 #: colophon.en.adoc:30
 #, no-wrap
 msgid "Cover image"
-msgstr ""
+msgstr "Imagen de portada"
 
 #. type: Plain text
 #: colophon.en.adoc:32
