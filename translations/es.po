@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-11-10 17:16\n"
+"PO-Revision-Date: 2021-11-14 22:57\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1944,94 +1944,94 @@ msgstr ""
 #: glossary.en.adoc:171
 #, no-wrap
 msgid "[[northing]]northing"
-msgstr ""
+msgstr "[[northing]]norte"
 
 #. type: Plain text
 #: glossary.en.adoc:172
 msgid "Within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing northward distance from a reference <<latitude>>."
-msgstr ""
+msgstr "Dentro de un <<sistema de coordenadas de referencia>> (p. ej. como el proporcionado por un <<GPS>> o un un mapa de <<grilla,grillas>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el norte desde una <<latitud>> de referencia."
 
 #. type: Labeled list
 #: glossary.en.adoc:173
 #, no-wrap
 msgid "[[offset]]offset"
-msgstr ""
+msgstr "[[desplazamiento]]desplazamiento"
 
 #. type: Plain text
 #: glossary.en.adoc:174
 msgid "A displacement from a reference <<location>>. Usually used in conjunction with <<heading>> to give a distance and <<direction>> from a <<feature>>."
-msgstr ""
+msgstr "El desplazamiento desde una <<ubicación>> de referencia. Generalmente utilizado en conjunto con una <<dirección>> para dar una distancia y orientación desde una <<entidad geográfica>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:175
 #, no-wrap
 msgid "[[path]]path"
-msgstr ""
+msgstr "[[ruta]]ruta"
 
 #. type: Plain text
 #: glossary.en.adoc:176
 msgid "A route or track between one place and another. In some cases the path may cross itself."
-msgstr ""
+msgstr "Ruta o camino entre un lugar y otro. En algunos casos el camino puede cruzarse a si mismo."
 
 #. type: Labeled list
 #: glossary.en.adoc:177
 #, no-wrap
 msgid "[[PID]]persistent identifier (PID)"
-msgstr ""
+msgstr "[[PID]]identificador persistente (PID)"
 
 #. type: Plain text
 #: glossary.en.adoc:178
 msgid "A long-lasting reference to a document, file, web page, or other object. The term \"persistent identifier\" is usually used in the context of digital objects accessible over the Internet. There are many options for PIDs, such as <<GUID,Globally Unique Identifiers (GUIDs)>>, https://www.doi.org[Digital Object Identifiers (DOIs)^], and Universal Unique Identifiers (UUIDs)."
-msgstr ""
+msgstr "Una referencia permanente a un documento, archivo, página web u otro objeto. El término \"identificador persistente\" se utiliza generalmente en el contexto de objetos digitales accesibles a través de Internet. Hay muchas opciones para PIDs, como <<GUID,Identificadores Únicos Globales (GUIDs)>>, https://www.doi.org[Identificadores de Objetos Digitales (DOIs)^] e Identificadores Únicos Universales (UUIDs)."
 
 #. type: Labeled list
 #: glossary.en.adoc:179
 #, no-wrap
 msgid "[[point-radius]]point-radius"
-msgstr ""
+msgstr "[[radio-punto]]radio-punto"
 
 #. type: Plain text
 #: glossary.en.adoc:180
 msgid "A representation of the <<geographic component>> of a <<location>> as a <<geographic-coordinates,geographic coordinate>> and a <<maximum uncertainty distance>>. The <<point-radius>> <<georeferencing method>> produces <<georeference,georeferences>> that include geographic coordinates, a <<coordinate reference system>>, and a maximum uncertainty distance that encompasses all of the possible geographic coordinates where a <<locality>> might be interpreted to be. This representation encompasses all of the geographical <<uncertainty,uncertainties>> within a circle. The point-radius method uses ranges to represent the non-geographic descriptors of the location (<<elevation>>, <<depth>>, <<distance above surface>>)."
-msgstr ""
+msgstr "Representación del <<componente geográfico>> de una <<ubicación>> a partir de sus <<coordenadas geográficas>> y una <<distancia máxima de incertidumbre>>. El <<método de georreferenciación>> radio-punto produce <<georreferencia,georreferencias>> que incluyen coordenadas geográficas bajo un <<sistema de referencia de coordenadas>> y una distancia máxima de incertidumbre que cubre todas las posibles coordenadas geográficas donde una <<localidad>> podría interpretarse que está. Esta representación enmarca toda la <<incertidumbre>> dentro de un círculo. El método radio-punto utiliza rangos para representar otros atributos no geográficos de la ubicación (<<elevación>>, <<profundidad>>, <<distancia sobre la superficie>>)."
 
 #. type: Labeled list
 #: glossary.en.adoc:181
 #, no-wrap
 msgid "[[precision]]precision"
-msgstr ""
+msgstr "[[precisión]]precisión"
 
 #. type: Plain text
 #: glossary.en.adoc:185
 msgid "The closeness of a repeated set of observations of the same quantity to one another – a measure of control over random <<error>>."
-msgstr ""
+msgstr "La cercanía entre un conjunto repetido de observaciones de la misma cantidad entre sí, una medida de control sobre el <<error>> aleatorio."
 
 #. type: Plain text
 #: glossary.en.adoc:186
 msgid "With values, it describes the finest unit of measurement used to express that value (e.g. if a record is reported to the nearest second, the precision is 1/3600^th^ of a degree; if a <<decimal degrees,decimal degree>> is reported to two decimal places, the precision is 0.01 of a degree)."
-msgstr ""
+msgstr "Con valores, describe la mejor unidad de medida utilizada para expresar ese valor (p. ej. si un registro se reporta al segundo más cercano, la precisión es 1/3600 ^ de un grado; si un <<grados decimales,grado decimal>> es reportado a dos decimales, la precisión es 0. 1 de grado)."
 
 #. type: Plain text
 #: glossary.en.adoc:189
 msgid "Antonym: imprecision. Compare <<accuracy>>, <<error>>, <<bias>>, <<false precision>>, and <<uncertainty>>."
-msgstr ""
+msgstr "Antónimo: imprecisión. Comparar con <<exactitud>>, <<error>>, <<sesgo>>, <<falsa precisión>> e <<incertidumbre>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:190
 #, no-wrap
 msgid "[[prime-meridian]]prime meridian"
-msgstr ""
+msgstr "[[prime-meridian]]meridiano cero"
 
 #. type: Plain text
 #: glossary.en.adoc:191
 msgid "The set of <<location,locations>> with <<longitude>> designated as 0 degrees east and west, to which all other longitudes are referenced. The Greenwich <<meridian>> is internationally recognized as the <<prime meridian>> for many popular and official purposes."
-msgstr ""
+msgstr "Conjunto de <<ubicación,ubicaciones>> con <<longitud>> designada como 0 grados este y oeste, a partir del cuál se referencian todas las longitudes. El <<meridiano>> de Greenwich es reconocido internacionalmente como el <<meridiano cero>> para muchos propósitos populares y oficiales."
 
 #. type: Labeled list
 #: glossary.en.adoc:192
 #, no-wrap
 msgid "[[projection]]projection"
-msgstr ""
+msgstr "[[projection]]proyección"
 
 #. type: Plain text
 #: glossary.en.adoc:193
@@ -2207,87 +2207,87 @@ msgstr ""
 #: glossary.en.adoc:224
 #, no-wrap
 msgid "[[WAAS]]Wide Area Augmentation System (WAAS)"
-msgstr ""
+msgstr "[[WAAS]]Sistema de Aumentación de Área Amplia (WAAS)"
 
 #. type: Plain text
 #: glossary.en.adoc:225
 msgid "An air navigation aid developed by the US Federal Aviation Administration to augment the Global Positioning System (<<GPS>>), with the goal of improving its <<accuracy>>, integrity, and availability. See also <<sbas,SBAS>>, of which WAAS is one example."
-msgstr ""
+msgstr "Una ayuda de navegación aérea desarrollada por la Administración Federal de Aviación de Estados Unidos para complementar el Sistema de Posicionamiento Global (<<GPS>>), con el objetivo de mejorar su <<exactitud>>, integridad, y disponibilidad. Ver también <<sbas,SBAS>>, de los cuales WAAS es un ejemplo."
 
 #. type: Labeled list
 #: glossary.en.adoc:226
 #, no-wrap
 msgid "[[WGS84]]WGS84"
-msgstr ""
+msgstr "[[WGS84]]WGS84"
 
 #. type: Plain text
 #: glossary.en.adoc:227
 msgid "World Geodetic System 1984, a popular globally-used horizontal <<geodetic coordinate reference system>> (EPSG:4326) upon which raw <<GPS>> measurements are based (though a GPS receiver is capable of delivering <<coordinates>> in other reference systems). The term is also commonly used for the <<geodetic datum>> used by that system and for the <<ellipsoid>> (EPSG:7030) upon which that <<datum>> (EPSG:6326) is based."
-msgstr ""
+msgstr "Sistema geodésico mundial 1984, un popular y globalmente usado <<sistema de referencia de coordenadas geodésico>> horizontal (EPSG:4326) en el que se basan las mediciones de los <<GPS>> (aunque un receptor GPS es capaz de entregar <<coordenadas>> en otros sistemas de referencia). El término también se utiliza comúnmente para el <<datum geodésico>> utilizado por ese sistema y para el <<elipsoide>> (EPSG:7030) en el que se basa ese <<datum>> (EPSG:6326)."
 
 #. type: Plain text
 #: glossary.en.adoc:228 bibliography.en.adoc:15
 msgid "<<<"
-msgstr ""
+msgstr "<<<"
 
 #. type: Title ==
 #: bibliography.en.adoc:1
 #, no-wrap
 msgid "References"
-msgstr ""
+msgstr "Referencias"
 
 #. type: Plain text
 #: bibliography.en.adoc:4
 msgid "[[chapman]] Chapman AD & Wieczorek J (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853[https://doi.org/10.15468/doc-gg7h-s853^]"
-msgstr ""
+msgstr "[[chapman]] Chapman AD & Wieczorek J (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853[https://doi.org/10.15468/doc-gg7h-s853^]"
 
 #. type: Plain text
 #: bibliography.en.adoc:5
 msgid "[[chrisman]] Chrisman NR (1991) The Error Component in Spatial Data, in Maguire DJ, Goodchild MF & Rhind DW (eds), Geographical Information Systems Vol. 1, Principals. London: Longman Scientific and Technical Publishers, pp. 165-174."
-msgstr ""
+msgstr "[[chrisman]] Chrisman NR (1991) The Error Component in Spatial Data, in Maguire DJ, Goodchild MF & Rhind DW (eds), Geographical Information Systems Vol. 1, Principals. London: Longman Scientific and Technical Publishers, pp. 165-174."
 
 #. type: Plain text
 #: bibliography.en.adoc:6
 msgid "[[cullen]] Cullen AC & Frey HC (1999) Probabilistic Techniques in Exposure Assessment: A Handbook for Dealing with Variability and Uncertainty in Models and Inputs. New York: Plenum Press."
-msgstr ""
+msgstr "[[cullen]] Cullen AC & Frey HC (1999) Probabilistic Techniques in Exposure Assessment: A Handbook for Dealing with Variability and Uncertainty in Models and Inputs. New York: Plenum Press."
 
 #. type: Plain text
 #: bibliography.en.adoc:7
 msgid "[[juran]] Juran JM (1964) Managerial Breakthrough. New York: McGraw-Hill."
-msgstr ""
+msgstr "[[juran]] Juran JM (1964) Managerial Breakthrough. New York: McGraw-Hill."
 
 #. type: Plain text
 #: bibliography.en.adoc:8
 msgid "[[juran-2ed]] Juran JM (1995) Managerial Breakthrough. New York: McGraw-Hill. Revised 2nd edition."
-msgstr ""
+msgstr "[[juran-2ed]] Juran JM (1995) Managerial Breakthrough. New York: McGraw-Hill. Revised 2nd edition."
 
 #. type: Plain text
 #: bibliography.en.adoc:9
 msgid "[[wieczorekc19]] Wieczorek C & Wieczorek J (2020) Georeferencing Calculator. Rauthiflor LLC. Available: http://georeferencing.org/georefcalculator/gc.html[http://georeferencing.org/georefcalculator/gc.html^]"
-msgstr ""
+msgstr "[[wieczorekc19]] Wieczorek C & Wieczorek J (2020) Georeferencing Calculator. Rauthiflor LLC. Available: http://georeferencing.org/georefcalculator/gc.html[http://georeferencing.org/georefcalculator/gc.html^]"
 
 #. type: Plain text
 #: bibliography.en.adoc:10
 msgid "[[wieczorek01]] Wieczorek J (2001) MaNIS/HerpNET/ORNIS Georeferencing Guidelines. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[http://georeferencing.org/georefcalculator/docs/GeorefGuide.html^]."
-msgstr ""
+msgstr "[[wieczorek01]] Wieczorek J (2001) MaNIS/HerpNET/ORNIS Georeferencing Guidelines. Berkeley, California, USA: University of California, Berkeley, Museum of Vertebrate Zoology. http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[http://georeferencing.org/georefcalculator/docs/GeorefGuide.html^]."
 
 #. type: Plain text
 #: bibliography.en.adoc:11
 msgid "[[wieczorek12]] Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, Giovanni R, Robertson T & Vieglais D (2012) Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715. https://doi.org/10.1371/journal.pone.0029715[https://doi.org/10.1371/journal.pone.0029715^]"
-msgstr ""
+msgstr "[[wieczorek12]] Wieczorek J, Bloom D, Guralnick R, Blum S, Döring M, Giovanni R, Robertson T & Vieglais D (2012) Darwin Core: An Evolving Community-Developed Biodiversity Data Standard. PLoS ONE 7(1): e29715. https://doi.org/10.1371/journal.pone.0029715[https://doi.org/10.1371/journal.pone.0029715^]"
 
 #. type: Plain text
 #: bibliography.en.adoc:12
 msgid "[[wieczorek19]] Wieczorek J (2019) Global estimates of worst-case datum shifts from WGS84. Rauthiflor LLC. Available http://georeferencing.org/georefcalculator/source/python/datumshiftproj.py[http://georeferencing.org/georefcalculator/source/python/datumshiftproj.py^]"
-msgstr ""
+msgstr "[[wieczorek19]] Wieczorek J (2019) Global estimates of worst-case datum shifts from WGS84. Rauthiflor LLC. Available http://georeferencing.org/georefcalculator/source/python/datumshiftproj.py[http://georeferencing.org/georefcalculator/source/python/datumshiftproj.py^]"
 
 #. type: Plain text
 #: bibliography.en.adoc:13
 msgid "[[wieczorek04]] Wieczorek J, Guo Q & Hijmans R (2004) The point-radius method for georeferencing locality descriptions and calculating associated uncertainty. International Journal of Geographical Information Science 18: 745-767. https://doi.org/10.1080/13658810412331280211[https://doi.org/10.1080/13658810412331280211^]"
-msgstr ""
+msgstr "[[wieczorek04]] Wieczorek J, Guo Q & Hijmans R (2004) The point-radius method for georeferencing locality descriptions and calculating associated uncertainty. International Journal of Geographical Information Science 18: 745-767. https://doi.org/10.1080/13658810412331280211[https://doi.org/10.1080/13658810412331280211^]"
 
 #. type: Plain text
 #: bibliography.en.adoc:14
 msgid "[[zermoglio]] Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC & Bloom DA (2020) Georeferencing Quick Reference Guide. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/e09p-h128[https://doi.org/10.35035/e09p-h128^]"
-msgstr ""
+msgstr "[[zermoglio]] Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC & Bloom DA (2020) Georeferencing Quick Reference Guide. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/e09p-h128[https://doi.org/10.35035/e09p-h128^]"
 
