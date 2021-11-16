@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-11-15 00:58\n"
+"PO-Revision-Date: 2021-11-16 16:11\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -108,7 +108,7 @@ msgstr "Imagen de portada"
 #. type: Plain text
 #: colophon.en.adoc:32
 msgid "Western bobcat (_Lynx rufus_ subsp. _fasciatus_), Sonoma County, California, United States. Photo 2019 Sonoma Ecology Center–Research Department via https://www.gbif.org/occurrence/2597893778[iNaturalist research-grade observations], licensed under http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0]."
-msgstr ""
+msgstr "Lince de Baja California (_Lynx rufus_ subsp. _fasciatus_), Condado de Sonoma, California, Estados Unidos. Foto 2019 Sonoma Ecology Center–Research Department vía https://www.gbif.org/occurrence/2597893778[iNaturalist research-grade observations], bajo licencia http://creativecommons.org/licenses/by-nc/4.0/[CC BY-NC 4.0]."
 
 #. type: Title ==
 #: 0100.en.adoc:2
