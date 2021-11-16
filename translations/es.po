@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-11-16 17:23\n"
+"PO-Revision-Date: 2021-11-16 20:33\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -163,7 +163,7 @@ msgstr "La http://georeferencing.org/georefcalculator/gc.html[Calculadora de Geo
 #. type: Plain text
 #: 0300.en.adoc:7
 msgid "Choose the language for the Calculator."
-msgstr "Escoger el lenguaje de la Calculadora."
+msgstr "Escoger el idioma de la Calculadora."
 
 #. type: Plain text
 #: 0300.en.adoc:8
@@ -246,7 +246,7 @@ msgstr "La versión y lenguaje de la Calculadora se puede encontrar en la esquin
 #. type: Plain text
 #: 0400.en.adoc:20
 msgid "If the Darwin Core standard is not used to record calculator output, the georeferencer should record this citation in a suitable field in the database of choice and in any written documentation or notes for future georeferencing efforts."
-msgstr ""
+msgstr "Si no se utiliza el estándar Darwin Core para registrar el resultado de la calculadora, el georreferenciador debe registrar esta cita en un campo adecuado de la base de datos elegida y en cualquier documentación escrita o notas para futuros esfuerzos de georreferenciación."
 
 #. type: Title ==
 #: 0500.en.adoc:2
@@ -258,40 +258,40 @@ msgstr "Flujo de Trabajo Detallado"
 #: 0510.en.adoc:1
 #, no-wrap
 msgid "Step 1: Choose a Language"
-msgstr ""
+msgstr "Paso 1: Seleccionar el Idioma"
 
 #. type: Plain text
 #: 0510.en.adoc:4
 msgid "Click on the drop-down in the upper left-hand corner of the http://georeferencing.org/georefcalculator/gc.html[Calculator^] to choose the language for the interface. When the list is expanded, the application should appear as in xref:img-choose-language[xrefstyle=\"short\"]."
-msgstr ""
+msgstr "Haga clic en la lista deplegable en la parte superior izquierda de la http://georeferencing.org/georefcalculator/gc.html[Calculadora^] para escoger el idioma de la interfaz. Cuando la lista se expanda, la aplicación debería aparecer como en xref:img-choose-language[xrefstyle=\"short\"]."
 
 #. type: Plain text
 #: 0510.en.adoc:6
 msgid "The number format always uses the full stop '.' as the decimal indicator (e.g. 2.5 for the number halfway between 2 and 3), regardless of the selected language."
-msgstr ""
+msgstr "El formato de los números siempre utiliza el punto '.' como indicador decimal (por ejemplo, 2,¡.5 para el número que está entre 2 y 3), independientemente del idioma seleccionado."
 
 #. type: Block title
 #: 0510.en.adoc:8
 #, no-wrap
 msgid "Step 1: Choose a language. The Calculator with the five language options showing after opening the Language drop-down list."
-msgstr ""
+msgstr "Paso 1: Escoger el idioma. La Calculadora con las cinco opciones de idioma que se muestran luego de haber abierto la lista desplegable de Idioma."
 
 #. type: Target for macro image
 #: 0510.en.adoc:9
 #, no-wrap
 msgid "img/web/choose-language.png"
-msgstr ""
+msgstr "img/web/choose-language.png"
 
 #. type: Title ===
 #: 0510.en.adoc:11
 #, no-wrap
 msgid "Step 2: Choose a Locality Type"
-msgstr ""
+msgstr "Paso 2: Escoger un Tipo de Localidad"
 
 #. type: Plain text
 #: 0510.en.adoc:14
 msgid "Click on the xref:ui-locality-type[role=ui-element] drop-down to expand the list. When the list is expanded, the application should appear as in xref:img-choose-locality-type[xrefstyle=\"short\"]."
-msgstr ""
+msgstr "Haga clic en la lista desplegable xref:ui-tipo-de-localidad[role=ui-element] para ampliar la lista. Cuando la lista esté expandida, la aplicación debería aparecer como en xref:img-choose-locality-type[xrefstyle=\"short\"]."
 
 #. type: Block title
 #: 0510.en.adoc:16
