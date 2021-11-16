@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-11-16 21:38\n"
+"PO-Revision-Date: 2021-11-16 22:34\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -403,12 +403,12 @@ msgstr "Una vez determinada la distancia más pequeña que puede medirse de form
 #. type: delimited block =
 #: 0510.en.adoc:56
 msgid "Next, make certain that \"[ui-element]#mi#\" is selected in the xref:ui-distance-units[role=ui-element] drop-down, since the locality is described in miles (\"10 mi E…\"). The offset component in this locality is 10 mi, which is <<precision,precise>> to the nearest 10 miles (see the discussion on this topic in the section {gbp}#uncertainty-related-to-offset-precision[Uncertainty Related to Offset Precision^] in {gbp}[Georeferencing Best Practices (Chapman & Wieczorek 2020)^]. Select \"_10 mi_\" in the distance [ui-element]#Precision# drop-down."
-msgstr ""
+msgstr "A continuación, asegúrese de que en la lista desplegable xref:ui-unidades-de-la-distancia[role=ui-element] esté seleccionado \"[ui-element]#mi#\", ya que la localidad se describe en millas (\"10 mi E...\"). El componente de desplazamiento en esta localidad es de 10 mi, que es <<precisión,preciso>> a las 10 millas más cercanas (vea la discusión sobre este tema en la sección {gbp}#incertidumbre-relacionada-con-la-precisión-del-desplazamiento[Incertidumbre Relacionada con la Precisión del Desplazamiento^] en {gbp}[Buenas Prácticas de Georreferenciación (Chapman & Wieczorek 2020)^]. Seleccione \"_10 mi_\" en la lista desplegable de [ui-elemento]#Precisión# de la distancia."
 
 #. type: delimited block =
 #: 0510.en.adoc:58
 msgid "Next, click the xref:ui-calculate[role=ui-element] button. The calculated coordinates (always presented in <<decimal-degrees>>) for the locality \"10 mi E (by air) Bakersfield\" and the xref:ui-uncertainty[role=ui-element] for the calculation (always in meters) will be given in the controls just above the [ui-element]#Distance Converter# at the lower part of the Calculator, as shown in xref:img-calculate[xrefstyle=\"short\"]."
-msgstr ""
+msgstr "A continuación, haga clic en el botón xref:ui-calcular[role=ui-element]. Las coordenadas calculadas (siempre presentadas en <<grados decimales>>) para la localidad \"10 mi E (por aire) Bakersfield\" y la xref:ui-incertidumbre[role=ui-element] para el cálculo (siempre en metros) se mostrarán en los campos justo encima del [ui-element]#Conversor de Distancias# en la parte inferior de la Calculadora, como se muestra en xref:img-calculate[xrefstyle=\"short\"]."
 
 #. type: Block title
 #: 0510.en.adoc:61
