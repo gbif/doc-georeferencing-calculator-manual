@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-11-16 22:34\n"
+"PO-Revision-Date: 2021-11-16 23:34\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -414,148 +414,148 @@ msgstr "A continuación, haga clic en el botón xref:ui-calcular[role=ui-element
 #: 0510.en.adoc:61
 #, no-wrap
 msgid "Step 4: Calculate. The Calculator after clicking on the Calculate button, with all of the relevant text and drop-down boxes filled in or selected for an example of locality type \"Distance at a heading\". Results appear written in blue in the grey text boxes in the middle section of the Calculator below the Calculate button."
-msgstr ""
+msgstr "Paso 4: Calcular. La Calculadora después de hacer clic en el botón Calcular, con todos los cuadros de texto y listas desplegables pertinentes llenos o seleccionados para un ejemplo de tipo de localidad \"Distancia en una dirección\". Los resultados aparecen escritos en azul en los cuadros de texto grises de la sección central de la Calculadora, debajo del botón Calcular."
 
 #. type: Target for macro image
 #: 0510.en.adoc:62
 #, no-wrap
 msgid "img/web/calculate.png"
-msgstr ""
+msgstr "img/web/calculate.png"
 
 #. type: Title ===
 #: 0510.en.adoc:64
 #, no-wrap
 msgid "Step 5: Enter Metadata"
-msgstr ""
+msgstr "Paso 5: Ingresar los Metadatos"
 
 #. type: Plain text
 #: 0510.en.adoc:67
 msgid "After the results of the calculation have been presented, add the name of the georeferencer in the [ui-element]#Georeferenced by# text box. If there is more than one person, separate the names in the list by ' | '. Finally, select the appropriate <<georeference,georeferencing>> [ui-element]#Protocol#. We recommend the {gqg}[Georeferencing Quick Referencing Guide (Zermoglio et al. 2020)^] as the <<georeferencing-protocol>> to follow and select. Do not use this option if the protocol was altered in any way. Rather, make a citable document available and reference that. People will rely on strict application of the georeferencing protocol in order to be able to reproduce a georeference given the same input parameters. If an undocumented protocol is followed, select \"[ui-element]#protocol not recorded#\". The example georeference from xref:img-calculate[xrefstyle=\"short\"], with the metadata filled in, is shown in xref:img-enter-metadata[xrefstyle=\"short\"]."
-msgstr ""
+msgstr "Una vez presentados los resultados del cálculo, añada el nombre del georreferenciador en el cuadro de texto [ui-element]#Georreferenciado por#. Si hay más de una persona, separe los nombres en la lista con ' | '. Por último, seleccione el [ui-element]#Protocolo# de <<georreferencia, georreferenciación>> apropiado. Recomendamos la {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^] como <<protocolo de georreferenciación>> a seguir y seleccionar. No seleccione esta opción si el protocolo fue alterado de alguna manera. Más bien, haga disponible un documento citable y haga referencia a este. La gente confiará en la aplicación estricta del protocolo de georreferenciación para poder reproducir una georreferencia dados los mismos parámetros de entrada. Si se sigue un protocolo no documentado, seleccione \"[ui-elemento]#protocolo no indicado#\". El ejemplo de georreferencia de xref:img-calculate[xrefstyle=\"short\"], con los metadatos completos, se muestra en xref:img-enter-metadata[xrefstyle=\"short\"]."
 
 #. type: Block title
 #: 0510.en.adoc:69
 #, no-wrap
 msgid "Step 5: Enter Metadata. The Calculator after entering an example of georeference metadata for the georeferencer and the georeferencing Protocol used."
-msgstr ""
+msgstr "Step 5: Ingrese los Metadatos. La calculadora después de ingresar un ejemplo de metadatos de georreferencia para el georreferenciador y el Protocolo de georreferenciación utilizado."
 
 #. type: Target for macro image
 #: 0510.en.adoc:70
 #, no-wrap
 msgid "img/web/enter-metadata.png"
-msgstr ""
+msgstr "img/web/enter-metadata.png"
 
 #. type: Title ===
 #: 0510.en.adoc:72
 #, no-wrap
 msgid "Step 6: Copy Results"
-msgstr ""
+msgstr "Paso 6: Copiar los Resultados"
 
 #. type: Plain text
 #: 0510.en.adoc:75
 msgid "The results (in blue in the middle section of the Calculator after clicking on the xref:ui-calculate[role=ui-element] button), including the metadata, can be copied onto the system clipboard by clicking on the [ui-element]#Copy# button, after which a dialog box will appear displaying the content that has been copied, as shown in xref:img-copy-results[xrefstyle=\"short\"]."
-msgstr ""
+msgstr "Los resultados (en azul en la sección central de la Calculadora después de hacer clic en el botón xref:ui-calcular[role=ui-element]), incluidos los metadatos, pueden copiarse en el portapapeles del sistema haciendo clic en el botón [ui-element]#Copiar#, tras lo cual aparecerá un cuadro de diálogo con el contenido que se ha copiado, como se muestra en xref:img-copy-results[xrefstyle=\"short\"]."
 
 #. type: Plain text
 #: 0510.en.adoc:77
 msgid "This dialog box does not get translated based on the language chosen for the Calculator interface. To close the box, click the [ui-element]#OK# button. Once copied, the content can be transferred and pasted to a spreadsheet, database or text file as a tab-delimited record of the data for the current calculation."
-msgstr ""
+msgstr "Este cuadro de diálogo no se traduce en función del idioma elegido para la interfaz de la Calculadora. Para cerrar el cuadro, haga clic en el botón [ui-element]#OK#. Una vez copiado, el contenido puede ser transferido y pegado a una hoja de cálculo, base de datos o archivo de texto como un registro delimitado por tabulaciones de los datos para el cálculo actual."
 
 #. type: Block title
 #: 0510.en.adoc:79
 #, no-wrap
 msgid "Step 6: Copy Results. Pop-up dialog box after clicking on the Copy button, showing the tab-delimited results of the example georeference that have been copied to the system clipboard."
-msgstr ""
+msgstr "Paso 6: Copiar los Resultados. Cuadro de diálogo emergente después de hacer clic en el botón Copiar, el cual muestra los resultados de la georreferencia de ejemplo delimitados por tabulaciones, que han sido copiados en el portapapeles del sistema."
 
 #. type: Target for macro image
 #: 0510.en.adoc:80
 #, no-wrap
 msgid "img/web/copy-results.png"
-msgstr ""
+msgstr "img/web/copy-results.png"
 
 #. type: Title ===
 #: 0510.en.adoc:82
 #, no-wrap
 msgid "Step 7: Paste Results"
-msgstr ""
+msgstr "Paso 7: Pegar los Resultados"
 
 #. type: Plain text
 #: 0510.en.adoc:85
 msgid "The content on the system clipboard after clicking on the [ui-element]#Copy# button is tab-delimited. It can be pasted into a series of columns of a spreadsheet directly (this works in Excel as well as Google Sheets). It can also be pasted into a tab-delimited text file. When pasting the results, be certain that the order of the fields in the destination document matches the order of the fields in the results. Using http://rs.tdwg.org/dwc/terms/[Darwin Core standard term names^] (see also https://doi.org/10.1371/journal.pone.0029715[Wieczorek et al. 2012^]), the order of the result fields is:"
-msgstr ""
+msgstr "El contenido del portapapeles del sistema tras hacer clic en el botón [ui-elemento]#Copiar# está delimitado por tabulaciones. Se pueden pegar directamente en una serie de columnas de una hoja de cálculo (esto funciona tanto en Excel como en Google Sheets). También se puede pegar en un archivo de texto delimitado por tabulaciones. Al pegar los resultados, asegúrese de que el orden de los campos en el documento de destino coincida con el orden de los campos en los resultados. Utilizando http://rs.tdwg.org/dwc/terms/[los nombres de los términos del estándar Darwin Core^] (ver también https://doi.org/10.1371/journal.pone.0029715[Wieczorek et al. 2012^]), el orden de los campos de los resultados es:"
 
 #. type: Plain text
 #: 0510.en.adoc:87
 msgid "term:dwc[decimalLatitude]"
-msgstr ""
+msgstr "term:dwc[decimalLatitude] (Latitud decimal)"
 
 #. type: Plain text
 #: 0510.en.adoc:88
 msgid "term:dwc[decimalLongitude]"
-msgstr ""
+msgstr "term:dwc[decimalLongitude] (Longitud decimal)"
 
 #. type: Plain text
 #: 0510.en.adoc:89
 msgid "term:dwc[geodeticDatum]"
-msgstr ""
+msgstr "term:dwc[geodeticDatum] (Dato geodésico)"
 
 #. type: Plain text
 #: 0510.en.adoc:90
 msgid "term:dwc[coordinateUncertaintyInMeters]"
-msgstr ""
+msgstr "term:dwc[coordinateUncertaintyInMeters] (Incertidumbre de las coordenadas en metros)"
 
 #. type: Plain text
 #: 0510.en.adoc:91
 msgid "term:dwc[coordinatePrecision]"
-msgstr ""
+msgstr "term:dwc[coordinatePrecision] (Precisión de las coordenadas)"
 
 #. type: Plain text
 #: 0510.en.adoc:92
 msgid "term:dwc[georeferencedBy]"
-msgstr ""
+msgstr "term:dwc[georeferencedBy] (Georreferenciado por)"
 
 #. type: Plain text
 #: 0510.en.adoc:93
 msgid "term:dwc[georeferencedDate]"
-msgstr ""
+msgstr "term:dwc[georeferencedDate] (Fecha de georreferenciación)"
 
 #. type: Plain text
 #: 0510.en.adoc:94
 msgid "term:dwc[georeferenceProtocol]"
-msgstr ""
+msgstr "term:dwc[georeferenceProtocol] (Protocolo de georreferenciación)"
 
 #. type: Plain text
 #: 0510.en.adoc:96
 msgid "Note that only the values are copied and can be pasted, and not the corresponding headers. xref:img-paste-results[xrefstyle=\"short\"] shows the results after being pasted into a cell in a Google Sheet."
-msgstr ""
+msgstr "Tenga en cuenta que sólo se copian y se pueden pegar los valores y no los encabezados correspondientes. xref:img-paste-results[xrefstyle=\"short\"] muestra los resultados después de pegarlos en una celda de un archivo Google Sheet."
 
 #. type: Block title
 #: 0510.en.adoc:98
 #, no-wrap
 msgid "Step 7: Paste Results. Part of a Google Sheet into which the results have been pasted. The column names reflecting Darwin Core terms were already in row 1 when the results were pasted into the cell A2."
-msgstr ""
+msgstr "Paso 7: Pegar los Resultados. Parte de un archivo Google Sheet en el que se han pegado los resultados. Los nombres de las columnas que reflejan los términos del Darwin Core ya estaban en la fila 1 cuando se pegaron los resultados en la celda A2."
 
 #. type: Target for macro image
 #: 0510.en.adoc:99
 #, no-wrap
 msgid "img/web/paste-results.png"
-msgstr ""
+msgstr "img/web/paste-results.png"
 
 #. type: Title ===
 #: 0510.en.adoc:101
 #, no-wrap
 msgid "Step 8: Start a New Calculation"
-msgstr ""
+msgstr "Paso 8: Empezar un Nuevo Cálculo"
 
 #. type: Plain text
 #: 0510.en.adoc:104
 msgid "A new calculation can be started simply by entering new parameter values and selecting new drop-down list values pertinent to the next calculation. If the xref:ui-locality-type[role=ui-element] for the next calculation is different from the previous one, make a new selection on the xref:ui-locality-type[role=ui-element] drop-down list. New parameters will appear that are relevant to the new xref:ui-locality-type[role=ui-element] calculation. Previously entered and chosen values will remain in the text and drop-down boxes and thus carry over to the next calculation whenever possible. This can increase the efficiency of calculations if <<locality>> descriptions that include the same feature are <<georeference,georeferenced>> one after another."
-msgstr ""
+msgstr "Se puede iniciar un nuevo cálculo simplemente introduciendo nuevos valores para los parámetros y seleccionando nuevos valores de la lista desplegable pertinentes para el siguiente cálculo. Si el xref:ui-tipo-de-localidad[role=ui-element] para el siguiente cálculo es diferente del anterior, haga una nueva selección en la lista desplegable xref:ui-tipo-de-localidad[role=ui-element]. Aparecerán nuevos parámetros relevantes para el nuevo cálculo xref:ui-locality-type[role=ui-element]. Los valores introducidos y elegidos anteriormente permanecerán en los cuadros de texto y listas desplegables desplegables y, por tanto, se trasladarán al siguiente cálculo siempre que sea posible. Esto puede aumentar la eficiencia de los cálculos si las descripciones de <<localidad>> que incluyen la misma entidad geográfica son <<georreferencia,georeferenciadas>> una tras otra."
 
 #. type: Plain text
 #: 0510.en.adoc:106
 msgid "Always check that all parameter values and choices are correct before accepting the results of a calculation. xref:img-new-calculation[xrefstyle=\"short\"] shows the Calculator after selecting the xref:ui-locality-type[role=ui-element]: [ui-element]#Geographic feature only# for a new georeference following the georeference calculation shown in xref:img-enter-metadata[xrefstyle=\"short\"]. Without doing anything further, the Calculator would be ready to calculate the georeference for the locality \"Bakersfield\" based on the previous entries. Note that the [ui-element]#Date# value will change automatically when the xref:ui-calculate[role=ui-element] button is clicked."
-msgstr ""
+msgstr "Siempre compruebe que todos los valores y opciones de los parámetros son correctos antes de aceptar los resultados de un cálculo. xref:img-new-calculation[xrefstyle=\"short\"] muestra la Calculadora después de seleccionar el xref:ui-tipo-de-localidad[role=ui-element]: [ui-elemento]#Sólo una Entidad Geográfica# para una nueva georreferencia tras el cálculo de georreferencia mostrado en xref:img-enter-metadata[xrefstyle=\"short\"]. Sin hacer nada más, la Calculadora estaría lista para calcular la georreferencia de la localidad \"Bakersfield\" basándose en las entradas anteriores. Tenga en cuenta que el valor de [ui-element]#Fecha# cambiará automáticamente cuando se haga clic en el botón xref:ui-calcular[role=ui-element]."
 
 #. type: Block title
 #: 0510.en.adoc:108
