@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-11-16 20:33\n"
+"PO-Revision-Date: 2021-11-16 21:38\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -286,7 +286,7 @@ msgstr "img/web/choose-language.png"
 #: 0510.en.adoc:11
 #, no-wrap
 msgid "Step 2: Choose a Locality Type"
-msgstr "Paso 2: Escoger un Tipo de Localidad"
+msgstr "Paso 2: Seleccionar un Tipo de Localidad"
 
 #. type: Plain text
 #: 0510.en.adoc:14
@@ -297,108 +297,108 @@ msgstr "Haga clic en la lista desplegable xref:ui-tipo-de-localidad[role=ui-elem
 #: 0510.en.adoc:16
 #, no-wrap
 msgid "Step 2: Choose a locality type. The Calculator with the six basic locality types showing after opening the Locality Type drop-down list."
-msgstr ""
+msgstr "Paso 2: Seleccionar un tipo de localidad. La Calculadora con los seis tipos básicos de localidad que se muestran después de abrir la lista desplegable deTipo de Localidad."
 
 #. type: Target for macro image
 #: 0510.en.adoc:17
 #, no-wrap
 msgid "img/web/choose-locality-type.png"
-msgstr ""
+msgstr "img/web/choose-locality-type.png"
 
 #. type: Plain text
 #: 0510.en.adoc:20
 msgid "Select the xref:ui-locality-type[role=ui-element] that best matches the characteristics of the <<locality>> to be georeferenced. Each xref:ui-locality-type[role=ui-element] in the drop-down list shows an example to try to help match the locality to a <<locality-type,locality type>> using the pattern shown. Locality types with more examples are described in the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]."
-msgstr ""
+msgstr "Seleccione el xref:ui-tipo-de-localidad[role=ui-element] que mejor se ajuste a las características de la <<localidad>> que se va a georreferenciar. Cada xref:ui-tipo-de-localidad[role=ui-element] de la lista desplegable muestra un ejemplo para tratar de ayudar a que la localidad coincida con un <<tipo de localidad>> utilizando el patrón mostrado. Los tipos de localidad junto con más ejemplos se describen en la {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^]."
 
 #. type: Title ===
 #: 0510.en.adoc:21
 #, no-wrap
 msgid "Step 3: Enter Parameters"
-msgstr ""
+msgstr "Paso 3: Ingresar los Parámetros"
 
 #. type: Plain text
 #: 0510.en.adoc:24
 msgid "After selecting the xref:ui-locality-type[role=ui-element], a variety of text boxes, drop-down boxes, and buttons will appear on the Calculator (xref:img-enter-parameters[xrefstyle=\"short\"]). These text and drop-down boxes need to be filled and/or values selected to make the calculation of the selected xref:ui-locality-type[role=ui-element]. If no parameters are entered, then the default values will be used automatically."
-msgstr ""
+msgstr "Después de seleccionar el xref:ui-tipo-de-localidad[role=ui-element], aparecerán en la Calculadora una serie de cuadros de texto, listas desplegables y botones (xref:img-enter-parameters[xrefstyle=\"short\"]). En estos cuadros de texto y listas desplegables deben ingresarse y/o seleccionarse valores para realizar el cálculo del xref:ui-tipo-de-localidad[role=ui-element] seleccionado. Si no se ingresan algunos parámetros, se utilizarán automáticamente los valores por defecto."
 
 #. type: Block title
 #: 0510.en.adoc:26
 #, no-wrap
 msgid "Step 3: Enter parameters. The Calculator after selecting the \"Distance at a heading\" xref:ui-locality-type[role=ui-element], with all of the relevant text and drop-down boxes needed to be filled in or selected correctly in order to do a georeference calculation."
-msgstr ""
+msgstr "Paso 3: Introducir los parámetros. La Calculadora después de seleccionar el xref:ui-tipo-de-localidad[role=ui-element] \"Distancia en una dirección\", con todo el texto relevante y las listas desplegables necesarias para ser correctamente llenadas o seleccionadas para hacer un cálculo de georreferencia."
 
 #. type: Target for macro image
 #: 0510.en.adoc:27
 #, no-wrap
 msgid "img/web/enter-parameters.png"
-msgstr ""
+msgstr "img/web/enter-parameters.png"
 
 #. type: Title ===
 #: 0510.en.adoc:29
 #, no-wrap
 msgid "Step 4: Calculate"
-msgstr ""
+msgstr "Paso 4: Calcular"
 
 #. type: Plain text
 #: 0510.en.adoc:32
 msgid "The xref:ui-calculate[role=ui-element] button appears after a xref:ui-locality-type[role=ui-element] is selected. After all the parameters are correctly chosen or entered, click the xref:ui-calculate[role=ui-element] button. The calculated results will fill the text boxes with grey backgrounds in the middle of the Calculator, below the buttons and above the converters."
-msgstr ""
+msgstr "El botón xref:ui-calcular[role=ui-element] aparece después de seleccionar un xref:ui-tipo-de-localidad[role=ui-element]. Una vez elegidos o introducidos correctamente todos los parámetros, haga clic en el botón xref:ui-calcular[role=ui-element]. Los resultados calculados aparecerán en los cuadros de texto con fondo gris en el centro de la Calculadora, debajo de los botones y encima de los convertidores."
 
 #. type: Block title
 #: 0510.en.adoc:33
 #, no-wrap
 msgid "Calculation Example"
-msgstr ""
+msgstr "Ejemplo de Cálculo"
 
 #. type: delimited block =
 #: 0510.en.adoc:36
 msgid "Suppose the <<locality>> to be <<georeference,georeferenced>> is \"10 mi E (by air) Bakersfield\", as shown in the example in selection box for the \"[ui-element]#Distance at a heading#\" xref:ui-locality-type[role=ui-element] (for details about this type of locality see {gqg}#offset-distance-at-a-heading[Offset – Distance at a Heading^] in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]). Next, suppose the <<coordinates>> for Bakersfield (35° 22′ 24″ N, 119° 1′ 4″ W) were obtained by determining the centre of town to the nearest second using a USGS Gosford 1:24,000 Quad map."
-msgstr ""
+msgstr "Supongamos que la <<localidad>> que debe ser <<georreferencia,georreferenciada>> es \"10 mi E (por aire) Bakersfield\", como se muestra en el ejemplo del cuadro de selección para el xref:ui-tipo-de-localidad[role=ui-element] \"[ui-element]#Distancia en una direccion#\"(para más detalles sobre este tipo de localidad vea {gqg}#desplazamiento-distancia-en-una-orientación-cardinal[Desplazamiento: Distancia en una Orientación Cardinal^] en {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^]). A continuación, supongamos que las <<coordenadas>> de Bakersfield (35° 22′ 24″ N, 119° 1′ 4″ O) se obtuvieron determinando el centro de la ciudad al segundo más cercano utilizando un mapa quad USGS Gosford 1:24,000."
 
 #. type: delimited block =
 #: 0510.en.adoc:38
 msgid "To begin, select \"_USGS map: 1:24,000_\" from the xref:ui-coordinate-source[role=ui-element] drop-down. Next, select \"[ui-element]#degrees minutes seconds#\" from the xref:ui-coordinate-format[role=ui-element] drop-down. Next, enter the coordinates for Bakersfield in the xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element] boxes that appear after selecting the _Coordinate Format_. Make certain to select the correct hemisphere from the drop-downs to the right of each coordinate field."
-msgstr ""
+msgstr "Para empezar, seleccione \"_Mapa USGS: 1:24.000_\" en el menú desplegable xref:ui-fuente-de-las-coordenadas[role=ui-element]. A continuación, seleccione \"[ui-element]#grados minutos y segundos#\" en el menú desplegable xref:ui-formato-de-coordenadas[role=ui-element]. A continuación, introduzca las coordenadas de Bakersfield en las casillas xref:ui-latitud-de-entrada[role=ui-element] y xref:ui-longitud-de-entrada[role=ui-element] que aparecen tras seleccionar el _Formato de coordenadas_. Asegúrese de seleccionar el hemisferio correcto en las listas desplegables ubicadas a la derecha de cada campo de coordenadas."
 
 #. type: delimited block =
 #: 0510.en.adoc:40
 msgid "For this example, the <<coordinate-format,Coordinate Format>> \"[ui-element]#degrees minutes seconds#\" was selected because the USGS map showed coordinates in degrees minutes seconds, thus the coordinates determined for the centre of Bakersfield were described in the same way. In some cases, coordinates on a map, or other resource, may be represented in degrees decimal minutes (e.g. 35° 22′ N, 119° 0′ W or 35° 22.4′ N, 119° 1.066667′ W) or as decimal degrees (e.g. 35.3733333, −119.0177778). The Coordinate Format selected in the Calculator MUST reflect the coordinate format used on the map or other resource."
-msgstr ""
+msgstr "Para este ejemplo, se seleccionó el <<formato de las coordenadas,Formato de coordenadas>> \"[ui-elemento]#grados minutos segundos#\" porque el mapa USGS mostraba las coordenadas en grados minutos segundos, por lo que las coordenadas determinadas para el centro de Bakersfield se describieron de la misma manera. En algunos casos, las coordenadas en un mapa, u otro recurso, pueden representarse en grados minutos decimales (por ejemplo, 35° 22′ N, 119° 0′ O o 35° 22,4′ N, 119° 1,066667′ O) o como grados decimales (por ejemplo, 35.3733333, -119.0177778). El formato de las coordenadas seleccionado en la calculadora DEBE reflejar el formato de coordenadas utilizado en el mapa u otro recurso."
 
 #. type: delimited block =
 #: 0510.en.adoc:42
 msgid "The Gosford Quad map uses the North American 1927 horizontal <<datum>>, so select \"[ui-element]#North American Datum 1927#\" from the xref:ui-datum[role=ui-element] drop-down list. In most cases the datum can be found printed on the map, although sometimes an <<ellipsoid>> is listed instead. The Calculator also includes ellipsoids in the _Datum_ drop-down list. If a resource, such as a map with a datum, is not listed in the Calculator, try to find the ellipsoid for that datum using online resources such as http://epsg.io[epsg.io^] and then select the appropriate ellipsoid in the _Datum_ drop-down list."
-msgstr ""
+msgstr "El mapa quad Gosford utiliza el <<datum>> horizontal de América del Norte de 1927, por lo que hay que seleccionar \"[ui-element]#North American Datum 1927#\" en la lista desplegable xref:ui-datum[role=ui-element]. En la mayoría de los casos el datum se encuentra impreso en el mapa, aunque a veces aparece un <<elipsoide>> en su lugar. La Calculadora también incluye elipsoides en la lista desplegable _Datum_. Si un recurso, como un mapa con un datum, no aparece en la Calculadora, intente encontrar el elipsoide para ese datum utilizando recursos en línea como http://epsg.io[epsg.io^] y luego seleccione el elipsoide apropiado en la lista desplegable _Datum_."
 
 #. type: delimited block =
 #: 0510.en.adoc:44
 msgid "The coordinates in this example have been specified to the nearest second, so select \"[ui-element]#nearest second#\" from the xref:ui-input-coordinate-precision[role=ui-element] drop-down list. The direction given in the locality description is E (east), so select \"[ui-element]#E#\" in the xref:ui-direction[role=ui-element] drop-down list. The <<offset>> distance is 10 mi (miles), so type \"_10_\" into the [ui-element]#Offset Distance# text box and select \"[ui-element]#miles#\" from the xref:ui-distance-units[role=ui-element] drop-down list."
-msgstr ""
+msgstr "Las coordenadas en este ejemplo se han especificado al segundo más cercano, así que seleccione \"[ui-element]#segundo más cercano#\" en la lista desplegable xref:ui-precisión[role=ui-element]. La dirección dada en la descripción de la localidad es E (este), así que seleccione \"[ui-element]#E#\" en la lista desplegable xref:ui-dirección[role=ui-element]. La distancia de <<desplazamiento>> es de 10 mi (millas), así que escriba \"_10_\" en la caja de texto [ui-element]#Desplazamiento# y seleccione \"[ui-element]#mi#\" en la lista desplegable xref:ui-unidades-de-la-distancia[role=ui-element]."
 
 #. type: delimited block =
 #: 0510.en.adoc:46
 msgid "Bakersfield is a large place, and we don't know if the original locality means 10 miles from the center of town, 10 miles from the city limits, or something else entirely. Given that it is 3 miles from the specified coordinates to the furthest edge of town (as measured on the USGS map), the xref:ui-radial-of-feature[role=ui-element] should be 3 miles (see {gqg}#feature-with-av-obvious-spatial-extent[Feature – with an Obvious Spatial Extent^] in the {gqg}[Georeferencing Quick Reference Guide^]). Enter \"_3_\" into the xref:ui-radial-of-feature[role=ui-element] text field, since the units of the <<radial>> must be in the same units as the offset."
-msgstr ""
+msgstr "Bakersfield es un lugar grande y no sabemos si la localidad original significa 10 millas desde el centro de la ciudad, 10 millas desde los límites de la ciudad o algo totalmente distinto. Dado que hay 3 millas desde las coordenadas especificadas hasta el borde más lejano de la ciudad (según las mediciones del mapa USGS), el xref:ui-radial-de-la-entidad[role=ui-element] debería ser 3 millas (ver {gqg}#entidad-geográfica-con-una-extensión-espacial-obvia[Entidad Geográfica con una Extensión Espacial Obvia^] en la {gqg}[Guía de Referencia Rápida de Georreferenciación^]). Introduzca \"_3_\" en el campo de texto xref:ui-radial-de-la-entidad[role=ui-element], ya que las unidades del <<radio>> deben estar en las mismas unidades que el desplazamiento."
 
 #. type: delimited block =
 #: 0510.en.adoc:48
 msgid "If this distance had been measured in kilometres the value should be converted to miles using the [ui-element]#Distance Converter# at the bottom of the Calculator. The converted number should then be entered into the appropriate field (see <<converters>> to learn how to use the converters). All distance measurements MUST be in the same units as the locality description for the Calculator to return proper results."
-msgstr ""
+msgstr "Si esta distancia se ha medido en kilómetros, el valor debe ser convertido a millas utilizando el [ui-elemento]#Convertidor de Distancia# en la parte inferior de la Calculadora. El número convertido debe introducirse entonces en el campo correspondiente (ver <<convertidores>> para aprender a utilizar los convertidores). Todas las medidas de distancia DEBEN estar en las mismas unidades que la descripción de la localidad para que la Calculadora devuelva los resultados adecuados."
 
 #. type: delimited block =
 #: 0510.en.adoc:50
 msgid "The determination of the coordinates for Bakersfield is only as <<accuracy,accurate>> as the tools that are used; the map, the size of the units on the measurement tool, and the georeferencer's ability to place a marker relative to items on the map. Any error associated with the map itself is accounted for in the xref:ui-coordinate-source[role=ui-element] selection. Error associated with the georeferencer's ability to measure on the map is accounted for in the xref:ui-measurement-error[role=ui-element] field."
-msgstr ""
+msgstr "La determinación de las coordenadas de Bakersfield es tan <<exactitud,exacta>> como las herramientas que se utilizan: el mapa, el tamaño de las unidades en la herramienta de medición y la capacidad del georreferenciador para ubicar un marcador en relación con los elementos del mapa. Cualquier error asociado al mapa se tiene en cuenta en la selección xref:ui-fuente-de-las-coordenadas[role=ui-element]. El error asociado a la capacidad del georreferenciador para medir en el mapa se tiene en cuenta en el campo xref:ui-error-de-medición[role=ui-element]."
 
 #. type: delimited block =
 #: 0510.en.adoc:52
 msgid "To complete the xref:ui-measurement-error[role=ui-element] field, the smallest distance that can be measured on the map reliably and repeatedly must be determined. Generally, features or locations can be distinguished on a map to within about one (1) millimetre, given a ruler with millimetre divisions. If a ruler with English units is used, it may be possible to distinguish to 1/16th of an inch. The quality of the measuring tool, eyesight, and technique may alter these suggested values."
-msgstr ""
+msgstr "Para completar el campo xref:ui-error-de-medición[role=ui-element], debe determinarse la distancia más pequeña que puede medirse en el mapa de forma fiable y repetida. Por lo general, las características o ubicaciones pueden distinguirse en un mapa con una precisión de aproximadamente un (1) milímetro, dada una regla con divisiones milimétricas. Si se utiliza una regla con unidades inglesas, puede ser posible distinguir hasta 1/16 de pulgada. La calidad de la herramienta de medición, la vista y la técnica pueden alterar estos valores sugeridos."
 
 #. type: delimited block =
 #: 0510.en.adoc:54
 msgid "Once the smallest distance that can be measured consistently and reliably has been determined, enter that value and its units into the [ui-element]#Scale Converter# at the bottom of the Calculator, select the scale of the map used for the measurement, and then select the unit of measure into which the conversion should be made. For example, if a digital measuring tool was used to measure to the nearest 0.1 mm on a 1:24000 map and this needs to be converted to miles, enter \"_0.1_\" into the xref:ui-radial-of-feature[role=ui-element], then select \"[ui-element]#mm#\" from the units drop-down list. Next, choose the \"_1:24000_\" scale option in the map scale drop-down list. Finally, select \"[ui-element]#mi#\" in the second drop-down list. The value of 0.1 mm at 1:24000 converted into miles will be displayed in blue (\"_0.00149 mi_\") within the grey text box on the right side of the [ui-element]#Scale Converter#. Type \"_0.00149_\" into the xref:ui-measurement-error[role=ui-element] field, or move it from the _Scale Converter_ using copy and paste keyboard combinations."
-msgstr ""
+msgstr "Una vez determinada la distancia más pequeña que puede medirse de forma consistente y fiable, introduzca ese valor y sus unidades en el [ui-elemento]#Convertidor de Escalas# en la parte inferior de la Calculadora, seleccione la escala del mapa utilizado para la medición y a continuación, seleccione la unidad de medida en la que debe realizarse la conversión. Por ejemplo, si se ha utilizado una herramienta de medición digital para medir a 0.1 mm en un mapa 1:24000 y hay que convertirlo a millas, introduzca \"_0,1_\" en el xref:ui-radial-de-la-entidad[role=ui-element], y luego seleccione \"[ui-element]#mm#\" en la lista desplegable de unidades. A continuación, elija la opción de escala \"_1:24000_\" en la lista desplegable de escala del mapa. Por último, seleccione \"[ui-element]#mi#\" en la segunda lista desplegable. El valor de 0.1 mm a 1:24000 convertido en millas se mostrará en azul (\"_0.00149 mi_\") dentro del cuadro de texto gris a la derecha del [ui-element]#Convertidor de Escalas#. Escriba \"_0.00149_\" en el campo xref:ui-error-de-medición[role=ui-element] o muévalo desde el _Convertidor de Escalas_ utilizando las combinaciones de teclado para copiar y pegar."
 
 #. type: delimited block =
 #: 0510.en.adoc:56
