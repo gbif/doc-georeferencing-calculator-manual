@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-11-16 16:11\n"
+"PO-Revision-Date: 2021-11-16 17:23\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -119,129 +119,129 @@ msgstr "Introducción"
 #. type: Plain text
 #: 0100.en.adoc:5
 msgid "The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] described in this document is a tool created to aid in the <<georeference,georeferencing>> of descriptive <<locality,localities>> such as those found in museum-based natural history collections. It was originally designed for the Mammal Networked Information System (MaNIS) and has been widely adopted in other large-scale collaborative georeferencing projects to supplement semi-automated georeferencing tools. The application makes calculations using the theory given in {gbp}[Georeferencing Best Practices (Chapman & Wieczorek 2020)^], derived from the earlier http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[MaNIS/HerpNET/ORNIS Georeferencing Guidelines (Wieczorek 2001)^], and https://doi.org/10.1080/13658810412331280211[The point-radius method for georeferencing locality descriptions and calculating associated uncertainty (Wieczorek et al. 2004)^]. Specific methods for calculating a wide variety of examples of the distinct locality types are given in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^]."
-msgstr ""
+msgstr "La http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020)^] descrita en este documento es una herramienta creada para ayudar en la <<georreferencia, georreferenciación>> de <<localidad, localidades>> descriptivas como las que se encuentran en las colecciones de historia natural de los museos. Se diseñó originalmente para el Mammal Networked Information System (MaNIS) y se ha adoptado ampliamente en otros proyectos de georreferenciación colaborativa a gran escala para complementar las herramientas de georreferenciación semiautomatizadas. La aplicación realiza cálculos utilizando la teoría depositada en {gbp}[Buenas Prácticas de Georreferenciación (Chapman & Wieczorek 2020)^], derivado de los documentos anteriores http://georeferencing.org/georefcalculator/docs/GeorefGuide.html[Pautas de Georreferenciación MaNIS/HerpNET/ORNIS (Wieczorek 2001)^], y https://doi.org/10.1080/13658810412331280211[El método radio-punto para la georreferenciación de descripciones de localidades y el cálculo de la incertidumbre asociada (Wieczorek et al. 2004)^]. En la {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^] se presentan métodos específicos para calcular una amplia variedad de ejemplos de los distintos tipos de localidad."
 
 #. type: Plain text
 #: 0100.en.adoc:6
 msgid "Underlined terms throughout this document (e.g. <<accuracy>>) link to definitions in the <<Glossary>> (the same glossary of terms used in {gbp}[Georeferencing Best Practices^], while terms in italics (e.g. xref:ui-input-latitude[role=ui-element]) refer to fields and/or labels in the Calculator. <<darwin-core,Darwin Core>> terms are displayed in monospace (e.g. term:dwc[georeferenceRemarks]) in all GBIF digital documentation and link to the definitions maintained by Biodiversity Information Standards (TDWG) in the approved https://dwc.tdwg.org/list/[List of Darwin Core terms^]."
-msgstr ""
+msgstr "Los términos subrayados a lo largo de este documento (p. ej. <<exactitud>>) tienen un enlace a las definiciones en el <<Glosario>> (el mismo glosario de términos utilizado en {gbp}[Buenas Prácticas de Georreferenciación^], mientras que los términos en cursiva (p. ej. xref:ui-latitud-de-entrada[role=ui-element]) se refieren a campos y/o etiquetas en la Calculadora. Los términos del <<darwin-core,Darwin Core>> se muestran en monoespacio (p.ej. term:dwc[georeferenceRemarks]) en toda la documentación digital de GBIF y tienen un enlace a las definiciones mantenidas por Biodiversity Information Standards (TDWG) en la https://dwc.tdwg.org/list/[Lista de Términos de Darwin Core^] aprobada."
 
 #. type: Title ==
 #: 0200.en.adoc:2
 #, no-wrap
 msgid "Running the Calculator"
-msgstr ""
+msgstr "Ejecutar la Calduladora"
 
 #. type: Plain text
 #: 0200.en.adoc:5
 msgid "The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator^] uses JavaScript and runs in a browser. The latest version can be initiated http://georeferencing.org/georefcalculator/gc.html[here^], or it can be downloaded in a .zip or .tar.gz archive from the https://github.com/VertNet/georefcalculator/releases[releases page of the Calculator GitHub repository^], unzipped to a convenient location and run in a browser by opening the file gc.html. Problems encountered with the Calculator should be entered as issues in the https://github.com/VertNet/georefcalculator/issues[GitHub repository issue tracker^] and should include the version identifier, which can be found in the lower right-hand corner of the Calculator (see xref:img-screen-image[xrefstyle=\"short\"]). When the Calculator is opened it should appear as shown in xref:img-screen-image[xrefstyle=\"short\"]."
-msgstr ""
+msgstr "La http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación^] utiliza JavaScript y se ejecuta en un navegador. La última versión puede iniciarse en http://georeferencing.org/georefcalculator/gc.html[aquí^] o puede descargarse en un archivo .zip o .tar.gz desde la página https://github.com/VertNet/georefcalculator/releases[página de publicaciones de la Calculadora en el repositorio GitHub^], descomprimirse en una ubicación conveniente y ejecutarse en un navegador abriendo el archivo gc.html. Los problemas que se encuentre con la Calculadora deben introducirse como problemas en el https://github.com/VertNet/georefcalculator/issues[seguimiento de problemas en el repositorio GitHub^] y deben incluir el identificador de la versión, que puede encontrarse en la esquina inferior derecha de la Calculadora (ver xref:img-screen-image[xrefstyle=\"short\"]). Cuando se abre la Calculadora debe aparecer como se muestra en xref:img-screen-image[xrefstyle=\"short\"]."
 
 #. type: Block title
 #: 0200.en.adoc:7
 #, no-wrap
 msgid "Screen image of the Georeferencing Calculator when it first opens, showing the language selection drop-down, the xref:ui-locality-type[role=ui-element] drop-down box to initiate a georeference calculation, the [ui-element]#Distance Converter#, and the [ui-element]#Scale Converter#."
-msgstr ""
+msgstr "Pantallazo de cuando se ejecuta la Calculadora de Georreferenciación, mostrando el desplegable de selección de idioma, el cuadro desplegable xref:ui-locality-type[role=ui-element] para iniciar un cálculo de georreferenciación, el [ui-element]#Convertidor de Distancias#, y el [ui-element]#Convertidor de Escalas#."
 
 #. type: Target for macro image
 #: 0200.en.adoc:8
 #, no-wrap
 msgid "img/web/screen-image.png"
-msgstr ""
+msgstr "img/web/screen-image.png"
 
 #. type: Title ==
 #: 0300.en.adoc:2
 #, no-wrap
 msgid "Basic Workflow"
-msgstr ""
+msgstr "Flujo de Trabajo Básico"
 
 #. type: Plain text
 #: 0300.en.adoc:5
 msgid "The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] is designed to prompt the user only for what is needed to <<georeference>> based on the xref:ui-locality-type[role=ui-element] selected. The steps in the basic workflow are:"
-msgstr ""
+msgstr "La http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020)^] está diseñada para solicitar al usuario solamente la información necesaria para <<georreferenciar>> en función del xref:ui-tipo-de-localidad[role=ui-element] seleccionado. Los pasos del flujo de trabajo básico son:"
 
 #. type: Plain text
 #: 0300.en.adoc:7
 msgid "Choose the language for the Calculator."
-msgstr ""
+msgstr "Escoger el lenguaje de la Calculadora."
 
 #. type: Plain text
 #: 0300.en.adoc:8
 msgid "Select the <<locality-type>> that best matches the descriptive <<locality>> for the georeference. The interface will add all of the fields necessary to calculate the georeference."
-msgstr ""
+msgstr "Seleccionar el <<tipo de localidad>> que mejor se ajuste a la <<localidad>> descriptiva para la georreferencia. La interfaz añadirá todos los campos necesarios para calcular la georreferencia."
 
 #. type: Plain text
 #: 0300.en.adoc:9
 msgid "Make selections and fill in all of the parameters shown. Refer to the {gqg}#glossary[Glossary^] and {gqg}#georeferencing-concepts[Georeferencing Concepts^] in the {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] to get a description of what each parameter means."
-msgstr ""
+msgstr "Seleccionar y llenar todos los parámetros mostrados. Consulte el {gqg}#glossary[Glosario^] y los {gqg}#conceptos-de-georreferenciación[Conceptos de Georreferenciación^] en la {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^] para consultar una descripción de lo que significa cada parámetro."
 
 #. type: Plain text
 #: 0300.en.adoc:10
 msgid "Click on the xref:ui-calculate[role=ui-element] button to calculate the results."
-msgstr ""
+msgstr "Hacer clic en el botón xref:ui-Calcular[role=ui-element] para calcular los resultados."
 
 #. type: Plain text
 #: 0300.en.adoc:11
 msgid "Enter the metadata for the person who is georeferencing and the *protocol* being used."
-msgstr ""
+msgstr "Ingresar los metadatos de la persona que está georreferenciando y el *protocolo* que está utilizando."
 
 #. type: Plain text
 #: 0300.en.adoc:12
 msgid "Click on the [ui-element]#Copy# button to put the results on the system clipboard."
-msgstr ""
+msgstr "Hacer clic en el botón [ui-element]#Copiar# para copiar los resultados en el portapapeles."
 
 #. type: Plain text
 #: 0300.en.adoc:13
 msgid "Paste the results where the georeference will be stored."
-msgstr ""
+msgstr "Pegar los resultados en donde se almacenarán los resultados."
 
 #. type: Plain text
 #: 0300.en.adoc:13
 msgid "Repeat for the next calculation. Note that the values for parameters chosen in one calculation will remain in the text and drop-down boxes and thus carry over to the next calculation whenever possible."
-msgstr ""
+msgstr "Repetir para el siguiente cálculo. Tenga en cuenta que los valores de los parámetros elegidos en un cálculo permanecerán en los cuadros de texto y en las listas desplegables y, por tanto, se trasladarán al siguiente cálculo siempre que sea posible."
 
 #. type: Title ==
 #: 0400.en.adoc:2
 #, no-wrap
 msgid "Citation and Documentation"
-msgstr ""
+msgstr "Citación y Documentación"
 
 #. type: Plain text
 #: 0400.en.adoc:5
 msgid "Any time the http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] is used, the georeferencer should record its use."
-msgstr ""
+msgstr "Siempre que se use la http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación(Wieczorek & Wieczorek 2020)^] el georreferenciador debe registrar su uso."
 
 #. type: Plain text
 #: 0400.en.adoc:7
 msgid "If the <<Darwin Core>> standard is used to record Calculator output, the Calculator version and the date of use should be recorded in the field term:dwc[georeferenceSources]. The following format should be used:"
-msgstr ""
+msgstr "Si se utiliza el estándar <<Darwin Core>> para registrar el resultado de la Calculadora, la versión de la Calculadora y la fecha de uso deben registrarse en el campo term:dwc[georeferenceSources] (Fuentes de georreferenciación). Se debe utilizar el siguiente formato:"
 
 #. type: delimited block =
 #: 0400.en.adoc:10
 msgid "Wieczorek C & J Wieczorek (yyyy). Georeferencing Calculator, version [yyyymmdd(language)]. Available: http://georeferencing.org/georefcalculator/gc.html. Accessed [yyyy-mm-dd]."
-msgstr ""
+msgstr "Wieczorek C & J Wieczorek (aaaa). Calculadora de Georreferenciación, versión [aaaammdd(lenguaje)]. Disponible en: http://georeferencing.org/georefcalculator/gc.html. Accedido en [aaaa-mm-dd]."
 
 #. type: Block title
 #: 0400.en.adoc:12 appa.en.adoc:9 appa.en.adoc:27 appa.en.adoc:36
 #, no-wrap
 msgid "{blank}"
-msgstr ""
+msgstr "{blank}"
 
 #. type: Named 'caption' AttributeList argument for style 'caption'
 #: 0400.en.adoc:13
 #, no-wrap
 msgid "For example"
-msgstr ""
+msgstr "Por ejemplo"
 
 #. type: delimited block =
 #: 0400.en.adoc:16
 msgid "Wieczorek C & J Wieczorek (2020) Georeferencing Calculator, version 20191217en. Available: http://georeferencing.org/georefcalculator/gc.html. Accessed 2020-01-28."
-msgstr ""
+msgstr "Wieczorek C & J Wieczorek (2020) Calculadora de Georreferenciación, versión 20191217en. Disponible en: http://georeferencing.org/georefcalculator/gc.html. Accedido en 2020-01-28."
 
 #. type: Plain text
 #: 0400.en.adoc:19
 msgid "The version and language of the Calculator can be found in the lower left-hand corner of the calculator."
-msgstr ""
+msgstr "La versión y lenguaje de la Calculadora se puede encontrar en la esquina inferior izquierda de la calculadora."
 
 #. type: Plain text
 #: 0400.en.adoc:20
@@ -252,7 +252,7 @@ msgstr ""
 #: 0500.en.adoc:2
 #, no-wrap
 msgid "Detailed Workflow"
-msgstr ""
+msgstr "Flujo de Trabajo Detallado"
 
 #. type: Title ===
 #: 0510.en.adoc:1
