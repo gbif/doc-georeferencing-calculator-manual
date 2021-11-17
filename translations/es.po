@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-11-17 17:58\n"
+"PO-Revision-Date: 2021-11-17 19:20\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -892,13 +892,13 @@ msgstr "[[ui-exactitud-del-gps]]Exactitud del GPS"
 #. type: Plain text
 #: appa.en.adoc:46
 msgid "When \"_GPS_\" is selected from the xref:ui-coordinate-source[role=ui-element] drop-down list, the label for the xref:ui-measurement-error[role=ui-element] text box changes to xref:ui-gps-accuracy[role=ui-element]. Enter the value given by the <<GPS>> at the time the <<coordinates>> were captured. If not known, enter 100 m for standard hand-held GPS coordinates taken before 1 May 2000 when Selective Availability was discontinued. After that, use 30 m as a default value."
-msgstr ""
+msgstr "Cuando se selecciona \"_GPS_\" en la lista desplegable xref:ui-fuente-de-las-coordenadas[role=ui-elemento], la etiqueta del cuadro de texto xref:ui-error-de-medición[role=ui-elemento] cambia a xref:ui-exactitud-del-gps[role=ui-elemento]. Introduzca el valor dado por el <<GPS>> en el momento en que se capturaron las <<coordenadas>>. Si no se conoce, introduzca 100 m para las coordenadas tomadas con un GPS portátil estándar antes del 1 de mayo de 2000, fecha en que se descontinuó la Disponibilidad Selectiva. Para fechas posteriores, utilice 30 m como valor por defecto."
 
 #. type: Labeled list
 #: appa.en.adoc:47
 #, no-wrap
 msgid "[[ui-language]]Language"
-msgstr ""
+msgstr "[[ui-idioma]]Idioma"
 
 #. type: Plain text
 #: appa.en.adoc:48
