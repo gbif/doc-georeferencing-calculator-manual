@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-11-17 16:53\n"
+"PO-Revision-Date: 2021-11-17 17:58\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -805,89 +805,89 @@ msgstr "[[ui-fuente-de-las-coordenadas]]Fuente de las Coordenadas"
 #. type: Plain text
 #: appa.en.adoc:18
 msgid "The resources (map, <<GPS>>, <<gazetteer>>, <<locality>> description) from which the xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element] were derived. Related to, but *NOT* the same as the <<Darwin-Core>> term term:dwc[georeferenceSources], which requires the specific resources used rather than their characteristics. Note that the <<uncertainty,uncertainties>> from the two sources \"_gazetteer_\" and \"_locality description_\" can not be anticipated universally, and therefore do not contribute to the uncertainty in the calculations. If the <<error>> characteristics of the specific sources of this type are known, they can be added in the xref:ui-measurement-error[role=ui-element] before calculating. If the source \"_GPS_\" is selected, the label for xref:ui-measurement-error[role=ui-element] will change to xref:ui-gps-accuracy[role=ui-element], which is where <<accuracy>> distance of the <<GPS>> at the time the <<coordinates>> were taken should be entered. For details on xref:ui-gps-accuracy[role=ui-element] see {gbp}using-a-gps[Using a GPS^] in {gbp}[Georeferencing Best Practices (Chapman & Wieczorek 2020)^]."
-msgstr ""
+msgstr "Los recursos (mapa, <<GPS>>, <<gacetero>>, descripción de <<localidad>>) de los que se derivaron la xref:ui-latitud-de-entrada[role=ui-element] y la xref:ui-longitud-de-entrada[role=ui-element]. Relacionado con, pero *NO* lo mismo que el término del <<Darwin-Core>> term:dwc[georeferenceSources], que requiere los recursos específicos utilizados en lugar de sus características. Tenga en cuenta que las <<incertidumbre, incertidumbres>> de las fuentes \"_gacetero_\" y \"_descripción de localidad_\" no pueden anticiparse universalmente y por tanto no contribuyen a la incertidumbre en los cálculos. Si se conocen las características del <<error>> de las fuentes específicas de este tipo, se pueden añadir en el xref:ui-error-de-medición[role=ui-element] antes de realizar el cálculo. Si se selecciona la fuente \"_GPS_\", la etiqueta de xref:ui-error-de-medición[role=ui-element] cambiará a xref:ui-exactitud-del-gps[role=ui-element] en el que se debe introducir la <<precisión>> de la distancia del <<GPS>> en el momento en que se tomaron las <<coordenadas>>. Para más detalles sobre xref:ui-exactitud-del-gps[role=ui-element] vea {gbp}usando-un-gps[Usando un GPS^] en {gbp}[Buenas Prácticas de Georreferenciación (Chapman & Wieczorek 2020)^]."
 
 #. type: Labeled list
 #: appa.en.adoc:19
 #, no-wrap
 msgid "[[ui-datum]]Datum"
-msgstr ""
+msgstr "[[ui-datum]]Datum"
 
 #. type: Plain text
 #: appa.en.adoc:20
 msgid "Defines the position of the origin and orientation of an <<ellipsoid>> upon which the <<coordinates>> are based for the given xref:ui-coordinate-source[role=ui-element]. Equivalent to the <<Darwin-Core>> term term:dwc[geodeticDatum]. The Calculator includes ellipsoids on the xref:ui-datum[role=ui-element] drop-down list, as sometimes that is all that coordinate source shows. The choice of xref:ui-datum[role=ui-element] has two important effects. The first is the contribution to <<uncertainty>> if the <<datum>> of the source coordinates is not known. If the datum and ellipsoid are not known, choose the option \"_datum not recorded_\". _Uncertainty_ due to an unknown datum can be severe and varies geographically in a complex way, with a worst-case contribution of 5359 m (see {gbp}#coordinate-reference-system[Coordinate Reference System^] in {gbp}[Georeferencing Best Practices (Chapman & Wieczorek 2020)^]. The second important effect of the xref:ui-datum[role=ui-element] selection is to provide the characteristics of the ellipsoid model of the earth, which the distance calculations depend on."
-msgstr ""
+msgstr "Define la posición del origen y la orientación de un <<elipsoide>> en el que se basan las <<coordenadas>> para la xref:ui-fuente-de-las-coordenadas[role=ui-element] dada. Equivale al término del <<Darwin-Core>> term:dwc[geodeticDatum]. La Calculadora incluye elipsoides en la lista desplegable xref:ui-datum[role=ui-element], ya que a veces es lo único que muestra en la fuente de coordenadas. La elección del xref:ui-datum[role=ui-element] tiene dos efectos importantes. El primero es la contribución a la <<incertidumbre>> si no se conoce el <<datum>> de las coordenadas fuente. Si el datum y el elipsoide no se conocen, elija la opción \"_datum no indicado_\". La incertidumbre debida a un datum desconocido puede ser severa y varía geográficamente de forma compleja, con una contribución en el peor de los casos de 5359 m (ver {gbp}#sistema-de-referencia-de-coordenadas[Sistema de Referencia de Coordenadas^] en {gbp}[Buenas Prácticas de Georreferenciación (Chapman & Wieczorek 2020)^]. El segundo efecto importante de la selección del xref:ui-datum[role=ui-element] es proporcionar las características del modelo de elipsoide de la tierra, del que dependen los cálculos de distancia."
 
 #. type: Labeled list
 #: appa.en.adoc:21
 #, no-wrap
 msgid "[[ui-direction]]Direction"
-msgstr ""
+msgstr "[[ui-dirección]]Dirección"
 
 #. type: Plain text
 #: appa.en.adoc:22
 msgid "The <<heading>> given in the <<locality>> description, either as a standard compass point (see https://en.wikipedia.org/wiki/Boxing_the_compass[Boxing the compass]) or as a number of degrees in the clockwise direction from north. If \"_degrees from N_\" is selected, there will appear a text box to the right of it in which to enter the degree heading."
-msgstr ""
+msgstr "La <<orientación cardinal>> indicada en la descripción de la <<localidad>>, ya sea como un punto de brújula estándar (ver https://es.wikipedia.org/wiki/Puntos_del_compás[Puntos del Compás]) o como un número de grados en el sentido de las agujas del reloj desde el norte. Si se selecciona \"_grados desde N_\", aparecerá un cuadro de texto a la derecha en el que se debe introducir la orientación cardinal en grados."
 
 #. type: Plain text
 #: appa.en.adoc:24
 msgid "Some marine locality descriptions reference a direction to a landmark (azimuth) rather than a heading from the current location, for example, \"327° to Nubble Lighthouse\". To make an offset at a heading calculation for such a locality description, use the compass point 180 degrees from the one given in the locality description (147° in the example above) as the Direction."
-msgstr ""
+msgstr "Algunas descripciones de localidades marinas hacen referencia a una dirección hacia un punto de referencia (azimuth) en lugar de un rumbo desde la ubicación actual, por ejemplo, \"327° al Faro de Nubble\". Para hacer un cálculo de desplazamiento a un rumbo para una descripción de localidad de este tipo, utilice el punto de la brújula a 180 grados del indicado en la descripción de la localidad (147° en el ejemplo anterior) como la Dirección."
 
 #. type: Labeled list
 #: appa.en.adoc:25
 #, no-wrap
 msgid "[[ui-distance-precision]]Distance Precision"
-msgstr ""
+msgstr "[[ui-precisión-de-la-distancia]]Precisión de la Distancia"
 
 #. type: Plain text
 #: appa.en.adoc:26
 msgid "Labelled as [ui-element]#Precision# in the second column of input parameters. Refers to the <<precision>> with which a distance was described in a <<locality>> (see {gbp}#uncertainty-related-to-offset-precision[Uncertainty Related to Offset Precision] in {gbp}[Georeferencing Best Practices (Chapman & Wieczorek 2020)^]. This drop-down list is populated in keeping with the _Distance Units_ chosen and contains powers of ten and simple fractions to indicate the precision demonstrated in the verbatim original <<offset>>."
-msgstr ""
+msgstr "Etiquetado como [ui-elemento]#Precisión# en la segunda columna de parámetros de entrada. Se refiere a la <<precisión>> con la que se describió una distancia en una <<localidad>> (ver {gbp}#incertidumbre-relacionada-con-la-precisión-del-desplazamiento[Incertidumbre Relacionada con la Precisión del Desplazamiento] en {gbp}[Buenas Prácticas de Georreferenciación (Chapman & Wieczorek 2020)^]. Esta lista desplegable muestra opciones diferentes dependiendo de las _Unidades de la distancia_ elegidas y contiene potencias de diez y fracciones simples para indicar la precisión demostrada en el <<desplazamiento>> original."
 
 #. type: Named 'caption' AttributeList argument for style 'caption'
 #: appa.en.adoc:28 appa.en.adoc:37
 #, no-wrap
 msgid "Examples"
-msgstr ""
+msgstr "Ejemplos"
 
 #. type: delimited block =
 #: appa.en.adoc:32
 msgid "select \"_1 mi_\" for \"6 mi NE of Davis,\" select \"_1/10 km_\" for \"3.2 km SE of Lisbon\"."
-msgstr ""
+msgstr "seleccione \"_1 mi_\" para \"6 mi NE de Davis\", seleccione \"_1/10 km_\" para \"3.2 km SE de Lisboa\"."
 
 #. type: Labeled list
 #: appa.en.adoc:34
 #, no-wrap
 msgid "[[ui-distance-units]]Distance Units"
-msgstr ""
+msgstr "[[ui-unidades-de-la-distancia]]Unidades de la Distancia"
 
 #. type: Plain text
 #: appa.en.adoc:35
 msgid "Denotes the real world units used in the <<locality>> description. It is important to select the original units as given in the description, because this is needed to properly incorporate the <<uncertainty>> from distance <<precision>>."
-msgstr ""
+msgstr "Denota las unidades del mundo real utilizadas en la descripción de la <<localidad>>. Es importante seleccionar las unidades originales tal y como aparecen en la descripción, ya que son necesarias para incorporar correctamente la <<incertidumbre>> de la <<precisión>> de la distancia."
 
 #. type: delimited block =
 #: appa.en.adoc:41
 msgid "select \"_mi_\" for \"10 mi E (by air) Bakersfield,\" + select \"_km_\" for \"3.2 km SE of Lisbon\"."
-msgstr ""
+msgstr "seleccione \"_mi_\" para \"10 mi E (por aire) de Bakersfield\", + seleccione \"_km_\" para \"3.2 km SE de Lisboa\"."
 
 #. type: Labeled list
 #: appa.en.adoc:43
 #, no-wrap
 msgid "[[ui-go-here]]Go here"
-msgstr ""
+msgstr "[[ui-ir-allí]]Ir Allí"
 
 #. type: Plain text
 #: appa.en.adoc:44
 msgid "Button used to copy and potentially convert the calculated <<coordinates>> from the xref:ui-output-latitude[role=ui-element] and xref:ui-output-longitude[role=ui-element] into the xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element] fields in preparation for a new calculation based on the previous results, eliminating the need to copy manually or to use cut and paste keyboard combinations."
-msgstr ""
+msgstr "Botón utilizado para copiar y potencialmente convertir las <<coordenadas>> calculadas desde los campos xref:ui-latitud-de-salida[role=ui-elemento] y xref:ui-longitud-de-salida[role=ui-elemento] en los campos xref:ui-latitud-de-entrada[role=ui-elemento] y xref:ui-longitud-de-entrada[role=ui-elemento] en preparación para un nuevo cálculo basado en los resultados anteriores, eliminando la necesidad de copiar manualmente o de utilizar combinaciones de teclado para cortar y pegar."
 
 #. type: Labeled list
 #: appa.en.adoc:45
 #, no-wrap
 msgid "[[ui-gps-accuracy]]GPS Accuracy"
-msgstr ""
+msgstr "[[ui-exactitud-del-gps]]Exactitud del GPS"
 
 #. type: Plain text
 #: appa.en.adoc:46
