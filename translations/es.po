@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-11-17 01:52\n"
+"PO-Revision-Date: 2021-11-17 14:43\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -681,42 +681,42 @@ msgstr "Para convertir entre formatos de coordenadas, simplemente seleccione el 
 #. type: Plain text
 #: 0800.en.adoc:9
 msgid "Below the xref:ui-calculate[role=ui-element] section of the Calculator is a [ui-element]#Distance Converter#. To convert a distance from one unit to another, put the value and units in the text and drop-down boxes in the _Distance Converter_, to the left of the \"=\". The value in the units of the drop-down box will appear in blue in the text box with the grey background on the right side of the \"=\". For example, to convert 10 miles into kilometres, enter \"_10_\" in the first field of the _Distance Converter_, select \"[ui-element]#mi#\" from the left-hand unit drop-down list, and select \"[ui-element]#km#\" from the right-hand unit drop-down list. The result, \"_16.09344_\", automatically appears in the right-hand text box. This value can be copied and placed into a distance field in the input area of the Calculator or elsewhere (see xref:img-distance-conversion[xrefstyle=\"short\"])."
-msgstr ""
+msgstr "Debajo de la sección xref:ui-calcular[role=ui-element] de la Calculadora hay un [ui-element]#Conversor de distancias#. Para convertir una distancia de una unidad a otra, ponga el valor y las unidades en los cuadros de texto y las listas desplegables del _Convertidor de distancia_, a la izquierda del \"=\". El valor en las unidades del cuadro desplegable aparecerá en azul en el cuadro de texto con fondo gris a la derecha del \"=\". Por ejemplo, para convertir 10 millas en kilómetros, introduzca \"_10_\" en el primer campo del _Conversor de distancias_, seleccione \"[ui-element]#mi#\" en la lista desplegable de unidades de la izquierda y seleccione \"[ui-element]#km#\" en la lista desplegable de unidades de la derecha. El resultado, \"_16.09344_\", aparece automáticamente en el cuadro de texto de la derecha. Este valor puede copiarse y pegarse en un campo de distancia en el área de entrada de la Calculadora o en cualquier otro lugar (ver xref:img-conversión-distancia[xrefstyle=\"corto\"])."
 
 #. type: Block title
 #: 0800.en.adoc:11
 #, no-wrap
 msgid "Distance Conversion. The Distance Converter section of the Calculator showing a conversion of 10 miles into kilometres."
-msgstr ""
+msgstr "Conversión de distancias. La sección de Conversión de Distancia de la Calculadora muestra una conversión de 10 millas a kilómetros."
 
 #. type: Target for macro image
 #: 0800.en.adoc:12
 #, no-wrap
 msgid "img/web/distance-conversion.png"
-msgstr ""
+msgstr "img/web/distance-conversion.png"
 
 #. type: Plain text
 #: 0800.en.adoc:15
 msgid "Below the [ui-element]#Distance Converter# is a [ui-element]#Scale Converter# designed to convert a measurement on a map of a given scale to a real-world distance in another unit. To convert a distance measured on a map with a known scale into a distance on the ground, put the distance value, distance units, and map scale in the text and drop-down boxes in the [ui-element]#Scale Converter#, to the left of the \"=\". The value in the units of the drop-down box to the right of the \"=\" will appear in blue in the text box with the grey background on the right side of the \"=\". For example, to convert a map measurement of 8 centimetres on a 1:50000 map into miles on the ground, enter \"_8_\" in the first field of the [ui-element]#Scale Converter#, select \"[ui-element]#cm#\" from the left-hand unit drop-down list, select \"_1:50000_\" in the second drop-down list, containing scales, and select \"[ui-element]#mi#\" from the right-hand unit drop-down list. The result, \"_2.48548_\", automatically appears in the right-hand text box. This value can be copied and placed into a distance field in the input area of the Calculator or elsewhere (see xref:img-scale-conversion[xrefstyle=\"short\"])."
-msgstr ""
+msgstr "Debajo del [ui-elemento]#Conversor de distancias# hay un [ui-elemento]#Conversor de escalas# diseñado para convertir una medida en un mapa de una escala determinada en una distancia del mundo real en otra unidad. Para convertir una distancia medida en un mapa con una escala conocida en una distancia sobre el terreno, ponga el valor de la distancia, las unidades de la distancia y la escala del mapa en los cuadros de texto y las listas desplegables del [ui-elemento]#Convertidor de escalas#, a la izquierda del \"=\". El valor de las unidades del cuadro desplegable a la derecha del \"=\" aparecerá en azul en el cuadro de texto con fondo gris a la derecha del \"=\". Por ejemplo, para convertir una medida cartográfica de 8 centímetros en un mapa 1:50000 en millas sobre el terreno, introduzca \"_8_\" en el primer campo del [ui-element]#Conversor de escala#, seleccione \"[ui-element]#cm#\" en la lista desplegable de unidades de la izquierda, seleccione \"_1:50000_\" en la segunda lista desplegable, que contiene las escalas y seleccione \"[ui-element]#mi#\" en la lista desplegable de unidades de la derecha. El resultado, \"_2.48548_\", aparece automáticamente en el cuadro de texto de la derecha. Este valor puede copiarse y pegarse en un campo de distancia en el área de entrada de la Calculadora o en otro lugar (ver xref:img-scale-conversion[xrefstyle=\"short\"])."
 
 #. type: Block title
 #: 0800.en.adoc:17
 #, no-wrap
 msgid "Map Measurement Distance Conversion. The [ui-element]#Scale Converter# section of the Calculator showing a conversion of 8 centimetres on a map of 1:50000 scale to miles on the ground."
-msgstr ""
+msgstr "Conversión de la distancia de medición del mapa. La sección [ui-elemento]#Convertidor de escala# de la Calculadora muestra una conversión de 8 centímetros en un mapa de escala 1:50000 a millas sobre el terreno."
 
 #. type: Target for macro image
 #: 0800.en.adoc:18
 #, no-wrap
 msgid "img/web/scale-conversion.png"
-msgstr ""
+msgstr "img/web/scale-conversion.png"
 
 #. type: Title ==
 #: 0900.en.adoc:2
 #, no-wrap
 msgid "Understanding uncertainty contributions"
-msgstr ""
+msgstr "Entendiendo las contribuciones a la incertidumbre"
 
 #. type: Plain text
 #: 0900.en.adoc:5
