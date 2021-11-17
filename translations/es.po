@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-11-17 20:20\n"
+"PO-Revision-Date: 2021-11-17 23:06\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -947,73 +947,73 @@ msgstr "[[ui-longitud-de-entrada]]Longitud de Entrada"
 #. type: Plain text
 #: appa.en.adoc:56
 msgid "The <<geographic-coordinates,geographic coordinate>> east or west of the <<prime-meridian>> (an arc between the north and south poles where <<longitude>> is 0) for the point of reference for the calculation, which is determined by the specific <<locality-type>>. Longitudes east of the prime meridian are positive by convention, while longitudes to the west are negative. The minus sign (\"−\") should be included as appropriate. The Calculator supports degree-based <<geographic-coordinates,geographic coordinate>> formats for <<latitude>> and longitude: <<decimal-degrees>> (−105.3733333), degrees decimal minutes (105° 22.4′ W), and degrees minutes seconds (105° 22′ 24″ W), ."
-msgstr ""
+msgstr "La <<coordenadas geográficas,coordenada geográfica>> al este o al oeste del <<meridiano cero>> (un arco entre los polos norte y sur donde la <<longitud>> es 0) para el punto de referencia del cálculo, que está determinado por el <<tipo de localidad>> específico. Las longitudes al este del meridiano cero son positivas por convención, mientras que las longitudes al oeste son negativas. El signo menos (\"-\") debe incluirse según corresponda. La calculadora admite los siguientes formatos de <<coordenadas geográficas, coordenada geográfica>> basados en grados para la <<latitud>> y la <<longitud>>: <<grados decimales>> (-105.3733333), grados minutos decimales (105° 22.4′ W), y grados minutos segundos (105° 22′ 24″ W)."
 
 #. type: Labeled list
 #: appa.en.adoc:57
 #, no-wrap
 msgid "[[ui-output-longitude]]Output Longitude"
-msgstr ""
+msgstr "[[ui-longitud-de-salida]]Longitud de Salida"
 
 #. type: Plain text
 #: appa.en.adoc:58
 msgid "The resulting <<longitude>> for a given calculation in <<decimal-degrees>>. Equivalent to the <<Darwin-Core>> term term:dwc[decimalLongitude]. See also, xref:ui-input-longitude[role=ui-element]."
-msgstr ""
+msgstr "La <<longitud>> resultante para un cálculo determinado, en <<grados decimales>>. Equivale al término del <<Darwin-Core>> term:dwc[decimalLongitude]. Ver también, xref:ui-longitud-de-entrada[role=ui-elemento]."
 
 #. type: Labeled list
 #: appa.en.adoc:59
 #, no-wrap
 msgid "[[ui-measurement-error]]Measurement Error"
-msgstr ""
+msgstr "[[ui-error-de-medición]]Error de Medición"
 
 #. type: Plain text
 #: appa.en.adoc:60
 msgid "Accounts for <<error>> associated with the ability to distinguish one point from another using any measuring tool, such as rulers on paper maps or the measuring tools on Google Maps or Google Earth. The units of the measurement must be the same as those for the <<locality>> description. The _Distance Converter_ at the bottom of the Calculator is provided to aid in changing a measurement to the locality description units."
-msgstr ""
+msgstr "Contabiliza el <<error>> asociado a la capacidad de distinguir un punto de otro utilizando cualquier herramienta de medición, como las reglas en los mapas de papel o las herramientas de medición de Google Maps o Google Earth. Las unidades de medida deben ser las mismas que las de la descripción de la <<localidad>>. El _Conversor de distancias_ que aparece en la parte inferior de la Calculadora sirve de ayuda para cambiar una medida a las unidades de la descripción de la localidad."
 
 #. type: Plain text
 #: appa.en.adoc:62
 msgid "If more than one measurement is made in the course of a georeference determination, enter the sum of all the measurement errors."
-msgstr ""
+msgstr "Si se realiza más de una medición en el curso de la determinación de la georreferencia, introduzca la suma de todos los errores de medición."
 
 #. type: Labeled list
 #: appa.en.adoc:63
 #, no-wrap
 msgid "[[ui-offset-distance]]Offset Distance"
-msgstr ""
+msgstr "[[ui-distancia-de-desplazamiento]]Distancia de Desplazamiento"
 
 #. type: Plain text
 #: appa.en.adoc:64
 msgid "The linear distance from a point of origin. <<offset,Offsets>> are used for the _Locality Types_ \"_Distance at a heading_\" and \"_Distance only_\". If the xref:ui-locality-type[role=ui-element] \"_Distance in orthogonal directions_\" is selected, there are two distinct offsets:"
-msgstr ""
+msgstr "La distancia lineal desde un punto de origen. Los <<desplazamiento,desplazamientos>> se utilizan para los tipos de localidad_ \"_Distancia en una dirección_\" y \"_Distancia sólo_\". Si se selecciona el tipo de localidad xref:ui-locality-type[role=ui-element] \"_Distancia por direcciones ortogonales_\", hay dos desplazamientos distintos:"
 
 #. type: Labeled list
 #: appa.en.adoc:66
 #, no-wrap
 msgid "North or South Offset Distance"
-msgstr ""
+msgstr "Distancia de desplazamiento al norte o al sur"
 
 #. type: Plain text
 #: appa.en.adoc:67
 msgid "The distance to the north or south of the xref:ui-input-latitude[role=ui-element]."
-msgstr ""
+msgstr "La distancia al norte o al sur de la xref:ui-latitud-de-entrada[role=ui-element]."
 
 #. type: Labeled list
 #: appa.en.adoc:67
 #, no-wrap
 msgid "East or West Offset Distance"
-msgstr ""
+msgstr "Distancia al Este u Oeste"
 
 #. type: Plain text
 #: appa.en.adoc:68
 msgid "The distance to the east or west of the xref:ui-input-longitude[role=ui-element]."
-msgstr ""
+msgstr "La distancia al este o al oestede la xref:ui-longitud-de-entrada[role=ui-element]."
 
 #. type: Labeled list
 #: appa.en.adoc:70
 #, no-wrap
 msgid "[[ui-radial-of-feature]]Radial of Feature"
-msgstr ""
+msgstr "[[ui-radio-de-la-entidad-geográfica]]Radio de la Entidad Geográfica"
 
 #. type: Plain text
 #: appa.en.adoc:71
