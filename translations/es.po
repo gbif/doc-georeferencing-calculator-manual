@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-11-17 19:20\n"
+"PO-Revision-Date: 2021-11-17 20:20\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -903,46 +903,46 @@ msgstr "[[ui-idioma]]Idioma"
 #. type: Plain text
 #: appa.en.adoc:48
 msgid "The Calculator may be used in English, Spanish, Portuguese, French, or Dutch. The language can be changed using the [ui-element]#Language# drop-down in the upper left-hand corner of the Calculator. Regardless of the language chosen, the Calculator always uses a period ('.') as the decimal separator. If you would like to contribute labels for another language, please submit an issue to the Calculator https://github.com/VertNet/georefcalculator/issues[GitHub repository]."
-msgstr ""
+msgstr "La Calculadora puede utilizarse en inglés, español, portugués, francés u holandés. El idioma puede cambiarse mediante el menú desplegable de [ui-elemento]#Idioma# situado en la esquina superior izquierda de la Calculadora. Independientemente del idioma elegido, la Calculadora siempre utiliza un punto ('.') como separador de decimales. Si desea contribuir con etiquetas para otro idioma, someta un asunto a el https://github.com/VertNet/georefcalculator/issues[repositorio GitHub] de la Calculadora."
 
 #. type: Labeled list
 #: appa.en.adoc:49
 #, no-wrap
 msgid "[[ui-input-latitude]]Input Latitude"
-msgstr ""
+msgstr "[[ui-latitud-de-entrada]]Latitud de Entrada"
 
 #. type: Plain text
 #: appa.en.adoc:50
 msgid "The <<geographic-coordinates,geographic coordinate>> north or south of the Equator (where <<latitude>> is 0) for the point of reference for the calculation, which is determined by the specific <<locality-type>>. <<latitude,Latitudes>> north of the Equator are positive by convention, while latitudes to the south are negative. The minus sign (\"−\") should be included as appropriate. The Calculator supports degree-based <<geographic-coordinates,geographic coordinate>> formats for latitude and <<longitude>>: <<decimal-degrees>> (e.g. 35.3733333), degrees decimal minutes (e.g. 35° 22.4′ N) and <<DMS,degrees-minutes-seconds>> (e.g. 35° 22′ 24″ N)."
-msgstr ""
+msgstr "La <<coordenadas geográficas,coordenada geográfica>> al norte o al sur del Ecuador (donde la <<latitud>> es 0) para el punto de referencia del cálculo, que está determinado por el <<tipo de localidad>> específico. Las <<latitudes>> al norte del Ecuador son positivas por convención, mientras que las latitudes al sur son negativas. El signo menos (\"-\") debe incluirse según corresponda. La calculadora admite los formatos de <<coordenadas geográficas, coordenada geográfica>> para la latitud y la <<longitud>>: <<grados-decimales>> (p. ej. 35.3733333), grados-minutos decimales (p. ej. 35° 22.4′ N) y <<GMS,grados-minutos-segundos>> (p. ej. 35° 22′ 24″ N)."
 
 #. type: Labeled list
 #: appa.en.adoc:51
 #, no-wrap
 msgid "[[ui-output-latitude]]Output Latitude"
-msgstr ""
+msgstr "[[ui-latitud-de-salida]]Latitud de Salida"
 
 #. type: Plain text
 #: appa.en.adoc:52
 msgid "The resulting <<latitude>> for a given calculation, in <<decimal-degrees>>. Equivalent to the <<Darwin-Core>> term term:dwc[decimalLatitude]. See also, xref:ui-input-latitude[role=ui-element]."
-msgstr ""
+msgstr "La <<latitud>> resultante para un cálculo determinado, en <<grados decimales>>. Equivale al término del <<Darwin-Core>> term:dwc[decimalLatitude]. Ver también, xref:ui-latitud-de-entrada[role=ui-elemento]."
 
 #. type: Labeled list
 #: appa.en.adoc:53
 #, no-wrap
 msgid "[[ui-locality-type]]Locality Type"
-msgstr ""
+msgstr "[[ui-tipo-de-localidad]]Tipo de Localidad"
 
 #. type: Plain text
 #: appa.en.adoc:54
 msgid "The pattern of the most specific part of a <<locality>> description to be <<georeference,georeferenced>>. The Calculator can compute georeferences for six basic <<locality-type,locality types>>: _Coordinates only_, _Geographic feature only_, _Distance only_, _Distance along a path_, _Distance along orthogonal directions_, and _Distance at a heading_. Selecting a xref:ui-locality-type[role=ui-element] will configure the Calculator to show all of the parameters that need to be set or chosen in order to do the georeference calculation. The {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] gives specific instructions for how to set the parameters for different examples of each of the locality types."
-msgstr ""
+msgstr "El patrón de la parte más específica de la descripción de una <<localidad>> que debe ser <<georreferenciada,georreferenciado>>. La calculadora puede calcular las georreferencias para seis tipos básicos de \"localidades\": _Sólo coordenadas_, _Sólo entidad geográfica_, _Sólo distancia_, _Distancia a lo largo de una ruta, _Distancia a lo largo de direcciones ortogonales_ y _Distancia en una dirección_. Al seleccionar un tipo xref:ui-tipo-de-localidad[role=ui-element] se configurará la Calculadora para que muestre todos los parámetros que deben establecerse o elegirse para realizar el cálculo de la georreferencia. La {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^] ofrece instrucciones específicas sobre cómo establecer los parámetros para diferentes ejemplos de cada uno de los tipos de localidad."
 
 #. type: Labeled list
 #: appa.en.adoc:55
 #, no-wrap
 msgid "[[ui-input-longitude]]Input Longitude"
-msgstr ""
+msgstr "[[ui-longitud-de-entrada]]Longitud de Entrada"
 
 #. type: Plain text
 #: appa.en.adoc:56
