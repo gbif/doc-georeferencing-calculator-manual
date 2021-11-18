@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-11-18 00:06\n"
+"PO-Revision-Date: 2021-11-18 09:17\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -178,7 +178,7 @@ msgstr "Seleccionar y llenar todos los parámetros mostrados. Consulte el {gqg}#
 #. type: Plain text
 #: 0300.en.adoc:10
 msgid "Click on the xref:ui-calculate[role=ui-element] button to calculate the results."
-msgstr "Hacer clic en el botón xref:ui-Calcular[role=ui-element] para calcular los resultados."
+msgstr "Hacer clic en el botón xref:ui-calcular[role=ui-element] para calcular los resultados."
 
 #. type: Plain text
 #: 0300.en.adoc:11
@@ -378,12 +378,12 @@ msgstr "Las coordenadas en este ejemplo se han especificado al segundo más cerc
 #. type: delimited block =
 #: 0510.en.adoc:46
 msgid "Bakersfield is a large place, and we don't know if the original locality means 10 miles from the center of town, 10 miles from the city limits, or something else entirely. Given that it is 3 miles from the specified coordinates to the furthest edge of town (as measured on the USGS map), the xref:ui-radial-of-feature[role=ui-element] should be 3 miles (see {gqg}#feature-with-av-obvious-spatial-extent[Feature – with an Obvious Spatial Extent^] in the {gqg}[Georeferencing Quick Reference Guide^]). Enter \"_3_\" into the xref:ui-radial-of-feature[role=ui-element] text field, since the units of the <<radial>> must be in the same units as the offset."
-msgstr "Bakersfield es un lugar grande y no sabemos si la localidad original significa 10 millas desde el centro de la ciudad, 10 millas desde los límites de la ciudad o algo totalmente distinto. Dado que hay 3 millas desde las coordenadas especificadas hasta el borde más lejano de la ciudad (según las mediciones del mapa USGS), el xref:ui-radial-de-la-entidad[role=ui-element] debería ser 3 millas (ver {gqg}#entidad-geográfica-con-una-extensión-espacial-obvia[Entidad Geográfica con una Extensión Espacial Obvia^] en la {gqg}[Guía de Referencia Rápida de Georreferenciación^]). Introduzca \"_3_\" en el campo de texto xref:ui-radial-de-la-entidad[role=ui-element], ya que las unidades del <<radio>> deben estar en las mismas unidades que el desplazamiento."
+msgstr "Bakersfield es un lugar grande y no sabemos si la localidad original significa 10 millas desde el centro de la ciudad, 10 millas desde los límites de la ciudad o algo totalmente distinto. Dado que hay 3 millas desde las coordenadas especificadas hasta el borde más lejano de la ciudad (según las mediciones del mapa USGS), el xref:ui-radio-de-la-entidad-geográfica[role=ui-element] debería ser 3 millas (ver {gqg}#entidad-geográfica-con-una-extensión-espacial-obvia[Entidad Geográfica con una Extensión Espacial Obvia^] en la {gqg}[Guía de Referencia Rápida de Georreferenciación^]). Introduzca \"_3_\" en el campo de texto xref:ui-radio-de-la-entidad-geográfica[role=ui-element], ya que las unidades del <<radio>> deben estar en las mismas unidades que el desplazamiento."
 
 #. type: delimited block =
 #: 0510.en.adoc:48
 msgid "If this distance had been measured in kilometres the value should be converted to miles using the [ui-element]#Distance Converter# at the bottom of the Calculator. The converted number should then be entered into the appropriate field (see <<converters>> to learn how to use the converters). All distance measurements MUST be in the same units as the locality description for the Calculator to return proper results."
-msgstr "Si esta distancia se ha medido en kilómetros, el valor debe ser convertido a millas utilizando el [ui-elemento]#Convertidor de Distancia# en la parte inferior de la Calculadora. El número convertido debe introducirse entonces en el campo correspondiente (ver <<convertidores>> para aprender a utilizar los convertidores). Todas las medidas de distancia DEBEN estar en las mismas unidades que la descripción de la localidad para que la Calculadora devuelva los resultados adecuados."
+msgstr "Si esta distancia se ha medido en kilómetros, el valor debe ser convertido a millas utilizando el [ui-elemento]#Convertidor de Distancia# en la parte inferior de la Calculadora. El número convertido debe introducirse entonces en el campo correspondiente (ver <<converters>> para aprender a utilizar los convertidores). Todas las medidas de distancia DEBEN estar en las mismas unidades que la descripción de la localidad para que la Calculadora devuelva los resultados adecuados."
 
 #. type: delimited block =
 #: 0510.en.adoc:50
