@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-11-17 23:06\n"
+"PO-Revision-Date: 2021-11-18 00:06\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1018,29 +1018,29 @@ msgstr "[[ui-radio-de-la-entidad-geográfica]]Radio de la Entidad Geográfica"
 #. type: Plain text
 #: appa.en.adoc:71
 msgid "The <<feature>> is the place in the <<locality>> description that corresponds to the xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element]. Types of features vary widely and include, for example, populated places, street addresses, junctions, crossings, lakes, mountains, parks, islands, etc. The <<geographic-radial>> of the feature is the distance from the <<corrected-center>> of the feature to the furthest point on the <<geographic-boundary>> of that feature (see {gbp}#extent-of-a-location[Extent of a Location] in {gbp}[Georeferencing Best Practices (Chapman & Wieczorek 2020)^] and {gqg}#radial-of-feature[Radial of Feature] in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^])."
-msgstr ""
+msgstr "La <<entidad geográfica>> es el lugar de la descripción de la <<localidad>> que corresponde a la xref:ui-latitud-de-entrada[role=ui-elemento] y a la xref:ui-longitud-de-entrada[role=ui-elemento]. Los tipos de entidades varían mucho e incluyen, por ejemplo, lugares poblados, direcciones de calles, cruces, lagos, montañas, parques, islas, etc. El <<radio geográfico>> de la entidad es la distancia desde el <<centro corregido>> de la entidad hasta el punto más lejano del <<límite geográfico>> de esa entidad (ver {gbp}#extensión-de-una-ubicación[Extensión de una Ubicación] en {gbp}[Buenas Prácticas de Georreferenciación (Chapman & Wieczorek 2020)^] y {gqg}#radio-de-la-entidad-geográfica[Radio de la Entidad Geográfica] en {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^])."
 
 #. type: Labeled list
 #: appa.en.adoc:72
 #, no-wrap
 msgid "[[ui-uncertainty,Uncertainty]]Uncertainty (m)"
-msgstr ""
+msgstr "[[ui-incertidumbre,Incertidumbre]]Incertidumbre (m)"
 
 #. type: Plain text
 #: appa.en.adoc:73
 msgid "The resulting combination of all sources of <<uncertainty>> (<<coordinate-precision>>, unknown <<datum>>, data source, <<GPS>> <<accuracy>>, measurement <<error>>, <<feature>> <<geographic-radial>>, distance <<precision>>, and <<heading>> precision) expressed as a linear distance – the radius in the <<point-radius>> <<georeferencing-method,method>> (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]). Along with the xref:ui-output-latitude[role=ui-element], xref:ui-output-longitude[role=ui-element], and xref:ui-datum[role=ui-element], the radius defines a <<smallest-enclosing-circle>> containing all of the possible places a <<locality>> description could mean."
-msgstr ""
+msgstr "La combinación resultante de todas las fuentes de <<incertidumbre>> (<<precisión de las coordenadas>>, <<datum desconocido>>, fuente de datos,<<precisión>> del <<GPS>>, <<error>> de medición, <<radio geográfico>> de la <<entidad geográfica>>, <<precisión>> de la distancia y precisión de la <<orientación cardinal>>) expresada como una distancia lineal: el radio en el <<método de georreferenciación,método>> <<radio-punto>> (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]). Junto con los elementos xref:ui-latitud-de-salida[role=ui-elemento], xref:ui-longitud-de-salida[role=ui-elemento] y xref:ui-datum[role=ui-elemento], el radio define un <<círculo mínimo>> que contiene todos los posibles lugares que podría significar una descripción de una <<localidad>>."
 
 #. type: Labeled list
 #: appa.en.adoc:74
 #, no-wrap
 msgid "[[ui-version]]Version"
-msgstr ""
+msgstr "[[ui-versión]]Versión"
 
 #. type: Plain text
 #: appa.en.adoc:74
 msgid "Displayed in the bottom left-hand corner of the Calculator in the format yyyymmddll, where ll is the two-letter language code of the interface."
-msgstr ""
+msgstr "Se muestra en la esquina inferior izquierda de la calculadora en el formato aaaammddll, donde ll es el código de idioma de dos letras de la interfaz."
 
 #. type: Title ==
 #: glossary.en.adoc:2
