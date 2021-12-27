@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-12-27 14:23\n"
+"PO-Revision-Date: 2021-12-27 15:54\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1029,7 +1029,7 @@ msgstr "[[ui-incertidumbre,Incertidumbre]]Incertidumbre (m)"
 #. type: Plain text
 #: appa.en.adoc:73
 msgid "The resulting combination of all sources of <<uncertainty>> (<<coordinate-precision>>, unknown <<datum>>, data source, <<GPS>> <<accuracy>>, measurement <<error>>, <<feature>> <<geographic-radial>>, distance <<precision>>, and <<heading>> precision) expressed as a linear distance – the radius in the <<point-radius>> <<georeferencing-method,method>> (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]). Along with the xref:ui-output-latitude[role=ui-element], xref:ui-output-longitude[role=ui-element], and xref:ui-datum[role=ui-element], the radius defines a <<smallest-enclosing-circle>> containing all of the possible places a <<locality>> description could mean."
-msgstr "La combinación resultante de todas las fuentes de <<incertidumbre>> (<<precisión de las coordenadas>>, <<datum desconocido>>, fuente de datos,<<precisión>> del <<GPS>>, <<error>> de medición, <<radio geográfico>> de la <<entidad geográfica>>, <<precisión>> de la distancia y precisión de la <<orientación cardinal>>) expresada como una distancia lineal: el radio en el <<método de georreferenciación,método>> <<radio-punto>> (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]). Junto con los elementos xref:ui-latitud-de-salida[role=ui-elemento], xref:ui-longitud-de-salida[role=ui-elemento] y xref:ui-datum[role=ui-elemento], el radio define un <<círculo mínimo>> que contiene todos los posibles lugares que podría significar una descripción de una <<localidad>>."
+msgstr "La combinación resultante de todas las fuentes de <<incertidumbre>> (<<precisión de las coordenadas>>, <<datum>> desconocido, fuente de datos,<<precisión>> del <<GPS>>, <<error>> de medición, <<radio geográfico>> de la <<entidad geográfica>>, <<precisión>> de la distancia y precisión de la <<orientación cardinal>>) expresada como una distancia lineal: el radio en el <<método de georreferenciación,método>> <<radio-punto>> (https://doi.org/10.1080/13658810412331280211[Wieczorek et al. 2004^]). Junto con los elementos xref:ui-latitud-de-salida[role=ui-element], xref:ui-longitud-de-salida[role=ui-element] y xref:ui-datum[role=ui-element], el radio define un <<círculo mínimo>> que contiene todos los posibles lugares que podría significar una descripción de una <<localidad>>."
 
 #. type: Labeled list
 #: appa.en.adoc:74
@@ -1167,13 +1167,13 @@ msgstr "[[precisión-de-las-coordenadas]]precisión de las coordenadas"
 #. type: Plain text
 #: glossary.en.adoc:29
 msgid "The fraction of a degree corresponding to the number of significant digits in the source <<coordinates>>. For example, if the coordinates are reported to the nearest minute, the <<precision>> is 1/3600th (0.00027778) of a degree; if a <<decimal-degrees,decimal degree>> is reported to two decimal places, the precision is 0.01 of a degree."
-msgstr "La fracción de un grado correspondiente al número de dígitos significativos en las <<coordenadas>> originales. Por ejemplo, si las coordenadas son reportadas al minuto más cercano, la <<precisión>> es 1/3600th (0.00027778) de grado; si un <<grados-decimales,grado decimal>> se reporta a dos decimales, la precisión es 0.01 de grado."
+msgstr "La fracción de un grado correspondiente al número de dígitos significativos en las <<coordenadas>> originales. Por ejemplo, si las coordenadas son reportadas al minuto más cercano, la <<precisión>> es 1/3600 (0.00027778) de grado; si un <<grados-decimales,grado decimal>> se reporta a dos decimales, la precisión es 0.01 de grado."
 
 #. type: Labeled list
 #: glossary.en.adoc:30
 #, no-wrap
 msgid "[[coordinate-reference-system]]coordinate reference system"
-msgstr "[[sistema-de-coordenadas-de-referencia]]sistema de coordenadas de referencia"
+msgstr "[[sistema-de-coordenadas-de-referencia]]sistema de referencia de coordenadas"
 
 #. type: Plain text
 #: glossary.en.adoc:31
@@ -1189,7 +1189,7 @@ msgstr "[[sistema-de-coordenadas]]sistema de coordenadas"
 #. type: Plain text
 #: glossary.en.adoc:33
 msgid "A geometric system that defines the nature and relationship of the <<coordinates>> it uses to uniquely define positions. Examples include the <<geographic coordinate system>> and the <<UTM>> coordinate system."
-msgstr "Un sistema geométrico que describe la naturaleza y la relación de las <<coordenadas>> usadas para definir posiciones únicas. Algunos ejemplos incluyen el <<sistema de coordenadas geográfico>> y el sistema de coordenadas <<UTM>>."
+msgstr "Un sistema geométrico que describe la naturaleza y la relación de las <<coordenadas>> usadas para definir posiciones únicas. Algunos ejemplos incluyen el <<sistema de coordenadas geográficas>> y el sistema de coordenadas <<UTM>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:34
@@ -1233,7 +1233,7 @@ msgstr "[[centro-corregido]]centro corregido"
 #. type: Plain text
 #: glossary.en.adoc:41
 msgid "The point within a <<location>>, or on its <<boundary>>, that minimizes the <<geographic radial>> of the location. This point is obtained by making the <<smallest enclosing circle>> that contains the entire <<feature>>, and then taking the center of that circle. If that center does not fall inside the boundaries of the feature, make the <<smallest enclosing circle>> that has its center on the boundary of the feature. Note that in the second case, the new circle, and hence the <<radial>>, will always be larger than the uncorrected one (see {gbp}#img-polygon-center[Polygons (Chapman & Wieczorek 2020)^])."
-msgstr "El punto dentro de una <<ubicación>>, o en sus <<límite, límites>>, que minimiza el <<radio geográfico>> de la ubicación. Este punto se obtiene haciendo el <<círculo mínimo>> que contenga toda la <<entidad geográfica>> y luego tomando el centro de ese círculo. Si ese centro no cae dentro de los límites de la geometría, se debe hacer un <<círculo mínimo>> que tenga su centro en el límite de la geometría. Note que en el segundo caso, el nuevo círculo y por ende el <<radio>>, siempre serán mas grandes que el centro no corregido (ver <<img-centro-polígono>>)."
+msgstr "El punto dentro de una <<ubicación>>, o en sus <<límite, límites>>, que minimiza el <<radio geográfico>> de la ubicación. Este punto se obtiene haciendo el <<círculo mínimo>> que contenga toda la <<entidad geográfica>> y luego tomando el centro de ese círculo. Si ese centro no cae dentro de los límites de la geometría, se debe hacer un <<círculo mínimo>> que tenga su centro en el límite de la geometría. Note que en el segundo caso, el nuevo círculo y por ende el <<radio>>, siempre serán mas grandes que el centro no corregido (ver {gbp}#img-polygon-center[Polygons (Chapman & Wieczorek 2020)^])."
 
 #. type: Labeled list
 #: glossary.en.adoc:42
@@ -1388,7 +1388,7 @@ msgstr "[[este]]este"
 #. type: Plain text
 #: glossary.en.adoc:70
 msgid "Within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing eastward distance from a reference <<meridian>> on a map."
-msgstr "Dentro de un <<sistema de coordenadas de referencia>> (p. ej. como la proporcionada por un <<GPS>> o un un mapa de <<grilla>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el este desde un <<meridiano>> de referencia en un mapa."
+msgstr "Dentro de un <<sistema de referencia de coordenadas>> (p. ej., como la proporcionada por un <<GPS>> o un un mapa de <<grilla>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el este desde un <<meridiano>> de referencia en un mapa."
 
 #. type: Labeled list
 #: glossary.en.adoc:71
@@ -1950,7 +1950,7 @@ msgstr "[[northing]]norte"
 #. type: Plain text
 #: glossary.en.adoc:172
 msgid "Within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing northward distance from a reference <<latitude>>."
-msgstr "Dentro de un <<sistema de coordenadas de referencia>> (p. ej. como el proporcionado por un <<GPS>> o un un mapa de <<grilla,grillas>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el norte desde una <<latitud>> de referencia."
+msgstr "Dentro de un <<sistema de de referencia de coordenadas>> (p. ej., como el proporcionado por un <<GPS>> o un un mapa de <<grilla,grillas>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el norte desde una <<latitud>> de referencia."
 
 #. type: Labeled list
 #: glossary.en.adoc:173
