@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-12-27 15:54\n"
+"PO-Revision-Date: 2021-12-27 22:33\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1255,7 +1255,7 @@ msgstr "[[calidad-de-datos]]calidad de datos"
 #. type: Plain text
 #: glossary.en.adoc:45
 msgid "‘Fitness for use’ of data (<<juran,Juran 1964>>, <<juran-2ed,Juran 1995>>, <<chrisman,Chrisman 1991>>, https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). As the collector of the original data, you may have an intended use for the data you collect but data have the potential to be used in unforeseen ways; therefore, the value of your data is directly related to the fitness of those data for a variety of uses. As data become more accessible, many more uses become apparent (http://www.gbif.org/document/80545[Chapman 2005c^])."
-msgstr "Aptitud para el uso de los datos (en inglés: ´Fitness for use') (<<juran,Juran 1964>>, <<juran-2ed,Juran 1995>>, <<chrisman,Chrisman 1991>>, https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). Como colector de datos primarios, puede que usted tenga una intensión de uso para los mismos, pero estos tienen el potencial de ser utilizados de otras maneras aún no previstas; por lo tanto, el valor de los datos está directamente relacionado con la aptitud que tienen para ser utilizados en una variedad de usos. A medida que los datos se vuelven más accesibles, son mas evidentes sus potenciales usos. (http://www.gbif.org/document/80545[Chapman 2005c^])."
+msgstr "Aptitud para el uso de los datos (en inglés: ´Fitness for use') (<<juran,Juran 1964>>, <<juran-2ed,Juran 1995>>, <<chrisman,Chrisman 1991>>, https://doi.org/10.15468/doc.jrgg-a190[Chapman 2005a^]). Como colector de los datos originales puede que usted tenga previsto un uso particular para ellos, pero los datos tienen el potencial de ser utilizados de maneras imprevistas. Por lo tanto, el valor de sus datos está directamente relacionado con la aptitud de esos datos para una variedad de usos. A medida que los datos se vuelven más accesibles, son mas evidentes sus potenciales usos (http://www.gbif.org/document/80545[Chapman 2005c^])."
 
 #. type: Labeled list
 #: glossary.en.adoc:46
@@ -1343,7 +1343,7 @@ msgstr "[[modelo-digital-de-elevación,modelo digital de elevación]] modelo dig
 #. type: Plain text
 #: glossary.en.adoc:61
 msgid "A digital representation of the elevation of <<location,locations>> on the surface of the earth, usually represented in the form of a rectangular <<grid>> (raster) that stores the <<elevation>> relative to <<mean-sea-level>> or some other known <<vertical datum>>. The term Digital Terrain Model (DTM) is sometimes used interchangeably with DEM, although it is usually restricted to models representing landscapes. A DTM usually contains additional surface information such as peaks and breaks in slope."
-msgstr "Representación digital de la elevación de una <<ubicación>> en la superficie de la tierra, habitualmente representado en forma de una <<grilla>> rectangular (raster) que almacena la <<elevación>> relativa al <<nivel-medio-del-mar>> o algún otro <<datum vertical>>. El término Modelo de Terreno Digital (DTM) se utiliza a veces de forma intercambiable con DEM, aunque normalmente se limita a modelos que representan capas. Un DTM normalmente contiene información adicional de superficie, como picos y roturas en pendiente."
+msgstr "Representación digital de la elevación de una <<ubicación>> en la superficie de la tierra, habitualmente representado en forma de una <<grilla>> rectangular (raster) que almacena la <<elevación>> relativa al <<nivel-medio-del-mar>> o algún otro <<datum vertical>>. El término \"Modelo de terreno digital\" (DTM) se utiliza a veces de forma intercambiable con DEM, aunque normalmente se limita a modelos que representan capas. Un DTM normalmente contiene información adicional de superficie, como picos y las interrupciones de la pendiente."
 
 #.  TODO, link directly to heading?
 #. type: Labeled list
