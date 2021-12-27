@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-12-27 13:22\n"
+"PO-Revision-Date: 2021-12-27 14:23\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -870,18 +870,18 @@ msgstr "Denota las unidades del mundo real utilizadas en la descripción de la <
 #. type: delimited block =
 #: appa.en.adoc:41
 msgid "select \"_mi_\" for \"10 mi E (by air) Bakersfield,\" + select \"_km_\" for \"3.2 km SE of Lisbon\"."
-msgstr "seleccione \"_mi_\" para \"10 mi E (por aire) de Bakersfield\", + seleccione \"_km_\" para \"3.2 km SE de Lisboa\"."
+msgstr "seleccione \"_mi_\" para \"10 mi E (por aire) de Bakersfield,\" + seleccione \"_km_\" para \"3.2 km SE de Lisboa\"."
 
 #. type: Labeled list
 #: appa.en.adoc:43
 #, no-wrap
 msgid "[[ui-go-here]]Go here"
-msgstr "[[ui-ir-allí]]Ir Allí"
+msgstr "[[ui-ir-allí]]Ir allí"
 
 #. type: Plain text
 #: appa.en.adoc:44
 msgid "Button used to copy and potentially convert the calculated <<coordinates>> from the xref:ui-output-latitude[role=ui-element] and xref:ui-output-longitude[role=ui-element] into the xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element] fields in preparation for a new calculation based on the previous results, eliminating the need to copy manually or to use cut and paste keyboard combinations."
-msgstr "Botón utilizado para copiar y potencialmente convertir las <<coordenadas>> calculadas desde los campos xref:ui-latitud-de-salida[role=ui-elemento] y xref:ui-longitud-de-salida[role=ui-elemento] en los campos xref:ui-latitud-de-entrada[role=ui-elemento] y xref:ui-longitud-de-entrada[role=ui-elemento] en preparación para un nuevo cálculo basado en los resultados anteriores, eliminando la necesidad de copiar manualmente o de utilizar combinaciones de teclado para cortar y pegar."
+msgstr "Botón utilizado para copiar y potencialmente convertir las <<coordenadas>> calculadas desde los campos xref:ui-latitud-de-salida[role=ui-element] y xref:ui-longitud-de-salida[role=ui-element] en los campos xref:ui-latitud-de-entrada[role=ui-element] y xref:ui-longitud-de-entrada[role=ui-element] en preparación para un nuevo cálculo basado en los resultados anteriores, eliminando la necesidad de copiar manualmente o de utilizar combinaciones de teclado para cortar y pegar."
 
 #. type: Labeled list
 #: appa.en.adoc:45
@@ -892,7 +892,7 @@ msgstr "[[ui-exactitud-del-gps]]Exactitud del GPS"
 #. type: Plain text
 #: appa.en.adoc:46
 msgid "When \"_GPS_\" is selected from the xref:ui-coordinate-source[role=ui-element] drop-down list, the label for the xref:ui-measurement-error[role=ui-element] text box changes to xref:ui-gps-accuracy[role=ui-element]. Enter the value given by the <<GPS>> at the time the <<coordinates>> were captured. If not known, enter 100 m for standard hand-held GPS coordinates taken before 1 May 2000 when Selective Availability was discontinued. After that, use 30 m as a default value."
-msgstr "Cuando se selecciona \"_GPS_\" en la lista desplegable xref:ui-fuente-de-las-coordenadas[role=ui-elemento], la etiqueta del cuadro de texto xref:ui-error-de-medición[role=ui-elemento] cambia a xref:ui-exactitud-del-gps[role=ui-elemento]. Introduzca el valor dado por el <<GPS>> en el momento en que se capturaron las <<coordenadas>>. Si no se conoce, introduzca 100 m para las coordenadas tomadas con un GPS portátil estándar antes del 1 de mayo de 2000, fecha en que se descontinuó la Disponibilidad Selectiva. Para fechas posteriores, utilice 30 m como valor por defecto."
+msgstr "Cuando se selecciona \"_GPS_\" en la lista desplegable xref:ui-fuente-de-las-coordenadas[role=ui-element], la etiqueta del cuadro de texto xref:ui-error-de-medición[role=ui-element] cambia a xref:ui-exactitud-del-gps[role=ui-element]. Introduzca el valor dado por el <<GPS>> en el momento en que se capturaron las <<coordenadas>>. Si no se conoce, introduzca 100 m para las coordenadas tomadas con un GPS portátil estándar antes del 1 de mayo de 2000, fecha en que se descontinuó la \"Disponibilidad selectiva\". Para fechas posteriores, utilice 30 m como valor por defecto."
 
 #. type: Labeled list
 #: appa.en.adoc:47
@@ -909,18 +909,18 @@ msgstr "La Calculadora puede utilizarse en inglés, español, portugués, franc�
 #: appa.en.adoc:49
 #, no-wrap
 msgid "[[ui-input-latitude]]Input Latitude"
-msgstr "[[ui-latitud-de-entrada]]Latitud de Entrada"
+msgstr "[[ui-latitud-de-entrada]]Latitud de entrada"
 
 #. type: Plain text
 #: appa.en.adoc:50
 msgid "The <<geographic-coordinates,geographic coordinate>> north or south of the Equator (where <<latitude>> is 0) for the point of reference for the calculation, which is determined by the specific <<locality-type>>. <<latitude,Latitudes>> north of the Equator are positive by convention, while latitudes to the south are negative. The minus sign (\"−\") should be included as appropriate. The Calculator supports degree-based <<geographic-coordinates,geographic coordinate>> formats for latitude and <<longitude>>: <<decimal-degrees>> (e.g. 35.3733333), degrees decimal minutes (e.g. 35° 22.4′ N) and <<DMS,degrees-minutes-seconds>> (e.g. 35° 22′ 24″ N)."
-msgstr "La <<coordenadas geográficas,coordenada geográfica>> al norte o al sur del Ecuador (donde la <<latitud>> es 0) para el punto de referencia del cálculo, que está determinado por el <<tipo de localidad>> específico. Las <<latitudes>> al norte del Ecuador son positivas por convención, mientras que las latitudes al sur son negativas. El signo menos (\"-\") debe incluirse según corresponda. La calculadora admite los formatos de <<coordenadas geográficas, coordenada geográfica>> para la latitud y la <<longitud>>: <<grados-decimales>> (p. ej. 35.3733333), grados-minutos decimales (p. ej. 35° 22.4′ N) y <<GMS,grados-minutos-segundos>> (p. ej. 35° 22′ 24″ N)."
+msgstr "La <<coordenadas geográficas,coordenada geográfica>> al norte o al sur del Ecuador (donde la <<latitud>> es 0) para el punto de referencia del cálculo, que está determinado por el <<tipo de localidad>> específico. Las <<latitud,latitudes>> al norte del Ecuador son positivas por convención, mientras que las latitudes al sur son negativas. El signo menos (\"-\") debe incluirse según corresponda. La calculadora admite los formatos de <<coordenadas geográficas, coordenada geográfica>> para la latitud y la <<longitud>>: <<grados-decimales>> (p. ej., 35.3733333), grados-minutos decimales (p. ej., 35° 22.4′ N) y <<GMS,grados-minutos-segundos>> (p. ej., 35° 22′ 24″ N)."
 
 #. type: Labeled list
 #: appa.en.adoc:51
 #, no-wrap
 msgid "[[ui-output-latitude]]Output Latitude"
-msgstr "[[ui-latitud-de-salida]]Latitud de Salida"
+msgstr "[[ui-latitud-de-salida]]Latitud de salida"
 
 #. type: Plain text
 #: appa.en.adoc:52
@@ -931,18 +931,18 @@ msgstr "La <<latitud>> resultante para un cálculo determinado, en <<grados deci
 #: appa.en.adoc:53
 #, no-wrap
 msgid "[[ui-locality-type]]Locality Type"
-msgstr "[[ui-tipo-de-localidad]]Tipo de Localidad"
+msgstr "[[ui-tipo-de-localidad]]Tipo de localidad"
 
 #. type: Plain text
 #: appa.en.adoc:54
 msgid "The pattern of the most specific part of a <<locality>> description to be <<georeference,georeferenced>>. The Calculator can compute georeferences for six basic <<locality-type,locality types>>: _Coordinates only_, _Geographic feature only_, _Distance only_, _Distance along a path_, _Distance along orthogonal directions_, and _Distance at a heading_. Selecting a xref:ui-locality-type[role=ui-element] will configure the Calculator to show all of the parameters that need to be set or chosen in order to do the georeference calculation. The {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^] gives specific instructions for how to set the parameters for different examples of each of the locality types."
-msgstr "El patrón de la parte más específica de la descripción de una <<localidad>> que debe ser <<georreferenciada,georreferenciado>>. La calculadora puede calcular las georreferencias para seis tipos básicos de \"localidades\": _Sólo coordenadas_, _Sólo entidad geográfica_, _Sólo distancia_, _Distancia a lo largo de una ruta, _Distancia a lo largo de direcciones ortogonales_ y _Distancia en una dirección_. Al seleccionar un tipo xref:ui-tipo-de-localidad[role=ui-element] se configurará la Calculadora para que muestre todos los parámetros que deben establecerse o elegirse para realizar el cálculo de la georreferencia. La {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^] ofrece instrucciones específicas sobre cómo establecer los parámetros para diferentes ejemplos de cada uno de los tipos de localidad."
+msgstr "El patrón de la parte más específica de la descripción de una <<localidad>> que debe ser <<georreferenciada,georreferenciado>>. La calculadora puede calcular las georreferencias para seis tipos básicos de \"localidades\": _Sólo coordenadas_, _Sólo entidad geográfica_, _Sólo distancia_, _Distancia a lo largo de una ruta_, _Distancia a lo largo de direcciones ortogonales_ y _Distancia en una dirección_. Al seleccionar un tipo xref:ui-tipo-de-localidad[role=ui-element] se configurará la Calculadora para que muestre todos los parámetros que deben establecerse o elegirse para realizar el cálculo de la georreferencia. La {gqg}[Guía de referencia rápida de georreferenciación (Zermoglio et al. 2020)^] ofrece instrucciones específicas sobre cómo establecer los parámetros para diferentes ejemplos de cada uno de los tipos de localidad."
 
 #. type: Labeled list
 #: appa.en.adoc:55
 #, no-wrap
 msgid "[[ui-input-longitude]]Input Longitude"
-msgstr "[[ui-longitud-de-entrada]]Longitud de Entrada"
+msgstr "[[ui-longitud-de-entrada]]Longitud de entrada"
 
 #. type: Plain text
 #: appa.en.adoc:56
@@ -953,7 +953,7 @@ msgstr "La <<coordenadas geográficas,coordenada geográfica>> al este o al oest
 #: appa.en.adoc:57
 #, no-wrap
 msgid "[[ui-output-longitude]]Output Longitude"
-msgstr "[[ui-longitud-de-salida]]Longitud de Salida"
+msgstr "[[ui-longitud-de-salida]]Longitud de salida"
 
 #. type: Plain text
 #: appa.en.adoc:58
@@ -964,12 +964,12 @@ msgstr "La <<longitud>> resultante para un cálculo determinado, en <<grados dec
 #: appa.en.adoc:59
 #, no-wrap
 msgid "[[ui-measurement-error]]Measurement Error"
-msgstr "[[ui-error-de-medición]]Error de Medición"
+msgstr "[[ui-error-de-medición]]Error de medición"
 
 #. type: Plain text
 #: appa.en.adoc:60
 msgid "Accounts for <<error>> associated with the ability to distinguish one point from another using any measuring tool, such as rulers on paper maps or the measuring tools on Google Maps or Google Earth. The units of the measurement must be the same as those for the <<locality>> description. The _Distance Converter_ at the bottom of the Calculator is provided to aid in changing a measurement to the locality description units."
-msgstr "Contabiliza el <<error>> asociado a la capacidad de distinguir un punto de otro utilizando cualquier herramienta de medición, como las reglas en los mapas de papel o las herramientas de medición de Google Maps o Google Earth. Las unidades de medida deben ser las mismas que las de la descripción de la <<localidad>>. El _Conversor de distancias_ que aparece en la parte inferior de la Calculadora sirve de ayuda para cambiar una medida a las unidades de la descripción de la localidad."
+msgstr "Contabiliza el <<error>> asociado a la capacidad de distinguir un punto de otro utilizando cualquier herramienta de medición, como las reglas en los mapas de papel o las herramientas de medición de Google Maps o Google Earth. Las unidades de medida deben ser las mismas que las de la descripción de la <<localidad>>. El _Convertidor de distancias_ que aparece en la parte inferior de la Calculadora sirve de ayuda para cambiar una medida a las unidades de la descripción de la localidad."
 
 #. type: Plain text
 #: appa.en.adoc:62
@@ -980,12 +980,12 @@ msgstr "Si se realiza más de una medición en el curso de la determinación de 
 #: appa.en.adoc:63
 #, no-wrap
 msgid "[[ui-offset-distance]]Offset Distance"
-msgstr "[[ui-distancia-de-desplazamiento]]Distancia de Desplazamiento"
+msgstr "[[ui-distancia-de-desplazamiento]]Distancia de desplazamiento"
 
 #. type: Plain text
 #: appa.en.adoc:64
 msgid "The linear distance from a point of origin. <<offset,Offsets>> are used for the _Locality Types_ \"_Distance at a heading_\" and \"_Distance only_\". If the xref:ui-locality-type[role=ui-element] \"_Distance in orthogonal directions_\" is selected, there are two distinct offsets:"
-msgstr "La distancia lineal desde un punto de origen. Los <<desplazamiento,desplazamientos>> se utilizan para los tipos de localidad_ \"_Distancia en una dirección_\" y \"_Distancia sólo_\". Si se selecciona el tipo de localidad xref:ui-locality-type[role=ui-element] \"_Distancia por direcciones ortogonales_\", hay dos desplazamientos distintos:"
+msgstr "La distancia lineal desde un punto de origen. Los <<desplazamiento,desplazamientos>> se utilizan para los tipos de localidad \"_Distancia en una dirección_\" y \"_Solo distancia_\". Si se selecciona el tipo de localidad xref:ui-tipo-de-localidad[role=ui-element] \"_Distancia por direcciones ortogonales_\", hay dos desplazamientos distintos:"
 
 #. type: Labeled list
 #: appa.en.adoc:66
@@ -1013,12 +1013,12 @@ msgstr "La distancia al este o al oestede la xref:ui-longitud-de-entrada[role=ui
 #: appa.en.adoc:70
 #, no-wrap
 msgid "[[ui-radial-of-feature]]Radial of Feature"
-msgstr "[[ui-radio-de-la-entidad-geográfica]]Radio de la Entidad Geográfica"
+msgstr "[[ui-radio-de-la-entidad-geográfica]]Radio de la entidad geográfica"
 
 #. type: Plain text
 #: appa.en.adoc:71
 msgid "The <<feature>> is the place in the <<locality>> description that corresponds to the xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element]. Types of features vary widely and include, for example, populated places, street addresses, junctions, crossings, lakes, mountains, parks, islands, etc. The <<geographic-radial>> of the feature is the distance from the <<corrected-center>> of the feature to the furthest point on the <<geographic-boundary>> of that feature (see {gbp}#extent-of-a-location[Extent of a Location] in {gbp}[Georeferencing Best Practices (Chapman & Wieczorek 2020)^] and {gqg}#radial-of-feature[Radial of Feature] in {gqg}[Georeferencing Quick Reference Guide (Zermoglio et al. 2020)^])."
-msgstr "La <<entidad geográfica>> es el lugar de la descripción de la <<localidad>> que corresponde a la xref:ui-latitud-de-entrada[role=ui-elemento] y a la xref:ui-longitud-de-entrada[role=ui-elemento]. Los tipos de entidades varían mucho e incluyen, por ejemplo, lugares poblados, direcciones de calles, cruces, lagos, montañas, parques, islas, etc. El <<radio geográfico>> de la entidad es la distancia desde el <<centro corregido>> de la entidad hasta el punto más lejano del <<límite geográfico>> de esa entidad (ver {gbp}#extensión-de-una-ubicación[Extensión de una Ubicación] en {gbp}[Buenas Prácticas de Georreferenciación (Chapman & Wieczorek 2020)^] y {gqg}#radio-de-la-entidad-geográfica[Radio de la Entidad Geográfica] en {gqg}[Guía de Referencia Rápida de Georreferenciación (Zermoglio et al. 2020)^])."
+msgstr "La <<entidad geográfica>> es el lugar de la descripción de la <<localidad>> que corresponde a la xref:ui-latitud-de-entrada[role=ui-element] y a la xref:ui-longitud-de-entrada[role=ui-element]. Los tipos de entidades varían mucho e incluyen, por ejemplo, lugares poblados, direcciones de calles, cruces, lagos, montañas, parques, islas, etc. El <<radio geográfico>> de la entidad es la distancia desde el <<centro corregido>> de la entidad hasta el punto más lejano del <<límite geográfico>> de la misma (ver {gbp-es}#extensión-de-una-ubicación[Extensión de una ubicación] en {gbp-es}[Buenas prácticas de georreferenciación (Chapman & Wieczorek 2020)^] y {gqg}#radio-de-la-entidad-geográfica[Radio de la entidad geográfica] en {gqg}[Guía de referencia rápida de georreferenciación (Zermoglio et al. 2020)^])."
 
 #. type: Labeled list
 #: appa.en.adoc:72
