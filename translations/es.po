@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-12-27 23:37\n"
+"PO-Revision-Date: 2021-12-28 18:03\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1686,7 +1686,7 @@ msgstr "[[georreferencia]]georreferencia"
 #. type: Plain text
 #: glossary.en.adoc:124
 msgid "The process (verb) or product (noun) of interpreting a <<locality>> description into a spatially mappable representation using a <<georeferencing method>>. Compare with <<geocode>>. The usage here is distinct from the concept of georeferencing satellite and other imagery (known as georectification)."
-msgstr "El proceso (verbo) o producto (sustantivo) de interpretar la descripción de una <<localidad>> en una representación espacializable usando un <<método de georreferenciación>>. Comparar con <<geocodificación>>. El uso aquí es distinto del concepto de georreferenciación satelital y de imágenes (conocido como georrectificación)."
+msgstr "El proceso (verbo) o producto (sustantivo) de interpretar la descripción de una <<localidad>> en una representación espacializable usando un <<método de georreferenciación>>. Comparar con <<geocodificar, geocodificación>>. El uso aquí es distinto del concepto de georreferenciación satelital y de imágenes (conocido como georrectificación)."
 
 #. type: Labeled list
 #: glossary.en.adoc:125
