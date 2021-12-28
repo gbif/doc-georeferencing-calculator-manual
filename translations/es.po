@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-12-28 18:03\n"
+"PO-Revision-Date: 2021-12-28 19:04\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -158,7 +158,7 @@ msgstr "Flujo de Trabajo Básico"
 #. type: Plain text
 #: 0300.en.adoc:5
 msgid "The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] is designed to prompt the user only for what is needed to <<georeference>> based on the xref:ui-locality-type[role=ui-element] selected. The steps in the basic workflow are:"
-msgstr "La http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020)^] está diseñada para solicitar al usuario solamente la información necesaria para <<georreferenciar>> en función del xref:ui-tipo-de-localidad[role=ui-element] seleccionado. Los pasos del flujo de trabajo básico son:"
+msgstr "La http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020)^] está diseñada para solicitar al usuario solamente la información necesaria para << georreferencia,georreferenciar>> en función del xref:ui-tipo-de-localidad[role=ui-element] seleccionado. Los pasos del flujo de trabajo básico son:"
 
 #. type: Plain text
 #: 0300.en.adoc:7
@@ -398,7 +398,7 @@ msgstr "Para completar el campo xref:ui-error-de-medición[role=ui-element], deb
 #. type: delimited block =
 #: 0510.en.adoc:54
 msgid "Once the smallest distance that can be measured consistently and reliably has been determined, enter that value and its units into the [ui-element]#Scale Converter# at the bottom of the Calculator, select the scale of the map used for the measurement, and then select the unit of measure into which the conversion should be made. For example, if a digital measuring tool was used to measure to the nearest 0.1 mm on a 1:24000 map and this needs to be converted to miles, enter \"_0.1_\" into the xref:ui-radial-of-feature[role=ui-element], then select \"[ui-element]#mm#\" from the units drop-down list. Next, choose the \"_1:24000_\" scale option in the map scale drop-down list. Finally, select \"[ui-element]#mi#\" in the second drop-down list. The value of 0.1 mm at 1:24000 converted into miles will be displayed in blue (\"_0.00149 mi_\") within the grey text box on the right side of the [ui-element]#Scale Converter#. Type \"_0.00149_\" into the xref:ui-measurement-error[role=ui-element] field, or move it from the _Scale Converter_ using copy and paste keyboard combinations."
-msgstr "Una vez determinada la distancia más pequeña que puede medirse de forma consistente y fiable, introduzca ese valor y sus unidades en el [ui-element]#Convertidor de escalas# en la parte inferior de la Calculadora, seleccione la escala del mapa utilizado para la medición y, a continuación, seleccione la unidad de medida en la que debe realizarse la conversión. Por ejemplo, si se ha utilizado una herramienta de medición digital para medir a 0.1 mm en un mapa 1:24000 y hay que convertirlo a millas, introduzca \"_0.1_\" en el xref:ui-radio-de-la-entidad[role=ui-element], y luego, seleccione \"[ui-element]#mm#\" en la lista desplegable de unidades. A continuación, elija la opción de escala \"_1:24000_\" en la lista desplegable de escala del mapa. Por último, seleccione \"[ui-element]#mi#\" en la segunda lista desplegable. El valor de 0.1 mm a 1:24000 convertido en millas se mostrará en azul (\"_0.00149 mi_\") dentro del cuadro de texto gris a la derecha del [ui-element]#Convertidor de escalas#. Escriba \"_0.00149_\" en el campo xref:ui-error-de-medición[role=ui-element] o muévalo desde el _Convertidor de escalas_ utilizando las combinaciones de teclado para copiar y pegar."
+msgstr "Una vez determinada la distancia más pequeña que puede medirse de forma consistente y fiable, introduzca ese valor y sus unidades en el [ui-element]#Convertidor de escalas# en la parte inferior de la Calculadora, seleccione la escala del mapa utilizado para la medición y, a continuación, seleccione la unidad de medida en la que debe realizarse la conversión. Por ejemplo, si se ha utilizado una herramienta de medición digital para medir a 0.1 mm en un mapa 1:24000 y hay que convertirlo a millas, introduzca \"_0.1_\" en el xref:ui-radio-de-la-entidad-geográfica[role=ui-element] y luego, seleccione \"[ui-element]#mm#\" en la lista desplegable de unidades. A continuación, elija la opción de escala \"_1:24000_\" en la lista desplegable de escala del mapa. Por último, seleccione \"[ui-element]#mi#\" en la segunda lista desplegable. El valor de 0.1 mm a 1:24000 convertido en millas se mostrará en azul (\"_0.00149 mi_\") dentro del cuadro de texto gris a la derecha del [ui-element]#Convertidor de escalas#. Escriba \"_0.00149_\" en el campo xref:ui-error-de-medición[role=ui-element] o muévalo desde el _Convertidor de escalas_ utilizando las combinaciones de teclado para copiar y pegar."
 
 #. type: delimited block =
 #: 0510.en.adoc:56
@@ -767,7 +767,7 @@ msgstr "Define el formato original de la <<coordenadas geográficas,coordenada g
 #: appa.en.adoc:7
 #, no-wrap
 msgid "[[ui-input-coordinate-precision,Coordinate Precision]]Coordinate Precision (input)"
-msgstr "[[ui-precisión-de-la-coordenada-de-entrada,Precisión de la Coordenada]]Precisión de la coordenada (de entrada)"
+msgstr "[[ui-precisión-de-la-coordenada-de-entrada,Precisión de la coordenada]]Precisión de la coordenada (de entrada)"
 
 #. type: Plain text
 #: appa.en.adoc:8
@@ -1730,7 +1730,7 @@ msgstr "[[GUID,Identificador Único Global]]Identificador Único Global (GUID)"
 #. type: Plain text
 #: glossary.en.adoc:132
 msgid "Globally Unique Identifier, a 128-bit string of characters applied to one and only one physical or digital entity so that the string uniquely identifies the entity and can be used to refer to the entity. See also <<PID>>."
-msgstr "Identificador único global. Una cadena de caracteres de 128 bits aplicada a una única entidad física o digital para que dicha cadena identifique la entidad y pueda ser usada para referirla. Ver también <<PID>>."
+msgstr "Identificador único global, una cadena de caracteres de 128 bits que se aplica a una y sólo una entidad física o digital, de modo que la cadena identifica de forma exclusiva a la entidad y puede utilizarse para referirse a ella. Ver también <<PID>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:133
@@ -1741,7 +1741,7 @@ msgstr "[[GNSS]]GNSS"
 #. type: Plain text
 #: glossary.en.adoc:134
 msgid "Global Navigation Satellite System, the generic term for satellite navigation systems that provide global autonomous geo-spatial positioning. This term encompasses <<GPS>>, GLONASS, Galileo, BeiDou and other regional systems."
-msgstr "Sistema Global de Navegación por Satélite. El término genérico para sistemas de navegación satelital que proporcionan una posición geoespacial global de forma autónoma. Este término engloba <<GPS>>, GLONASS, Galileo, BeiDou y otros sistemas regionales."
+msgstr "Sistema global de navegación por satélite, el término genérico para sistemas de navegación satelital que proporcionan una posición geoespacial global de forma autónoma. Este término engloba <<GPS>>, GLONASS, Galileo, BeiDou y otros sistemas regionales."
 
 #. type: Labeled list
 #: glossary.en.adoc:135
@@ -1752,7 +1752,7 @@ msgstr "[[GPS]]GPS"
 #. type: Plain text
 #: glossary.en.adoc:136
 msgid "Global Positioning System, a satellite-based system used for determining positions on or near the earth. Orbiting satellites transmit radio signals that allow a receiver to calculate its own <<location>> as <<coordinates>> and <<elevation>>, sometimes with <<accuracy>> estimates. A GPS or <<GNSS>> Receiver (including those in smartphones and cameras) is the instrument that receives the radio signals and translates them into <<geographic coordinates>>. See also <<GNSS>> of which GPS is one example."
-msgstr "Sistema de Posicionamiento Global. Un sistema basado en satélites utilizado para determinar posiciones espaciales sobre la Tierra o cerca de esta. Los satélites orbitacionales transmiten señales de radio que permiten a un receptor calcular su propia <<ubicación>> como <<coordenadas>> y <<elevación>>, a veces con estimaciones de <<exactitud>>. Un receptor GPS o <<GNSS>> (incluyendo los de los teléfonos inteligentes y las cámaras) es el instrumento que recibe las señales de radio y las traduce en <<coordenadas geográficas>>. Ver también <<GNSS>> del cual el GPS es un ejemplo."
+msgstr "Sistema de posicionamiento global. Un sistema basado en satélites utilizado para determinar posiciones espaciales sobre la Tierra o cerca de esta. Los satélites orbitacionales transmiten señales de radio que permiten a un receptor calcular su propia <<ubicación>> como <<coordenadas>> y <<elevación>>, a veces con estimaciones de <<exactitud>>. Un receptor GPS o <<GNSS>> (incluyendo los de los teléfonos inteligentes y las cámaras) es el instrumento que recibe las señales de radio y las traduce en <<coordenadas geográficas>>. Ver también <<GNSS>> del cual el GPS es un ejemplo."
 
 #. type: Labeled list
 #: glossary.en.adoc:137
@@ -1807,7 +1807,7 @@ msgstr "[[orientación-cardinal]]orientación cardinal"
 #. type: Plain text
 #: glossary.en.adoc:146
 msgid "Compass direction such as east or northwest, or sometimes given as degrees clockwise from north. Usually used in conjunction with <<offset>> to give a distance and direction from a <<feature>>."
-msgstr "Dirección cardinal (de brújula) como este o noroeste o dada a veces como grados en sentido de las agujas del reloj partiendo desde el norte. Generalmente usado en combinación con un <<desplazamiento>> para señalar una dirección y distancia desde una <<entidad geográfica>>."
+msgstr "Dirección cardinal (de la brújula), como este o noroeste, o a veces indicada como grados en el sentido de las agujas del reloj desde el norte. Generalmente usado en combinación con un <<desplazamiento>> para señalar una dirección y distancia desde una <<entidad geográfica>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:147
@@ -1895,7 +1895,7 @@ msgstr "[[declinación-magnética]]declinación magnética"
 #. type: Plain text
 #: glossary.en.adoc:162
 msgid "The angle on the horizontal plane between magnetic north (the direction the north end of a magnetized compass needle points, corresponding to the direction of the Earth's magnetic field lines) and true north (the direction along a <<meridian>> towards the geographic North Pole). This angle varies depending on the position on the Earth's surface and https://en.wikipedia.org/wiki/Polar_wandering[changes^] over time."
-msgstr "El ángulo en el plano horizontal entre el norte magnético (la dirección hacia el extremo norte al que apunta la aguja de una brújula magnetizada, correspondiente a la dirección de las líneas del campo magnético de la Tierra) y el verdadero norte (la dirección a lo largo de un <<meridiano>> hacia el Polo Norte geográfico). Este ángulo varía dependiendo de la posición sobre la superficie de la Tierra y https://es.wikipedia.org/wiki/Paleomagnetismo[cambia^] en el tiempo."
+msgstr "El ángulo en el plano horizontal entre el norte magnético (la dirección hacia el extremo norte al que apunta la aguja de una brújula magnetizada, correspondiente a la dirección de las líneas del campo magnético de la Tierra) y el norte verdadero (la dirección a lo largo de un <<meridiano>> hacia el Polo Norte geográfico). Este ángulo varía dependiendo de la posición sobre la superficie de la Tierra y https://es.wikipedia.org/wiki/Paleomagnetismo[cambia^] en el tiempo."
 
 #. type: Labeled list
 #: glossary.en.adoc:163
@@ -1950,7 +1950,7 @@ msgstr "[[northing]]norte"
 #. type: Plain text
 #: glossary.en.adoc:172
 msgid "Within a <<coordinate reference system>> (e.g. as provided by a <<GPS>> or a map <<grid>> reference system), the line representing northward distance from a reference <<latitude>>."
-msgstr "Dentro de un <<sistema de de referencia de coordenadas>> (p. ej., como el proporcionado por un <<GPS>> o un un mapa de <<grilla,grillas>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el norte desde una <<latitud>> de referencia."
+msgstr "Dentro de un <<sistema de referencia de coordenadas>> (p. ej., como el proporcionado por un <<GPS>> o un un mapa de <<grilla,grillas>> bajo un sistema de referencia específico), la línea que representa la distancia hacia el norte desde una <<latitud>> de referencia."
 
 #. type: Labeled list
 #: glossary.en.adoc:173
@@ -1983,7 +1983,7 @@ msgstr "[[PID]]identificador persistente (PID)"
 #. type: Plain text
 #: glossary.en.adoc:178
 msgid "A long-lasting reference to a document, file, web page, or other object. The term \"persistent identifier\" is usually used in the context of digital objects accessible over the Internet. There are many options for PIDs, such as <<GUID,Globally Unique Identifiers (GUIDs)>>, https://www.doi.org[Digital Object Identifiers (DOIs)^], and Universal Unique Identifiers (UUIDs)."
-msgstr "Una referencia permanente a un documento, archivo, página web u otro objeto. El término \"identificador persistente\" se utiliza generalmente en el contexto de objetos digitales accesibles a través de Internet. Hay muchas opciones para PIDs, como <<GUID,Identificadores Únicos Globales (GUIDs)>>, https://www.doi.org[Identificadores de Objetos Digitales (DOIs)^] e Identificadores Únicos Universales (UUIDs)."
+msgstr "Una referencia permanente a un documento, archivo, página web u otro objeto. El término \"identificador persistente\" se utiliza generalmente en el contexto de objetos digitales accesibles a través de Internet. Hay muchas opciones para PID, como <<GUID,Identificadores Únicos Globales (GUID)>>, https://www.doi.org[Identificadores de Objetos Digitales (DOI)^] e Identificadores Únicos Universales (UUID)."
 
 #. type: Labeled list
 #: glossary.en.adoc:179
@@ -2010,7 +2010,7 @@ msgstr "La cercanía entre un conjunto repetido de observaciones de la misma can
 #. type: Plain text
 #: glossary.en.adoc:186
 msgid "With values, it describes the finest unit of measurement used to express that value (e.g. if a record is reported to the nearest second, the precision is 1/3600^th^ of a degree; if a <<decimal degrees,decimal degree>> is reported to two decimal places, the precision is 0.01 of a degree)."
-msgstr "Con valores, describe la mejor unidad de medida utilizada para expresar ese valor (p. ej. si un registro se reporta al segundo más cercano, la precisión es 1/3600 ^ de un grado; si un <<grados decimales,grado decimal>> es reportado a dos decimales, la precisión es 0. 1 de grado)."
+msgstr "Con valores, describe la mejor unidad de medida utilizada para expresar ese valor (p. ej., si un registro se reporta al segundo más cercano, la precisión es 1/3600 ^ de un grado; si un <<grados decimales,grado decimal>> es reportado a dos decimales, la precisión es 0. 1 de grado)."
 
 #. type: Plain text
 #: glossary.en.adoc:189
@@ -2059,7 +2059,7 @@ msgstr "[[radio]]radio"
 #. type: Plain text
 #: glossary.en.adoc:197
 msgid "The distance from a center point (e.g. the <<corrected center,corrected>> or <<geographic center>>) within a <<location>> to the furthest point on the outermost <<boundary>> of that <<location>>. See also <<geographic radial>>."
-msgstr "Distancia desde un punto central (p. ej. el <<centro corregido,corregido>> o <<centro geográfico>>) dentro de una <<ubicación>> al punto más lejano del <<límite>> de esa <<ubicación>>. Ver también <<radio geográfico>>."
+msgstr "Distancia desde un punto central (p. ej. el <<centro corregido>> o <<centro geográfico>>) dentro de una <<ubicación>> al punto más lejano del <<límite>> de esa <<ubicación>>. Ver también <<radio geográfico>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:198
@@ -2125,7 +2125,7 @@ msgstr "[[ajuste-espacial]]ajuste espacial"
 #. type: Plain text
 #: glossary.en.adoc:209
 msgid "a measure of how well one geometric representation matches another geometric representation as a ratio of the area of the larger of the two to the area of the smaller one. (See {gbp}#img-spatial-fit[Determining Spatial Fit (Chapman & Wieczorek 2020)^])."
-msgstr "una medida de cuán bien una representación geométrica coincide con otra representación geométrica a partir de una relación del área mas grande de las dos geometrías respecto al área de la más pequeña. (Ver {gbp}#img-spatial-fit[Determinando el Ajuste Espacial (Chapman & Wieczorek 2020)^])."
+msgstr "una medida de cuán bien una representación geométrica coincide con otra representación geométrica a partir de una relación del área mas grande de las dos geometrías respecto al área de la más pequeña. (Ver {gbp-es}#img-spatial-fit[Determinando el ajuste espacial (Chapman & Wieczorek 2020)^])."
 
 #. type: Labeled list
 #: glossary.en.adoc:210
@@ -2180,7 +2180,7 @@ msgstr "[[incertidumbre]]incertidumbre"
 #. type: Plain text
 #: glossary.en.adoc:219
 msgid "A measure of the incompleteness of one’s knowledge or information about an unknown quantity whose true value could be established if complete knowledge and a perfect measuring device were available (<<cullen,Cullen & Frey 1999>>). <<georeferencing method,Georeferencing methods>> codify how to incorporate uncertainties from a variety of sources (including <<accuracy>> and <<precision>>) in the interpretation of a <<location>>. Compare <<accuracy>>, <<error>>, <<bias>>, <<precision>>, and <<false precision>>."
-msgstr "Medida de la falta de completitud del conocimiento o información de uno sobre una cantidad desconocida cuyo valor real podría establecerse si se dispusieran de un conocimiento completo y un dispositivo de medición perfecto (<<cullen,Cullen & Frey 1999>>). Los <<método de georreferenciación,Métodos de georreferenciación>> establecen cómo incorporar la incertidumbre desde una variedad de fuentes (incluyendo <<exactitud>> y <<precisión>>) en la interpretación de la <<ubicación>>. Comparar con <<exactitud>>, <<error>>, <<sesgo>>, <<precisión>>, y <<falsa precisión>>."
+msgstr "Medida de la falta de completitud del conocimiento o información de uno sobre una cantidad desconocida cuyo valor real podría establecerse si se dispusiera de un conocimiento completo y un dispositivo de medición perfecto (<<cullen,Cullen & Frey 1999>>). Los <<método de georreferenciación,Métodos de georreferenciación>> establecen cómo incorporar la incertidumbre desde una variedad de fuentes (incluyendo <<exactitud>> y <<precisión>>) en la interpretación de la <<ubicación>>. Comparar con <<exactitud>>, <<error>>, <<sesgo>>, <<precisión>>, y <<falsa precisión>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:220
@@ -2213,7 +2213,7 @@ msgstr "[[WAAS]]Sistema de Aumentación de Área Amplia (WAAS)"
 #. type: Plain text
 #: glossary.en.adoc:225
 msgid "An air navigation aid developed by the US Federal Aviation Administration to augment the Global Positioning System (<<GPS>>), with the goal of improving its <<accuracy>>, integrity, and availability. See also <<sbas,SBAS>>, of which WAAS is one example."
-msgstr "Una ayuda de navegación aérea desarrollada por la Administración Federal de Aviación de Estados Unidos para complementar el Sistema de Posicionamiento Global (<<GPS>>), con el objetivo de mejorar su <<exactitud>>, integridad, y disponibilidad. Ver también <<sbas,SBAS>>, de los cuales WAAS es un ejemplo."
+msgstr "Una ayuda de navegación aérea desarrollada por la US Federal Aviation Administration para complementar el Sistema de posicionamiento global (<<GPS>>), con el objetivo de mejorar su <<exactitud>>, integridad, y disponibilidad. Ver también <<sbas,SBAS>>, de los cuales WAAS es un ejemplo."
 
 #. type: Labeled list
 #: glossary.en.adoc:226
@@ -2224,7 +2224,7 @@ msgstr "[[WGS84]]WGS84"
 #. type: Plain text
 #: glossary.en.adoc:227
 msgid "World Geodetic System 1984, a popular globally-used horizontal <<geodetic coordinate reference system>> (EPSG:4326) upon which raw <<GPS>> measurements are based (though a GPS receiver is capable of delivering <<coordinates>> in other reference systems). The term is also commonly used for the <<geodetic datum>> used by that system and for the <<ellipsoid>> (EPSG:7030) upon which that <<datum>> (EPSG:6326) is based."
-msgstr "Sistema geodésico mundial 1984, un popular y globalmente usado <<sistema de referencia de coordenadas geodésico>> horizontal (EPSG:4326) en el que se basan las mediciones de los <<GPS>> (aunque un receptor GPS es capaz de entregar <<coordenadas>> en otros sistemas de referencia). El término también se utiliza comúnmente para el <<datum geodésico>> utilizado por ese sistema y para el <<elipsoide>> (EPSG:7030) en el que se basa ese <<datum>> (EPSG:6326)."
+msgstr "Sistema geodésico mundial 1984, un popular y globalmente usado <<sistema de referencia de coordenadas geodésicas>> horizontal (EPSG:4326) en el que se basan las mediciones de los <<GPS>> (aunque un receptor GPS es capaz de entregar <<coordenadas>> en otros sistemas de referencia). El término también se utiliza comúnmente para el <<datum geodésico>> utilizado por ese sistema y para el <<elipsoide>> (EPSG:7030) en el que se basa ese <<datum>> (EPSG:6326)."
 
 #. type: Plain text
 #: glossary.en.adoc:228 bibliography.en.adoc:15
