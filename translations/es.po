@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2022-01-03 12:38\n"
+"PO-Revision-Date: 2022-01-03 13:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -153,12 +153,12 @@ msgstr "img/web/screen-image.png"
 #: 0300.en.adoc:2
 #, no-wrap
 msgid "Basic Workflow"
-msgstr "Flujo de Trabajo Básico"
+msgstr "Flujo de trabajo básico"
 
 #. type: Plain text
 #: 0300.en.adoc:5
 msgid "The http://georeferencing.org/georefcalculator/gc.html[Georeferencing Calculator (Wieczorek & Wieczorek 2020)^] is designed to prompt the user only for what is needed to <<georeference>> based on the xref:ui-locality-type[role=ui-element] selected. The steps in the basic workflow are:"
-msgstr "La http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020)^] está diseñada para solicitar al usuario solamente la información necesaria para << georreferencia,georreferenciar>> en función del xref:ui-tipo-de-localidad[role=ui-element] seleccionado. Los pasos del flujo de trabajo básico son:"
+msgstr "La http://georeferencing.org/georefcalculator/gc.html[Calculadora de Georreferenciación (Wieczorek & Wieczorek 2020)^] está diseñada para solicitar al usuario solamente la información necesaria para <<georreferencia,georreferenciar>> en función del xref:ui-tipo-de-localidad[role=ui-element] seleccionado. Los pasos del flujo de trabajo básico son:"
 
 #. type: Plain text
 #: 0300.en.adoc:7
@@ -252,7 +252,7 @@ msgstr "Si no se utiliza el estándar Darwin Core para registrar el resultado de
 #: 0500.en.adoc:2
 #, no-wrap
 msgid "Detailed Workflow"
-msgstr "Flujo de Trabajo Detallado"
+msgstr "Flujo de trabajo detallado"
 
 #. type: Title ===
 #: 0510.en.adoc:1
