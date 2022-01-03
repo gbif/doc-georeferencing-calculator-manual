@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: georef-calculator-manu\n"
 "POT-Creation-Date: 2021-10-27 12:39+0000\n"
-"PO-Revision-Date: 2021-12-30 17:46\n"
+"PO-Revision-Date: 2022-01-03 12:38\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -124,7 +124,7 @@ msgstr "La http://georeferencing.org/georefcalculator/gc.html[Calculadora de Geo
 #. type: Plain text
 #: 0100.en.adoc:6
 msgid "Underlined terms throughout this document (e.g. <<accuracy>>) link to definitions in the <<Glossary>> (the same glossary of terms used in {gbp}[Georeferencing Best Practices^], while terms in italics (e.g. xref:ui-input-latitude[role=ui-element]) refer to fields and/or labels in the Calculator. <<darwin-core,Darwin Core>> terms are displayed in monospace (e.g. term:dwc[georeferenceRemarks]) in all GBIF digital documentation and link to the definitions maintained by Biodiversity Information Standards (TDWG) in the approved https://dwc.tdwg.org/list/[List of Darwin Core terms^]."
-msgstr "Los términos subrayados a lo largo de este documento (p. ej. <<exactitud>>) tienen un enlace a las definiciones en el <<Glosario>> (el mismo glosario de términos utilizado en {gbp-es}[Buenas prácticas de georreferenciación^], mientras que los términos en cursiva (p. ej. xref:ui-latitud-de-entrada[role=ui-element]) se refieren a campos y/o etiquetas en la Calculadora. Los términos del <<darwin-core,Darwin Core>> se muestran en monoespacio (p.ej., term:dwc[georeferenceRemarks]) en toda la documentación digital de GBIF y tienen un enlace a las definiciones mantenidas por Biodiversity Information Standards (TDWG) en la https://dwc.tdwg.org/list/[Lista de términos de Darwin Core^] aprobada."
+msgstr "Los términos subrayados a lo largo de este documento (p. ej., <<exactitud>>) tienen un enlace a las definiciones en el <<Glosario>> (el mismo glosario de términos utilizado en {gbp-es}[Buenas prácticas de georreferenciación^], mientras que los términos en cursiva (p. ej. xref:ui-latitud-de-entrada[role=ui-element]) se refieren a campos y/o etiquetas en la Calculadora. Los términos del <<darwin-core,Darwin Core>> se muestran en monoespacio (p.ej., term:dwc[georeferenceRemarks]) en toda la documentación digital de GBIF y tienen un enlace a las definiciones mantenidas por Biodiversity Information Standards (TDWG) en la https://dwc.tdwg.org/list/[Lista de términos de Darwin Core^] aprobada."
 
 #. type: Title ==
 #: 0200.en.adoc:2
@@ -268,7 +268,7 @@ msgstr "Haga clic en la lista deplegable en la parte superior izquierda de la ht
 #. type: Plain text
 #: 0510.en.adoc:6
 msgid "The number format always uses the full stop '.' as the decimal indicator (e.g. 2.5 for the number halfway between 2 and 3), regardless of the selected language."
-msgstr "El formato de los números siempre utiliza el punto '.' como indicador decimal (por ejemplo, 2.5 para el número que está entre 2 y 3), independientemente del idioma seleccionado."
+msgstr "El formato de los números siempre utiliza el punto '.' como indicador decimal (p. ej., 2.5 para el número que está entre 2 y 3), independientemente del idioma seleccionado."
 
 #. type: Block title
 #: 0510.en.adoc:8
@@ -363,7 +363,7 @@ msgstr "Para empezar, seleccione \"_Mapa USGS: 1:24.000_\" en el menú desplegab
 #. type: delimited block =
 #: 0510.en.adoc:40
 msgid "For this example, the <<coordinate-format,Coordinate Format>> \"[ui-element]#degrees minutes seconds#\" was selected because the USGS map showed coordinates in degrees minutes seconds, thus the coordinates determined for the centre of Bakersfield were described in the same way. In some cases, coordinates on a map, or other resource, may be represented in degrees decimal minutes (e.g. 35° 22′ N, 119° 0′ W or 35° 22.4′ N, 119° 1.066667′ W) or as decimal degrees (e.g. 35.3733333, −119.0177778). The Coordinate Format selected in the Calculator MUST reflect the coordinate format used on the map or other resource."
-msgstr "Para este ejemplo, se seleccionó el <<formato de las coordenadas,Formato de la coordenada>> \"[ui-element]#grados minutos segundos#\" porque el mapa USGS mostraba las coordenadas en grados minutos segundos, por lo que las coordenadas determinadas para el centro de Bakersfield se describieron de la misma manera. En algunos casos, las coordenadas en un mapa, u otro recurso, pueden representarse en grados minutos decimales (por ejemplo, 35° 22′ N, 119° 0′ O o 35° 22,4′ N, 119° 1,066667′ O) o como grados decimales (por ejemplo, 35.3733333, -119.0177778). El formato de las coordenadas seleccionado en la calculadora DEBE reflejar el formato de coordenadas utilizado en el mapa u otro recurso."
+msgstr "Para este ejemplo, se seleccionó el <<formato de las coordenadas,Formato de la coordenada>> \"[ui-element]#grados minutos segundos#\" porque el mapa USGS mostraba las coordenadas en grados minutos segundos, por lo que las coordenadas determinadas para el centro de Bakersfield se describieron de la misma manera. En algunos casos, las coordenadas en un mapa, u otro recurso, pueden representarse en grados minutos decimales (p. ej., 35° 22′ N, 119° 0′ O o 35° 22,4′ N, 119° 1,066667′ O) o como grados decimales (p. ej., 35.3733333, -119.0177778). El formato de las coordenadas seleccionado en la calculadora DEBE reflejar el formato de coordenadas utilizado en el mapa u otro recurso."
 
 #. type: delimited block =
 #: 0510.en.adoc:42
@@ -676,7 +676,7 @@ msgstr "La Calculadora tiene incorporados tres convertidores para eliminar la ne
 #. type: Plain text
 #: 0800.en.adoc:7
 msgid "To convert between coordinate formats, simply select the desired format from the xref:ui-coordinate-format[role=ui-element] drop-down list. The text and drop-down boxes for the xref:ui-input-latitude[role=ui-element] and xref:ui-input-longitude[role=ui-element] will change and be populated with the values in the new format. For <<coordinate-system,coordinate systems>> other than geographic coordinates (e.g. <<UTM>>), a coordinate transformation into geographic coordinates will have to be done to use the Georeferencing Calculator."
-msgstr "Para hacer conversiones entre formatos de coordenadas, simplemente seleccione el formato deseado en la lista desplegable xref:ui-formato-de-la-coordenada[role=ui-element]. Los cuadros de texto y las listad desplegables de xref:ui-latitud-de-entrada[role=ui-element] y xref:ui-longitud-de-entrada[role=ui-element] cambiarán y se rellenarán con los valores del nuevo formato. Para <<sistema de coordenadas,sistemas de coordenadas>> que no sean coordenadas geográficas (por ejemplo, <<UTM>>), habrá que realizar una transformación de coordenadas a coordenadas geográficas para poder utilizar la Calculadora de georreferenciación."
+msgstr "Para hacer conversiones entre formatos de coordenadas, simplemente seleccione el formato deseado en la lista desplegable xref:ui-formato-de-la-coordenada[role=ui-element]. Los cuadros de texto y las listad desplegables de xref:ui-latitud-de-entrada[role=ui-element] y xref:ui-longitud-de-entrada[role=ui-element] cambiarán y se rellenarán con los valores del nuevo formato. Para <<sistema de coordenadas,sistemas de coordenadas>> que no sean coordenadas geográficas (p. ej., <<UTM>>), habrá que realizar una transformación de coordenadas a coordenadas geográficas para poder utilizar la Calculadora de georreferenciación."
 
 #. type: Plain text
 #: 0800.en.adoc:9
@@ -1377,7 +1377,7 @@ msgstr "[[GMS]]GMS"
 #. type: Plain text
 #: glossary.en.adoc:68
 msgid "Degrees, minutes and seconds – one of the most common formats for expressing <<geographic coordinates>> on maps. A degree is divided into 60 minutes of arc and each minute is divided into 60 seconds of arc. Degrees, minutes and seconds are denoted by the symbols °, ′, ″. Degrees of <<latitude>> are integers between 0 and 90, and should be followed by an indicator for the hemisphere (e.g. N or S). Degrees of <<longitude>> are integers between 0 and 180, and should be followed by an indicator for the hemisphere (e.g. E or W)."
-msgstr "Grados, minutos y segundos, uno de los formatos más comunes para expresar <<coordenadas geográficas>> en mapas. Un grado se divide en 60 minutos de arco y cada minuto se divide en 60 segundos de arco. Grados, minutos y segundos son indicados por los símbolos °, ', ''. Los grados de <<latitud>> son enteros entre 0 y 90 y deben ir seguidos de un indicador para el hemisferio (p. ej., N o S). Los grados de <<longitud>> son enteros entre 0 y 180, y deben ir seguidos de un indicador para el hemisferio (ej. E u O)."
+msgstr "Grados, minutos y segundos, uno de los formatos más comunes para expresar <<coordenadas geográficas>> en mapas. Un grado se divide en 60 minutos de arco y cada minuto se divide en 60 segundos de arco. Grados, minutos y segundos son indicados por los símbolos °, ', ''. Los grados de <<latitud>> son enteros entre 0 y 90 y deben ir seguidos de un indicador para el hemisferio (p. ej., N o S). Los grados de <<longitud>> son enteros entre 0 y 180, y deben ir seguidos de un indicador para el hemisferio (p. ej., E u O)."
 
 #. type: Labeled list
 #: glossary.en.adoc:69
@@ -1488,7 +1488,7 @@ msgstr "[[entidad-geográfica]]entidad geográfica"
 #. type: Plain text
 #: glossary.en.adoc:88
 msgid "An object of observation, measurement, or reference that can be represented spatially. Often categorized into \"feature types\" (e.g. mountain, road, populated place, etc.) and given names for specific instances (e.g. \"Mount Everest\", \"Ruta 40\", \"Istanbul\"), which are also sometimes referred to as \"named places\", \"place names\" or \"toponyms\"."
-msgstr "Un objeto de observación, medida o referencia que puede ser representado espacialmente. A menudo categorizado en \"tipos\" (p. ej. montañas, caminos, centros poblados, etc.) y nombres específicos (p. ej., \"Monte Everest\", \"Ruta 40\", \"Istanbul\"), que también se denominan \"nombres de lugares\" o \"topónimos\"."
+msgstr "Un objeto de observación, medida o referencia que puede ser representado espacialmente. A menudo categorizado en \"tipos\" (p. ej., montañas, caminos, centros poblados, etc.) y nombres específicos (p. ej., \"Monte Everest\", \"Ruta 40\", \"Istanbul\"), que también se denominan \"nombres de lugares\" o \"topónimos\"."
 
 #. type: Labeled list
 #: glossary.en.adoc:89
