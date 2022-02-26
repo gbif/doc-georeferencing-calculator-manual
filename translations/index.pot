@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-27 12:39+0000\n"
+"POT-Creation-Date: 2022-01-12 17:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "Georeferencing Calculator Manual"
 msgstr ""
 
 #. type: Plain text
-#: index.en.adoc:31
+#: index.en.adoc:32
 msgid "languageLinks:combined[]"
 msgstr ""
 
@@ -2775,8 +2775,8 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:142
 msgid ""
-"{caves} the <<location>> on the land surface directly above a radiolocation "
-"point in a cave where the magnetic radiation lines are vertical. See "
+"the <<location>> on the land surface directly above a radiolocation point in "
+"a cave where the magnetic radiation lines are vertical. See "
 "{gbp}#img-vertical-position-in-a-cave[Elevation (Chapman & Wieczorek "
 "2020)^]."
 msgstr ""

@@ -11,6 +11,7 @@
 :icons: font
 :pagenums:
 :license: https://creativecommons.org/licenses/by-sa/4.0/
+:translate_url: https://crowdin.com/project/georef-calculator-manu
 // Special style for UI elements
 :docinfo: shared-head
 
